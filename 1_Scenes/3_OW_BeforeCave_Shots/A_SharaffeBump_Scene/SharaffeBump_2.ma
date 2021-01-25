@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: LailaBumpSharraffe.ma
-//Last modified: Sat, Jan 16, 2021 11:09:30 PM
+//Name: SharaffeBump_2.ma
+//Last modified: Sun, Jan 24, 2021 06:08:33 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Sharraffe_Rigged_3_Skinned" -rfn "Sharraffe_Rigged_3_SkinnedRN"
 		 -op "v=0;" -typ "mayaAscii" "/Volumes/10810494/UVU Senior/Reflections Short/Reflections/Models/Sharaffe/Sharraffe_Rigged_3_Skinned.ma";
@@ -54,7 +54,7 @@ createNode camera -s -n "perspShape" -p "persp";
 createNode transform -s -n "front";
 	rename -uid "080263A6-5842-609F-3F16-56ABB1D04A1A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.0282346250794936 1.5091796771192751 38.41333554185492 ;
+	setAttr ".t" -type "double3" -5.1142913421206444 3.830323442146137 38.41333554185492 ;
 createNode camera -s -n "frontShape" -p "front";
 	rename -uid "0BEF72C7-D94F-A279-3705-0394258B8167";
 	setAttr -k off ".v";
@@ -63,7 +63,7 @@ createNode camera -s -n "frontShape" -p "front";
 	setAttr ".fcp" 328.08398950131232;
 	setAttr ".fd" 0.16404199475065617;
 	setAttr ".coi" 39.372260953728279;
-	setAttr ".ow" 7.949565654856027;
+	setAttr ".ow" 1.2149860467790188;
 	setAttr ".imn" -type "string" "front";
 	setAttr ".den" -type "string" "front_depth";
 	setAttr ".man" -type "string" "front_mask";
@@ -111,7 +111,7 @@ createNode camera -s -n "topShape" -p "top";
 	setAttr ".o" yes;
 createNode transform -s -n "persp4";
 	rename -uid "3B2EBE7D-C646-75AD-32EC-DE8F0B828F7D";
-	setAttr ".t" -type "double3" -2.4571559299348649 4.0730472539522085 -3.3209138876575208 ;
+	setAttr ".t" -type "double3" -2.4571559299344181 4.0730472539514055 -3.3209138876538824 ;
 	setAttr ".r" -type "double3" 167.6616472295008 -6.999999999615218 180 ;
 	setAttr ".s" -type "double3" 0.99999999999999956 1.0000000000000004 1.0000000000000016 ;
 createNode camera -s -n "persp4Shape" -p "persp4";
@@ -121,12 +121,12 @@ createNode camera -s -n "persp4Shape" -p "persp4";
 	setAttr ".ncp" 0.0032808398950131233;
 	setAttr ".fcp" 328.08398950131232;
 	setAttr ".fd" 0.16404199475065617;
-	setAttr ".coi" 12.617996949454927;
+	setAttr ".coi" 6.3543311922020553;
 	setAttr ".ow" 0.32808398950131235;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -100.2442746201795 78.450944436299281 99.405598581894708 ;
+	setAttr ".tp" -type "double3" -86.043348560091175 78.605205471225872 92.105890001450206 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -n "OutOfPortal_0t113";
 	rename -uid "C9DC0E79-4649-06EF-9F34-D5B20921B7BC";
@@ -1178,25 +1178,25 @@ createNode mesh -n "pCubeShape15" -p "pCube15";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "02A7B2D7-E647-88AA-236D-71BCBA8C2D22";
+	rename -uid "197EF0BD-434B-048E-486A-A1906DE4EB81";
 	setAttr -s 84 ".lnk";
 	setAttr -s 84 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "2FC25126-6B4A-C80E-2854-0FBC00D57735";
+	rename -uid "11DD4FF6-2644-8A6F-7A5D-708AA91EA929";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "EE8B4EFE-BD4A-E8C2-FEA5-B98A8DAF6FF9";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "413AE7D3-B14C-1256-09B5-D2A7B5D006BA";
+	rename -uid "0E9DABE7-6241-A12E-7F2F-02848A65CCF1";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B94D19F8-274A-A3F0-C5E0-BCA75379DD4F";
 	setAttr ".g" yes;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "90A8F3FD-BC45-68BA-D58B-BB99BDB6BC8B";
+	rename -uid "AF40C0D9-354A-1CD3-130F-3097EC9F3807";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 2 0 1 ;
 	setAttr -s 2 ".bspr";
 	setAttr -s 2 ".obsv";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "7D8DEF95-FA49-F94D-0C30-A6AFE8A7B777";
+	rename -uid "02AB68C6-3C44-2AA7-E0FB-4794FE8E20A6";
 	setAttr ".tpdt[0].tpcd" -type "Int32Array" 1 0 ;
 createNode script -n "uiConfigurationScriptNode";
 	rename -uid "A3FEE68B-7743-7081-A6D0-EDA3C4D11C51";
@@ -2213,8 +2213,7 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL" 
 		"translateZ" " -av"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL" 
-		"rotate" " -type \"double3\" 0.59834097907126438 1.44350708278951156 0.13625074970910803"
-		
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL" 
 		"rotateX" " -av"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Tail_1_CTRL" 
@@ -2495,7 +2494,7 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL" 
 		"visibility" " -av 1"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL" 
-		"translate" " -type \"double3\" -0.099987642357357798 0.20237183144013024 -0.30821278794831219"
+		"translate" " -type \"double3\" -0.10435306956376705 0.20596282823384732 -0.30848217547473039"
 		
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_9_CTRL" 
 		"translateX" " -av"
@@ -2527,7 +2526,7 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL" 
 		"visibility" " -av 1"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL" 
-		"translate" " -type \"double3\" 0.35967751453295399 -0.26327804687094147 -0.4388702479158727"
+		"translate" " -type \"double3\" 0.34871004052082571 -0.26157278950604734 -0.43967385367960654"
 		
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_10_CTRL" 
 		"translateX" " -av"
@@ -2559,7 +2558,7 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL" 
 		"visibility" " -av 1"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL" 
-		"translate" " -type \"double3\" -0.010498160488349159 0.012526858586289311 -0.088637484698256469"
+		"translate" " -type \"double3\" 0.018430213074886952 0.02794442478455544 -0.080024371855851859"
 		
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Spine_11_Head_CTRL" 
 		"translateX" " -av"
@@ -2609,7 +2608,7 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Jaw_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Jaw_CTRL" 
 		"translateZ" " -av"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Jaw_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Jaw_CTRL" 
-		"rotate" " -type \"double3\" 0 0 -7.62976655753028155"
+		"rotate" " -type \"double3\" 0 0 -9.47627873280978683"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Jaw_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Jaw_CTRL" 
 		"rotateX" " -av"
 		2 "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:Jaw_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Jaw_CTRL" 
@@ -2908,13 +2907,13 @@ createNode reference -n "Sharraffe_Rigged_3_SkinnedRN";
 		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[79]" ""
 		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.SpringBias" 
 		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[80]" ""
-		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.visibility" 
-		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[81]" ""
 		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.translateX" 
-		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[82]" ""
+		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[81]" ""
 		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.translateY" 
-		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[83]" ""
+		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[82]" ""
 		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.translateZ" 
+		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[83]" ""
+		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.visibility" 
 		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[84]" ""
 		5 4 "Sharraffe_Rigged_3_SkinnedRN" "|Sharraffe_Rigged_3_Skinned:Sharaffe_Grp|Sharraffe_Rigged_3_Skinned:CTRLS|Sharraffe_Rigged_3_Skinned:Transform_CTRL_Grp|Sharraffe_Rigged_3_Skinned:Transform_CTRL|Sharraffe_Rigged_3_Skinned:COG_CTRL_Grp|Sharraffe_Rigged_3_Skinned:COG_CTRL|Sharraffe_Rigged_3_Skinned:IK_CTRLS|Sharraffe_Rigged_3_Skinned:R_IK_Back|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL_Grp|Sharraffe_Rigged_3_Skinned:R_IK_BackLeg_2_CTRL.rotateX" 
 		"Sharraffe_Rigged_3_SkinnedRN.placeHolderList[85]" ""
@@ -5116,7 +5115,7 @@ createNode animCurveTA -n "Tail_1_CTRL_rotateY";
 	rename -uid "EB0B2EF3-9B4B-BEA4-4EBA-608DF079A745";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 7 ".ktv[0:6]"  115 0 143 0 173 0 204 0 211 0 345 0 382 6.7896707460801293;
+	setAttr -s 7 ".ktv[0:6]"  115 0 143 0 173 0 204 0 211 0 345 0 382 6.7896707460801302;
 	setAttr -s 7 ".kit[2:6]"  16 16 16 18 18;
 	setAttr -s 7 ".kot[2:6]"  16 16 16 18 18;
 createNode animCurveTA -n "Tail_1_CTRL_rotateZ";
@@ -9120,7 +9119,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl" 
 		"visibility" " -av 1"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl" 
-		"translate" " -type \"double3\" -3.05570424714237232 -0.089378833778087044 2.54100068354825925"
+		"translate" " -type \"double3\" -2.93463845241252486 -0.089378833778086572 2.1403648634244008"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl" 
 		"translateX" " -av"
@@ -9181,8 +9180,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl" 
-		"rotate" " -type \"double3\" -3.31049973559162725 -0.15888196551933761 -3.09833857963864379"
-		
+		"rotate" " -type \"double3\" -6.90663451601145617 0 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl" 
@@ -9198,7 +9196,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl" 
 		"scaleZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl_Offset" 
-		"translate" " -type \"double3\" 0 0 0.28895181392650582"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl_Offset" 
 		"translateX" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl|Laila_Rig_003:R_Leg_Pivot_Grp_Ctrl_Offset" 
@@ -9256,7 +9254,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl" 
-		"rotate" " -type \"double3\" -5.93368041129624846 4.03117386586033799 -1.4760297287786186"
+		"rotate" " -type \"double3\" -4.26432457497768347 1.7513762109514337 -1.23262096935847199"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl" 
 		"rotateX" " -av"
@@ -9283,7 +9281,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 8.69882647441719392 3.67000728725502867 3.34839366160435503"
+		"rotate" " -type \"double3\" 8.89736185504106736 -1.8760712279072389 1.88120539306165191"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -9310,7 +9308,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0.12933786222640181 4.24285113873765507 -1.90355722779411463"
+		"rotate" " -type \"double3\" -1.14639048972862145 -1.45480449131601697 -2.13794505916572497"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl" 
 		"rotateX" " -av"
@@ -9337,7 +9335,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0.96670896408134588 3.72544651413651762 2.69034049859911129"
+		"rotate" " -type \"double3\" -0.25267740486932233 -1.92644940239074036 2.34572204667138395"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -9356,7 +9354,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
 		"visibility" " -av 1"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
-		"translate" " -type \"double3\" 0 0.012823799590073405 0.0041199377328393029"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
@@ -9409,7 +9407,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
 		"visibility" " -av 1"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
-		"translate" " -type \"double3\" 0 0.012823799590073405 0.0041199377328393029"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
@@ -9433,7 +9431,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
 		"scaleZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" -2.71201677187459067 27.52041068285743464 34.77960993928368794"
+		"rotate" " -type \"double3\" 3.92672467237168954 12.54603624055157773 44.18015879847182248"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -9442,7 +9440,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" -28.4295428197480291 57.53422018005977634 -50.01945019859780928"
+		"rotate" " -type \"double3\" -136.03089301111845089 69.96927476612846419 -155.75233173163456968"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Jnt_002_Ctrl" 
 		"rotateX" " -av"
@@ -9492,7 +9490,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_001_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:R_Pivot_Grp|Laila_Rig_003:R_Pivot_Grp_Ctrl|Laila_Rig_003:R_Pivot_Grp_Ctrl1" 
-		"translate" " -type \"double3\" 0.3935391498298903 0.085295722872975724 -0.38376067462528551"
+		"translate" " -type \"double3\" 0.3935391498298903 0.085295722872975724 -0.38949733690744032"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_003:laila_rig_upper_body_jnt_ctrl|Laila_Rig_003:R_Pivot_Grp|Laila_Rig_003:R_Pivot_Grp_Ctrl|Laila_Rig_003:R_Pivot_Grp_Ctrl1" 
 		"translateX" " -av"
@@ -9551,7 +9549,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_R_Leg_Switch_Ctrl_Grp|Laila_Rig_003:laila_Rig_001__Leg_Switch_Ctrl" 
 		"Switch" " -k 1 1"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Switch_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Switch_Ctrl" 
-		"Switch" " -av -k 1 1"
+		"Switch" " -av -k 1 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_R_Arm_Switch_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Arm_Switch_Ctrl" 
 		"RFingerCurl" " -av -k 1 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_L_Arm_Switch_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Arm_Switch_Ctrl" 
@@ -9574,7 +9572,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Eye_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" 0.1083110341056204 0.13907028503560762 -0.16188457403095075"
+		"translate" " -type \"double3\" -0.25467001055328098 -0.049626757425143504 -0.15838224066273957"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
 		"translateX" " -av"
@@ -9583,7 +9581,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 3.06754844539428984 3.41444274319572338 0.3188726095769262"
+		"rotate" " -type \"double3\" 3.06759057823582104 3.50360568228005542 0.31887814173740597"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -9634,7 +9632,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_L_Heel_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Heel_Ctrl|Laila_Rig_003:laila_Rig_001_L_OuterRoll_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_OuterRoll_Ctrl|Laila_Rig_003:laila_Rig_001_L_InnerRoll_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_InnerRoll_Ctrl|Laila_Rig_003:laila_Rig_001_L_Toe_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Toe_Ctrl|Laila_Rig_003:laila_Rig_001_L_Ball_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_L_Ball_Ctrl|Laila_Rig_003:ikHandle1" 
 		"visibility" " 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" 0.22104420581565709 -0.014274102502545787 0.0477596006715355"
+		"translate" " -type \"double3\" -0.20047576992848806 -0.16087892317895416 0.10793820927408382"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
 		"translateX" " -av"
@@ -9643,7 +9641,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 2.67794762239879347 10.36460282069424998 -1.79767283837315817"
+		"rotate" " -type \"double3\" 3.13083847998304465 10.36419562207898615 -1.79751818822608"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -9694,7 +9692,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl|Laila_Rig_003:laila_Rig_001_R_Heel_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Heel_Ctrl|Laila_Rig_003:laila_Rig_001_R_OuterRoll_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_OuterRoll_Ctrl|Laila_Rig_003:laila_Rig_001_R_InnerRoll_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_InnerRoll_Ctrl|Laila_Rig_003:laila_Rig_001_R_Toe_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Toe_Ctrl|Laila_Rig_003:laila_Rig_001_R_Ball_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_R_Ball_Ctrl|Laila_Rig_003:ikHandle2" 
 		"visibility" " 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" -0.59721565507725316 -0.16096929586286571 0.56633478619466748"
+		"translate" " -type \"double3\" -0.5896691610663426 -0.0080173846953187494 0.56541215878758122"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl" 
 		"translateX" " -av"
@@ -9703,7 +9701,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" -82.39746349155799976 -27.3810139502474712 55.35159474540135705"
+		"rotate" " -type \"double3\" -82.73219681079764598 -19.91981360854382999 56.18415181928335755"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -9722,7 +9720,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_L_Arm_Jnt_003_Ctrl|Laila_Rig_003:ikHandle3" 
 		"visibility" " 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" 0.5350624050327446 0.0051472968768142609 -0.68654538491735506"
+		"translate" " -type \"double3\" 0.74079013890148449 0.087478393378177657 -0.50495543980394342"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl" 
 		"translateX" " -av"
@@ -9731,7 +9729,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" -65.91829913870616053 -31.22857501330043561 65.71472421671744257"
+		"rotate" " -type \"double3\" -105.78596562100264578 -53.74958000041485207 83.58188108814425732"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_IK_R_Arm_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -10034,8 +10032,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl" 
-		"rotate" " -type \"double3\" -0.69852362407757373 1.42015401356700877 -0.31911277486237782"
-		
+		"rotate" " -type \"double3\" 0 -2.48945872058738304 0"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl" 
@@ -10065,7 +10062,7 @@ createNode reference -n "Laila_Rig_003RN";
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 4.67788429315749354 -11.44937411838477459 -5.34923704448583326"
+		"rotate" " -type \"double3\" -0.24219091237038634 -10.51112944384284553 -1.10927316118022778"
 		
 		2 "|Laila_Rig_003:Laila_Rig|Laila_Rig_003:Controls|Laila_Rig_003:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Translation_Ctrl|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_003:laila_Rig_001_Neck_Jnt_001_ctrl|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_003:laila_Rig_001_Head_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -18923,7 +18920,7 @@ createNode animCurveTU -n "laila_Rig_001_R_Arm_Switch_Ctrl_Switch";
 	rename -uid "697E9DBF-DB43-E39A-1D3C-DEB243E002EF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  115 0 183 0 336 1;
+	setAttr -s 3 ".ktv[0:2]"  115 0 183 0 336 0;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Switch_Ctrl_RFingerCurl";
 	rename -uid "66CF2052-9746-E561-CD8D-31A9D2F57E3E";
 	setAttr ".tan" 18;
@@ -19313,195 +19310,195 @@ createNode animCurveTL -n "L_BS_BrowSqueeze_Ctrl_translateX";
 	rename -uid "E9893ECE-3D43-30C9-3876-88A2C20882AE";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTL -n "L_BS_BrowSqueeze_Ctrl_translateY";
 	rename -uid "52E9B807-8E46-F546-52FC-58BB4D38E099";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0.87017627577200907 96 2.2026757430928434
-		 115 2.68 149 1.1838102816557035 336 0.12884581151862054 378 0.12884581151862054 400 1.6090827127826042
-		 414 3.3660701107011057;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0.87017627577200907 96 2.2026757430928434
+		 115 2.68 149 1.1838102816557035 336 0.12884581151862054 378 0.12884581151862054 389 1.8843247600156954
+		 400 1.6090827127826042 414 3.3660701107011057;
 createNode animCurveTL -n "L_BS_BrowSqueeze_Ctrl_translateZ";
 	rename -uid "D3931474-6845-D664-A1E6-28A21551660E";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTL -n "R_BS_BrowSqueeze_Ctrl_translateX";
 	rename -uid "AF2CA090-7D43-BCBE-9214-7A852B79F7D9";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTL -n "R_BS_BrowSqueeze_Ctrl_translateY";
 	rename -uid "5DBC6A17-BB4D-C3A0-75E9-028363AE05E9";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0.87017627577200884 96 2.2026757430928434
-		 115 2.68 149 1.1838102816557043 336 0.12884581151862051 378 0.12884581151862051 400 1.6090827127826042
-		 414 3.3660701107011057;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0.87017627577200884 96 2.2026757430928434
+		 115 2.68 149 1.1838102816557043 336 0.12884581151862051 378 0.12884581151862051 389 1.8843247600156954
+		 400 1.6090827127826042 414 3.3660701107011057;
 createNode animCurveTL -n "R_BS_BrowSqueeze_Ctrl_translateZ";
 	rename -uid "6060BC3F-5C4C-91C4-C0B0-649075781EA6";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTU -n "R_BS_BrowSqueeze_Ctrl_visibility";
 	rename -uid "B9609B65-C949-5A48-4C6B-A38AB84D2A90";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
-	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
-		5;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTA -n "R_BS_BrowSqueeze_Ctrl_rotateX";
 	rename -uid "894A0C1E-DC4B-4B17-20B9-9292AD93FBEF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTA -n "R_BS_BrowSqueeze_Ctrl_rotateY";
 	rename -uid "5302BE96-0844-3625-F5C0-B2830A1C9F3F";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTA -n "R_BS_BrowSqueeze_Ctrl_rotateZ";
 	rename -uid "909E43F9-F645-AAF5-6908-93B97EFCC3FB";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTU -n "R_BS_BrowSqueeze_Ctrl_scaleX";
 	rename -uid "512275DD-8448-AA49-9F7B-C3B80BA43879";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTU -n "R_BS_BrowSqueeze_Ctrl_scaleY";
 	rename -uid "FE5907DC-2E4A-B9A3-9777-52B34F600B0F";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTU -n "R_BS_BrowSqueeze_Ctrl_scaleZ";
 	rename -uid "A9868687-344A-CDA6-21A1-72AB11CAA49A";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTU -n "L_BS_BrowSqueeze_Ctrl_visibility";
 	rename -uid "98A3036D-C54F-3C0C-CF63-FBA230D41D63";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
-	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
-		5;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTA -n "L_BS_BrowSqueeze_Ctrl_rotateX";
 	rename -uid "7B089AEA-DC40-D139-790A-C99A867EA26A";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTA -n "L_BS_BrowSqueeze_Ctrl_rotateY";
 	rename -uid "73F0F767-B340-671E-92C0-8E9F55C609C8";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTA -n "L_BS_BrowSqueeze_Ctrl_rotateZ";
 	rename -uid "C11E7EA4-ED4A-1023-36E2-1997FB8804DE";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 400 0
-		 414 0;
+	setAttr -s 10 ".ktv[0:9]"  1 0 55 0 96 0 115 0 149 0 336 0 378 0 389 0
+		 400 0 414 0;
 createNode animCurveTU -n "L_BS_BrowSqueeze_Ctrl_scaleX";
 	rename -uid "AF47E2CB-F544-560A-54AA-139F0C58A78A";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTU -n "L_BS_BrowSqueeze_Ctrl_scaleY";
 	rename -uid "0F0C384C-184A-8FC4-636B-32BD754A2D3C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTU -n "L_BS_BrowSqueeze_Ctrl_scaleZ";
 	rename -uid "541AD918-1B4F-F77A-4A8F-16A7E83D3B76";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 9 ".ktv[0:8]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 400 1
-		 414 1;
+	setAttr -s 10 ".ktv[0:9]"  1 1 55 1 96 1 115 1 149 1 336 1 378 1 389 1
+		 400 1 414 1;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_rotateX";
 	rename -uid "F4CD774D-1445-F305-D2CC-81A26E0C9B0C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 15.393002168779171 131 14.058566493317498
 		 155 16.88192159697298 163 19.135761242324399 168 8.7049852081325003 183 24.225273859811349
-		 336 3.9267246723716895 361 -5.2509128212960903 382 -20.753698360494003 398 5.0892028844065962
-		 410 -0.0077665496678279052 425 -0.0077665496678279052;
+		 336 3.9267246723716895 361 -5.2509128212960903 376 -32.029224071400051 394 5.0892028844065962
+		 410 -4.7366503694298698 425 -4.7366503694298698;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_rotateY";
 	rename -uid "D3EFFDAB-C04D-BAB8-DAF8-60AC2B51C628";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 -27.12961334222268 131 -25.589959774817444
 		 155 -11.90145699114866 163 -3.5205807682539065 168 21.897543008063042 183 14.499962055531705
-		 336 12.546036240551578 361 31.825702945562441 382 45.611510792945005 398 32.253101745989461
-		 410 19.916791995221114 425 19.916791995221114;
+		 336 12.546036240551578 361 31.825702945562441 376 38.383483821042944 394 32.253101745989461
+		 410 -5.7377983915307738 425 -5.7377983915307738;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_rotateZ";
 	rename -uid "B472BC1C-0148-F589-E084-5BB803A79AD1";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 43.604042022927544 131 46.563914612514175
 		 155 46.121389767072408 163 43.439669965252591 168 15.7180810821759 183 33.733330295427045
-		 336 44.180158798471822 361 31.29146950795392 382 13.306730587430527 398 35.874401021936677
-		 410 30.805627487102143 425 30.805627487102143;
+		 336 44.180158798471822 361 31.29146950795392 376 -3.2705317047561526 394 35.874401021936677
+		 410 12.633219505837603 425 12.633219505837603;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_translateX";
 	rename -uid "10B5B767-9948-6159-E6C0-52BA0C8DC61E";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 361 0 382 0 398 0 410 0 425 0;
+		 361 0 376 0 394 0 410 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_translateY";
 	rename -uid "64901580-6549-092B-B273-6A9E703D32EE";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 361 0 382 0 398 0 410 0 425 0;
+		 361 0 376 0 394 0 410 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_translateZ";
 	rename -uid "565353C8-CF43-618B-6A6D-E9885BD85519";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 361 0 382 0 398 0 410 0 425 0;
+		 361 0 376 0 394 0 410 0 425 0;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_scaleX";
 	rename -uid "495B683D-8546-FBED-0549-C98CABE62F81";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 361 1 382 1 398 1 410 1 425 1;
+		 361 1 376 1 394 1 410 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_scaleY";
 	rename -uid "219A81E1-154C-80EB-02B6-6CA590D136C6";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 361 1 382 1 398 1 410 1 425 1;
+		 361 1 376 1 394 1 410 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_001_Ctrl_scaleZ";
 	rename -uid "6D302F49-D840-2CE3-DC33-26B1645644E5";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 361 1 382 1 398 1 410 1 425 1;
+		 361 1 376 1 394 1 410 1 425 1;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_rotateX";
 	rename -uid "1C6C2ACE-094D-EB08-3702-DEBB53B739F5";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 -1.3801002234485429 131 11.581507745212653
 		 155 22.215646647290523 163 27.450260718369897 183 38.114508500787807 336 -136.03089301111845
-		 359 -20.154928281800906 382 -10.43949409244545 390 -4.7749977653729365 397 -19.219665205795383
+		 359 -20.154928281800906 376 -10.43949409244545 390 -4.7749977653729365 397 -19.219665205795383
 		 408 -22.184706486227334 425 -20.536845183366374;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_rotateY";
 	rename -uid "833DD003-0F4D-101B-8B7E-D98F9BC16213";
@@ -19509,7 +19506,7 @@ createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_rotateY";
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 63.511776391459506 131 59.495609693466008
 		 155 38.171965982375973 163 42.810905469618667 183 61.57132251361481 336 69.969274766128464
-		 359 55.724515027311085 382 46.732768396821854 390 46.188003479174803 397 48.47156865619278
+		 359 55.724515027311085 376 46.732768396821854 390 46.188003479174803 397 48.47156865619278
 		 408 14.122708224644239 425 11.171956260080247;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_rotateZ";
 	rename -uid "8AABCEDD-C740-12F2-6043-16904913DC56";
@@ -19517,104 +19514,101 @@ createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_rotateZ";
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 -10.765050298371554 131 2.6564327699183949
 		 155 7.0250720811328131 163 10.361608760033745 183 17.842408622700219 336 -155.75233173163457
-		 359 -37.24453111814298 382 -8.6881358915606786 390 -3.5264105290448362 397 -20.708583071967585
+		 359 -37.24453111814298 376 -8.6881358915606786 390 -3.5264105290448362 397 -20.708583071967585
 		 408 -14.998213099075464 425 -17.60788429143906;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_translateX";
 	rename -uid "2A9289B0-8A41-CFD6-9A65-D1BA0BD588B4";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 183 0 336 0 359 0
-		 382 0 390 0 397 0 408 0 425 0;
+		 376 0 390 0 397 0 408 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_translateY";
 	rename -uid "055937DB-0B48-0271-B177-8AA7858E5319";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 183 0 336 0 359 0
-		 382 0 390 0 397 0 408 0 425 0;
+		 376 0 390 0 397 0 408 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_translateZ";
 	rename -uid "D9D47362-4B40-6E24-B9E5-BD9ECB2B26CC";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 0 131 0 155 0 163 0 183 0 336 0 359 0
-		 382 0 390 0 397 0 408 0 425 0;
+		 376 0 390 0 397 0 408 0 425 0;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_scaleX";
 	rename -uid "629CEF55-CE4C-224C-F488-FAA87D842E00";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 183 1 336 1 359 1
-		 382 1 390 1 397 1 408 1 425 1;
+		 376 1 390 1 397 1 408 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_scaleY";
 	rename -uid "70CBA587-F843-994F-7ED8-56B91D502B82";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 183 1 336 1 359 1
-		 382 1 390 1 397 1 408 1 425 1;
+		 376 1 390 1 397 1 408 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_002_Ctrl_scaleZ";
 	rename -uid "D6E64145-354C-3AC1-5A6A-C5A358EBCFF5";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 12 ".ktv[0:11]"  115 1 131 1 155 1 163 1 183 1 336 1 359 1
-		 382 1 390 1 397 1 408 1 425 1;
+		 376 1 390 1 397 1 408 1 425 1;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_rotateX";
 	rename -uid "8914117D-D648-2465-A0E8-1E8AD56A127B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 4.1123194647622698 131 -0.77191627439072297
+	setAttr -s 10 ".ktv[0:9]"  115 4.1123194647622698 131 -0.77191627439072297
 		 155 -17.187909773000218 163 -19.967634397643948 168 -32.052404922538628 183 -22.576235848180975
-		 336 14.982454794905223 362 14.982454794905223 374 14.291904251740846 380 14.291904251740846
-		 386 26.728685165644713 390 18.362904697980326 396 26.728685165644713 425 6.8156490060382646;
+		 336 14.982454794905223 362 14.982454794905223 374 14.291904251740846 425 6.8156490060382646;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_rotateY";
 	rename -uid "C111CC5B-8D47-C12E-81BD-8AB862C4481C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 -0.10409872504598497 131 -5.0299111653954682
+	setAttr -s 10 ".ktv[0:9]"  115 -0.10409872504598497 131 -5.0299111653954682
 		 155 -16.902824094779554 163 -16.206422263523596 168 -23.403159836604274 183 -13.390091328297299
-		 336 -7.4318378423641374 362 -7.4318378423641374 374 -6.2926827375810959 380 -6.2926827375810959
-		 386 -15.388280621216413 390 -9.1627421712975021 396 -15.388280621216413 425 -4.0954890259659056;
+		 336 -7.4318378423641374 362 -7.4318378423641374 374 -6.2926827375810959 425 -4.0954890259659056;
 createNode animCurveTA -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_rotateZ";
 	rename -uid "D5A77BF5-A147-6733-76A1-EEBE8EAC9082";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 -11.727932216595766 131 -9.5524145349530745
+	setAttr -s 10 ".ktv[0:9]"  115 -11.727932216595766 131 -9.5524145349530745
 		 155 -10.459754267336034 163 -15.167625853562246 168 -23.521635520174858 183 -31.87174692775617
-		 336 -53.562834372591965 362 -53.562834372591965 374 -60.996302739941321 380 -60.996302739941321
-		 386 -19.144487985397191 390 -51.519566272766092 396 -19.144487985397191 425 -77.181254415679604;
+		 336 -53.562834372591965 362 -53.562834372591965 374 -60.996302739941321 425 -77.181254415679604;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_translateX";
 	rename -uid "CC747821-2A4F-441B-EA2B-3B83E0BCAB4C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 362 0 374 0 380 0 386 0 390 0 396 0 425 0;
+	setAttr -s 10 ".ktv[0:9]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
+		 362 0 374 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_translateY";
 	rename -uid "E83B8FC2-5A4B-5262-E429-688AB452545B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 362 0 374 0 380 0 386 0 390 0 396 0 425 0;
+	setAttr -s 10 ".ktv[0:9]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
+		 362 0 374 0 425 0;
 createNode animCurveTL -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_translateZ";
 	rename -uid "E5EA4569-AC49-D355-5006-B3934D475F34";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
-		 362 0 374 0 380 0 386 0 390 0 396 0 425 0;
+	setAttr -s 10 ".ktv[0:9]"  115 0 131 0 155 0 163 0 168 0 183 0 336 0
+		 362 0 374 0 425 0;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_scaleX";
 	rename -uid "C013AA1D-A64F-4831-F9E5-1E923D9B44AF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 362 1 374 1 380 1 386 1 390 1 396 1 425 1;
+	setAttr -s 10 ".ktv[0:9]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
+		 362 1 374 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_scaleY";
 	rename -uid "FD6D47F4-7F4E-E8EB-AF6E-F6A9125FC829";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 362 1 374 1 380 1 386 1 390 1 396 1 425 1;
+	setAttr -s 10 ".ktv[0:9]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
+		 362 1 374 1 425 1;
 createNode animCurveTU -n "laila_Rig_001_R_Arm_Jnt_003_Ctrl_scaleZ";
 	rename -uid "4BE69C80-A248-2F31-B3D6-79B7094195EA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
-		 362 1 374 1 380 1 386 1 390 1 396 1 425 1;
+	setAttr -s 10 ".ktv[0:9]"  115 1 131 1 155 1 163 1 168 1 183 1 336 1
+		 362 1 374 1 425 1;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Switch_Ctrl_rotateX";
 	rename -uid "FC6E2369-864E-D0FB-4B32-6BBC08BB514C";
 	setAttr ".tan" 18;
@@ -19685,80 +19679,80 @@ createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_rotateX";
 	rename -uid "A525BF31-D54A-2515-8D37-BCA33C33B276";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 43.069708895331317 159 30.16703303278361
+	setAttr -s 9 ".ktv[0:8]"  115 43.069708895331317 159 30.16703303278361
 		 163 25.877552274185515 168 18.570323286456958 183 -2.5712891619794296 336 19.97289297603696
-		 363 19.97289297603696 408 -9.3801371426553484;
+		 363 19.97289297603696 382 9.1565856471202771 408 -9.3801371426553484;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_rotateY";
 	rename -uid "2E774B0D-BE4F-43B2-3025-429EBE1586B7";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 -16.722605628838977 159 12.046938637178602
+	setAttr -s 9 ".ktv[0:8]"  115 -16.722605628838977 159 12.046938637178602
 		 163 14.660463551396621 168 9.643392090658903 183 24.562179976292125 336 -10.548508867530327
-		 363 -10.548508867530327 408 26.46633459622532;
+		 363 -10.548508867530327 382 2.2756284133269813 408 26.46633459622532;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_rotateZ";
 	rename -uid "E3F055DE-2349-B6E6-A0FF-43AE764780FB";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 -45.511270067731473 159 -43.570958243930797
+	setAttr -s 9 ".ktv[0:8]"  115 -45.511270067731473 159 -43.570958243930797
 		 163 -40.020749445484611 168 -8.8503034740623683 183 -0.60416401439769163 336 -48.294202666118622
-		 363 -48.294202666118622 408 -38.440335029502471;
+		 363 -48.294202666118622 382 -35.600749937819629 408 -38.440335029502471;
 createNode animCurveTL -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_translateX";
 	rename -uid "C7DCAD08-A548-93EA-BF4D-C29799B60523";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
-		 408 0;
+	setAttr -s 9 ".ktv[0:8]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
+		 382 0 408 0;
 createNode animCurveTL -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_translateY";
 	rename -uid "B8FAF6CC-484D-E90C-A5E4-1B954C4DF278";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
-		 408 0;
+	setAttr -s 9 ".ktv[0:8]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
+		 382 0 408 0;
 createNode animCurveTL -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_translateZ";
 	rename -uid "3CFA6205-8642-9647-AAD9-CA89FF736ED5";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
-		 408 0;
+	setAttr -s 9 ".ktv[0:8]"  115 0 159 0 163 0 168 0 183 0 336 0 363 0
+		 382 0 408 0;
 createNode animCurveTU -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_scaleX";
 	rename -uid "CC53F8A6-A54E-4247-F2E7-FEB1D3DDCEEB";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
-		 408 1;
+	setAttr -s 9 ".ktv[0:8]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
+		 382 1 408 1;
 createNode animCurveTU -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_scaleY";
 	rename -uid "E0A8395F-9542-55F2-9FD7-E6912A31F7DA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
-		 408 1;
+	setAttr -s 9 ".ktv[0:8]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
+		 382 1 408 1;
 createNode animCurveTU -n "laila_Rig_001_L_Arm_Jnt_001_Ctrl_scaleZ";
 	rename -uid "755E4520-A741-C870-F314-12B849B1FC0B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
-		 408 1;
+	setAttr -s 9 ".ktv[0:8]"  115 1 159 1 163 1 168 1 183 1 336 1 363 1
+		 382 1 408 1;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_002_Ctrl_rotateX";
 	rename -uid "271D1634-CB40-5F29-D3BA-6EADF4F46B5F";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 9 ".ktv[0:8]"  115 -14.173663660869037 159 -27.673554525749882
 		 163 -25.724561822849346 168 -7.5106158634541895 183 -1.3621530365927255 336 -57.618504951260832
-		 371 -57.618504951260832 389 87.781434099320776 411 13.972717442970206;
+		 371 -57.618504951260832 389 -90.172505897609796 411 13.972717442970206;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_002_Ctrl_rotateY";
 	rename -uid "61FF62D5-EE47-3655-5DD8-0F961870AC98";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 9 ".ktv[0:8]"  115 -15.064170445639705 159 -62.423330608115869
 		 163 -59.712620440998755 168 -30.700542923030241 183 -25.828743352034952 336 -70.267259134570807
-		 371 -70.267259134570807 389 -84.320145310574489 411 -13.109876928053716;
+		 371 -70.267259134570807 389 -73.433210699469527 411 -13.109876928053716;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_002_Ctrl_rotateZ";
 	rename -uid "22FAD0F0-8046-4A22-02A5-39BF06AE8D74";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 9 ".ktv[0:8]"  115 31.65348882064767 159 19.737611403245275
 		 163 17.033555687441897 168 2.4619137165947866 183 0.44398349845945007 336 82.681781214033307
-		 371 82.681781214033307 389 -84.442765392202176 411 -5.2900506403148375;
+		 371 82.681781214033307 389 116.83105925112477 411 -5.2900506403148375;
 createNode animCurveTL -n "laila_Rig_001_L_Arm_Jnt_002_Ctrl_translateX";
 	rename -uid "7CE8C029-A343-807D-87B2-769FC563C539";
 	setAttr ".tan" 18;
@@ -20824,8 +20818,8 @@ createNode animCurveTU -n "mary_Rig_001_L_FingerFour_Jnt_003_Ctrl_scaleZ";
 	setAttr ".wgt" no;
 	setAttr -s 7 ".ktv[0:6]"  115 1 140 1 147 1 160 1 171 1 183 1 195 1;
 select -ne :time1;
-	setAttr ".o" 356;
-	setAttr ".unw" 356;
+	setAttr ".o" 336;
+	setAttr ".unw" 336;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -20997,13 +20991,13 @@ connectAttr "R_FrontLeg_PV_CTRL_scaleZ.o" "Sharraffe_Rigged_3_SkinnedRN.phl[79]"
 		;
 connectAttr "R_IK_BackLeg_2_CTRL_SpringBias.o" "Sharraffe_Rigged_3_SkinnedRN.phl[80]"
 		;
-connectAttr "R_IK_BackLeg_2_CTRL_visibility.o" "Sharraffe_Rigged_3_SkinnedRN.phl[81]"
+connectAttr "R_IK_BackLeg_2_CTRL_translateX.o" "Sharraffe_Rigged_3_SkinnedRN.phl[81]"
 		;
-connectAttr "R_IK_BackLeg_2_CTRL_translateX.o" "Sharraffe_Rigged_3_SkinnedRN.phl[82]"
+connectAttr "R_IK_BackLeg_2_CTRL_translateY.o" "Sharraffe_Rigged_3_SkinnedRN.phl[82]"
 		;
-connectAttr "R_IK_BackLeg_2_CTRL_translateY.o" "Sharraffe_Rigged_3_SkinnedRN.phl[83]"
+connectAttr "R_IK_BackLeg_2_CTRL_translateZ.o" "Sharraffe_Rigged_3_SkinnedRN.phl[83]"
 		;
-connectAttr "R_IK_BackLeg_2_CTRL_translateZ.o" "Sharraffe_Rigged_3_SkinnedRN.phl[84]"
+connectAttr "R_IK_BackLeg_2_CTRL_visibility.o" "Sharraffe_Rigged_3_SkinnedRN.phl[84]"
 		;
 connectAttr "R_IK_BackLeg_2_CTRL_rotateX.o" "Sharraffe_Rigged_3_SkinnedRN.phl[85]"
 		;
@@ -23240,4 +23234,4 @@ connectAttr "pCubeShape14.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape15.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "OutOfPortal_0t113Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Shar_LookDown_196t335Shape.iog" ":initialShadingGroup.dsm" -na;
-// End of LailaBumpSharraffe.ma
+// End of SharaffeBump_2.ma
