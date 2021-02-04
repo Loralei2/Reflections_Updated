@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Business Man Slow Walk.ma
-//Last modified: Wed, Feb 03, 2021 06:28:40 PM
+//Last modified: Wed, Feb 03, 2021 08:01:46 PM
 //Codeset: 1252
 file -rdi 1 -ns "Background_Male_Rig" -rfn "Background_Male_RigRN" -op "v=0;p=17;f=0"
 		 -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/Rigs//BackgroundMale_Rigged.ma";
@@ -15,7 +15,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
-fileInfo "UUID" "D0AD494A-42A2-BEBB-9FE6-BF963969FF2C";
+fileInfo "UUID" "3C507398-447A-1610-DF52-8181D53B0D04";
 createNode transform -s -n "persp";
 	rename -uid "36ED42AC-46D9-DD9D-24E6-A098035FABE2";
 	setAttr ".v" no;
@@ -84,26 +84,26 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "34A11731-4DC1-9644-D355-9881AD9CCA33";
+	rename -uid "D725811B-477E-2053-97A8-A9BB4A52295A";
 	setAttr -s 16 ".lnk";
 	setAttr -s 16 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "086C6980-47D1-ED19-2A5E-ED8CD488990B";
+	rename -uid "BCFA7979-4ACB-3445-21F0-4F9630ABB5B0";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "5112F454-43A4-6D64-5C31-828FD4F0F31B";
+	rename -uid "69A089BA-41A8-9A2B-C12F-87B7BF54C24F";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "0C9A3890-46A6-786E-0192-1EB9C11B6DD5";
+	rename -uid "58FEC379-4462-0FAE-20B8-EABB88C63AF9";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D76266E9-4C93-27DE-A7CF-648202692246";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "56F7B2EA-4E5B-3CC5-2E9A-2588A17D6C72";
+	rename -uid "0D7BA3D1-402C-1965-75D6-4CAF70C8E008";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "784259C7-4068-1C34-4AAB-66A556F5E92B";
 	setAttr ".g" yes;
 createNode reference -n "Background_Male_RigRN";
 	rename -uid "55B9FD2C-49C3-DA5F-6667-74AAB6EC0397";
 	setAttr ".fn[0]" -type "string" "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Background Male Rig.ma";
-	setAttr -s 402 ".phl";
+	setAttr -s 396 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -500,16 +500,10 @@ createNode reference -n "Background_Male_RigRN";
 	setAttr ".phl[394]" 0;
 	setAttr ".phl[395]" 0;
 	setAttr ".phl[396]" 0;
-	setAttr ".phl[397]" 0;
-	setAttr ".phl[398]" 0;
-	setAttr ".phl[399]" 0;
-	setAttr ".phl[400]" 0;
-	setAttr ".phl[401]" 0;
-	setAttr ".phl[402]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Background_Male_RigRN"
 		"Background_Male_RigRN" 0
-		"Background_Male_RigRN" 1414
+		"Background_Male_RigRN" 1408
 		2 "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL" 
 		"visibility" " 1"
 		2 "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL" 
@@ -2552,810 +2546,798 @@ createNode reference -n "Background_Male_RigRN";
 		2 "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_GEO|Background_Male_Rig:BM_GEOShape" 
 		"ghostRangeEnd" " 129"
 		2 "Background_Male_Rig:NoTouchy" "displayType" " 0"
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[1]" ""
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[2]" ""
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[3]" ""
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[4]" ""
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[5]" ""
-		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:Transform_CTRL_Grp|Background_Male_Rig:Transform_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[6]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[7]" ""
+		"Background_Male_RigRN.placeHolderList[1]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[8]" ""
+		"Background_Male_RigRN.placeHolderList[2]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[9]" ""
+		"Background_Male_RigRN.placeHolderList[3]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[10]" ""
+		"Background_Male_RigRN.placeHolderList[4]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[11]" ""
+		"Background_Male_RigRN.placeHolderList[5]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[12]" ""
+		"Background_Male_RigRN.placeHolderList[6]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[13]" ""
+		"Background_Male_RigRN.placeHolderList[7]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[14]" ""
+		"Background_Male_RigRN.placeHolderList[8]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[15]" ""
+		"Background_Male_RigRN.placeHolderList[9]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[16]" ""
+		"Background_Male_RigRN.placeHolderList[10]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[17]" ""
+		"Background_Male_RigRN.placeHolderList[11]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_1_FK_CTRL_Grp|Background_Male_Rig:R_Leg_1_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[18]" ""
+		"Background_Male_RigRN.placeHolderList[12]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[19]" ""
+		"Background_Male_RigRN.placeHolderList[13]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[20]" ""
+		"Background_Male_RigRN.placeHolderList[14]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[21]" ""
+		"Background_Male_RigRN.placeHolderList[15]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[22]" ""
+		"Background_Male_RigRN.placeHolderList[16]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[23]" ""
+		"Background_Male_RigRN.placeHolderList[17]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_2_FK_CTRL_Grp|Background_Male_Rig:R_Leg_2_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[24]" ""
+		"Background_Male_RigRN.placeHolderList[18]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[25]" ""
+		"Background_Male_RigRN.placeHolderList[19]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[26]" ""
+		"Background_Male_RigRN.placeHolderList[20]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[27]" ""
+		"Background_Male_RigRN.placeHolderList[21]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[28]" ""
+		"Background_Male_RigRN.placeHolderList[22]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[29]" ""
+		"Background_Male_RigRN.placeHolderList[23]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Leg_FK|Background_Male_Rig:R_Leg_3_FK_CTRL_Grp|Background_Male_Rig:R_Leg_3_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[30]" ""
+		"Background_Male_RigRN.placeHolderList[24]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[31]" ""
+		"Background_Male_RigRN.placeHolderList[25]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[32]" ""
+		"Background_Male_RigRN.placeHolderList[26]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[33]" ""
+		"Background_Male_RigRN.placeHolderList[27]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[34]" ""
+		"Background_Male_RigRN.placeHolderList[28]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[35]" ""
+		"Background_Male_RigRN.placeHolderList[29]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_1_FK_CTRL_Grp|Background_Male_Rig:L_Leg_1_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[36]" ""
+		"Background_Male_RigRN.placeHolderList[30]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[37]" ""
+		"Background_Male_RigRN.placeHolderList[31]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[38]" ""
+		"Background_Male_RigRN.placeHolderList[32]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[39]" ""
+		"Background_Male_RigRN.placeHolderList[33]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[40]" ""
+		"Background_Male_RigRN.placeHolderList[34]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[41]" ""
+		"Background_Male_RigRN.placeHolderList[35]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_2_FK_CTRL_Grp|Background_Male_Rig:L_Leg_2_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[42]" ""
+		"Background_Male_RigRN.placeHolderList[36]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[43]" ""
+		"Background_Male_RigRN.placeHolderList[37]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[44]" ""
+		"Background_Male_RigRN.placeHolderList[38]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[45]" ""
+		"Background_Male_RigRN.placeHolderList[39]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[46]" ""
+		"Background_Male_RigRN.placeHolderList[40]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[47]" ""
+		"Background_Male_RigRN.placeHolderList[41]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Leg_FK|Background_Male_Rig:L_Leg_3_FK_CTRL_Grp|Background_Male_Rig:L_Leg_3_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[48]" ""
+		"Background_Male_RigRN.placeHolderList[42]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[49]" ""
+		"Background_Male_RigRN.placeHolderList[43]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[50]" ""
+		"Background_Male_RigRN.placeHolderList[44]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[51]" ""
+		"Background_Male_RigRN.placeHolderList[45]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[52]" ""
+		"Background_Male_RigRN.placeHolderList[46]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[53]" ""
+		"Background_Male_RigRN.placeHolderList[47]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_1_FK_CTRL_Grp|Background_Male_Rig:R_Arm_1_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[54]" ""
+		"Background_Male_RigRN.placeHolderList[48]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[55]" ""
+		"Background_Male_RigRN.placeHolderList[49]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[56]" ""
+		"Background_Male_RigRN.placeHolderList[50]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[57]" ""
+		"Background_Male_RigRN.placeHolderList[51]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[58]" ""
+		"Background_Male_RigRN.placeHolderList[52]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[59]" ""
+		"Background_Male_RigRN.placeHolderList[53]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:R_Arm_FK|Background_Male_Rig:R_Arm_2_FK_CTRL_Grp|Background_Male_Rig:R_Arm_2_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[60]" ""
+		"Background_Male_RigRN.placeHolderList[54]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[61]" ""
+		"Background_Male_RigRN.placeHolderList[55]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[62]" ""
+		"Background_Male_RigRN.placeHolderList[56]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[63]" ""
+		"Background_Male_RigRN.placeHolderList[57]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[64]" ""
+		"Background_Male_RigRN.placeHolderList[58]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[65]" ""
+		"Background_Male_RigRN.placeHolderList[59]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_1_FK_CTRL_Grp|Background_Male_Rig:L_Arm_1_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[66]" ""
+		"Background_Male_RigRN.placeHolderList[60]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[67]" ""
+		"Background_Male_RigRN.placeHolderList[61]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[68]" ""
+		"Background_Male_RigRN.placeHolderList[62]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[69]" ""
+		"Background_Male_RigRN.placeHolderList[63]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[70]" ""
+		"Background_Male_RigRN.placeHolderList[64]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[71]" ""
+		"Background_Male_RigRN.placeHolderList[65]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:FK_CTRLS|Background_Male_Rig:L_Arm_FK|Background_Male_Rig:L_Arm_2_FK_CTRL_Grp|Background_Male_Rig:L_Arm_2_FK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[72]" ""
+		"Background_Male_RigRN.placeHolderList[66]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[73]" ""
+		"Background_Male_RigRN.placeHolderList[67]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[74]" ""
+		"Background_Male_RigRN.placeHolderList[68]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[75]" ""
+		"Background_Male_RigRN.placeHolderList[69]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[76]" ""
+		"Background_Male_RigRN.placeHolderList[70]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[77]" ""
+		"Background_Male_RigRN.placeHolderList[71]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_1_IK_CTRL_Grp|Background_Male_Rig:L_Arm_1_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[78]" ""
+		"Background_Male_RigRN.placeHolderList[72]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[79]" ""
+		"Background_Male_RigRN.placeHolderList[73]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[80]" ""
+		"Background_Male_RigRN.placeHolderList[74]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[81]" ""
+		"Background_Male_RigRN.placeHolderList[75]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[82]" ""
+		"Background_Male_RigRN.placeHolderList[76]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[83]" ""
+		"Background_Male_RigRN.placeHolderList[77]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:L_Arm_PV_IK_Offset_Grp|Background_Male_Rig:L_Arm_PV_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[84]" ""
+		"Background_Male_RigRN.placeHolderList[78]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[85]" ""
+		"Background_Male_RigRN.placeHolderList[79]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[86]" ""
+		"Background_Male_RigRN.placeHolderList[80]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[87]" ""
+		"Background_Male_RigRN.placeHolderList[81]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[88]" ""
+		"Background_Male_RigRN.placeHolderList[82]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[89]" ""
+		"Background_Male_RigRN.placeHolderList[83]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Arm_IK|Background_Male_Rig:L_Arm_3_IK_CTRL_Grp|Background_Male_Rig:L_Arm_3_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[90]" ""
+		"Background_Male_RigRN.placeHolderList[84]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[91]" ""
+		"Background_Male_RigRN.placeHolderList[85]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[92]" ""
+		"Background_Male_RigRN.placeHolderList[86]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[93]" ""
+		"Background_Male_RigRN.placeHolderList[87]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[94]" ""
+		"Background_Male_RigRN.placeHolderList[88]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[95]" ""
+		"Background_Male_RigRN.placeHolderList[89]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_1_IK_CTRL_Grp|Background_Male_Rig:R_Arm_1_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[96]" ""
+		"Background_Male_RigRN.placeHolderList[90]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[97]" ""
+		"Background_Male_RigRN.placeHolderList[91]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[98]" ""
+		"Background_Male_RigRN.placeHolderList[92]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[99]" ""
+		"Background_Male_RigRN.placeHolderList[93]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[100]" ""
+		"Background_Male_RigRN.placeHolderList[94]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[101]" ""
+		"Background_Male_RigRN.placeHolderList[95]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_PV_IK_CTRL_Grp|Background_Male_Rig:R_Arm_PV_IK_Offset_Grp|Background_Male_Rig:R_Arm_PV_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[102]" ""
+		"Background_Male_RigRN.placeHolderList[96]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[103]" ""
+		"Background_Male_RigRN.placeHolderList[97]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[104]" ""
+		"Background_Male_RigRN.placeHolderList[98]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[105]" ""
+		"Background_Male_RigRN.placeHolderList[99]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[106]" ""
+		"Background_Male_RigRN.placeHolderList[100]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[107]" ""
+		"Background_Male_RigRN.placeHolderList[101]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Arm_IK|Background_Male_Rig:R_Arm_3_IK_CTRL_Grp|Background_Male_Rig:R_Arm_3_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[108]" ""
+		"Background_Male_RigRN.placeHolderList[102]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[109]" ""
+		"Background_Male_RigRN.placeHolderList[103]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[110]" ""
+		"Background_Male_RigRN.placeHolderList[104]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[111]" ""
+		"Background_Male_RigRN.placeHolderList[105]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[112]" ""
+		"Background_Male_RigRN.placeHolderList[106]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[113]" ""
+		"Background_Male_RigRN.placeHolderList[107]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_1_IK_CTRL_Grp|Background_Male_Rig:L_Leg_1_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[114]" ""
+		"Background_Male_RigRN.placeHolderList[108]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[115]" ""
+		"Background_Male_RigRN.placeHolderList[109]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[116]" ""
+		"Background_Male_RigRN.placeHolderList[110]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[117]" ""
+		"Background_Male_RigRN.placeHolderList[111]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[118]" ""
+		"Background_Male_RigRN.placeHolderList[112]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[119]" ""
+		"Background_Male_RigRN.placeHolderList[113]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_2_IK_CTRL_Grp|Background_Male_Rig:L_Leg_PV_IK_Offset_Grp|Background_Male_Rig:L_Leg_PV_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[120]" ""
+		"Background_Male_RigRN.placeHolderList[114]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[121]" ""
+		"Background_Male_RigRN.placeHolderList[115]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[122]" ""
+		"Background_Male_RigRN.placeHolderList[116]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[123]" ""
+		"Background_Male_RigRN.placeHolderList[117]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[124]" ""
+		"Background_Male_RigRN.placeHolderList[118]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[125]" ""
+		"Background_Male_RigRN.placeHolderList[119]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:L_Leg_IK|Background_Male_Rig:L_Leg_3_IK_CTRL_Grp|Background_Male_Rig:L_Leg_3_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[126]" ""
+		"Background_Male_RigRN.placeHolderList[120]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[127]" ""
+		"Background_Male_RigRN.placeHolderList[121]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[128]" ""
+		"Background_Male_RigRN.placeHolderList[122]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[129]" ""
+		"Background_Male_RigRN.placeHolderList[123]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[130]" ""
+		"Background_Male_RigRN.placeHolderList[124]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[131]" ""
+		"Background_Male_RigRN.placeHolderList[125]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_1_IK_CTRL_Grp|Background_Male_Rig:R_Leg_1_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[132]" ""
+		"Background_Male_RigRN.placeHolderList[126]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[133]" ""
+		"Background_Male_RigRN.placeHolderList[127]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[134]" ""
+		"Background_Male_RigRN.placeHolderList[128]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[135]" ""
+		"Background_Male_RigRN.placeHolderList[129]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[136]" ""
+		"Background_Male_RigRN.placeHolderList[130]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[137]" ""
+		"Background_Male_RigRN.placeHolderList[131]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_PV_IK_CTRL_Grp|Background_Male_Rig:R_Leg_PV_IK_Offset_Grp|Background_Male_Rig:R_Leg_PV_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[138]" ""
+		"Background_Male_RigRN.placeHolderList[132]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[139]" ""
+		"Background_Male_RigRN.placeHolderList[133]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[140]" ""
+		"Background_Male_RigRN.placeHolderList[134]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[141]" ""
+		"Background_Male_RigRN.placeHolderList[135]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[142]" ""
+		"Background_Male_RigRN.placeHolderList[136]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[143]" ""
+		"Background_Male_RigRN.placeHolderList[137]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:IK_CTRLS|Background_Male_Rig:R_Leg_IK|Background_Male_Rig:R_Leg_3_IK_CTRL_Grp|Background_Male_Rig:R_Leg_3_IK_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[144]" ""
+		"Background_Male_RigRN.placeHolderList[138]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[145]" ""
+		"Background_Male_RigRN.placeHolderList[139]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[146]" ""
+		"Background_Male_RigRN.placeHolderList[140]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[147]" ""
+		"Background_Male_RigRN.placeHolderList[141]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[148]" ""
+		"Background_Male_RigRN.placeHolderList[142]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[149]" ""
+		"Background_Male_RigRN.placeHolderList[143]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Shoulder_CTRL_Grp|Background_Male_Rig:L_Shoulder_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[150]" ""
+		"Background_Male_RigRN.placeHolderList[144]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[151]" ""
+		"Background_Male_RigRN.placeHolderList[145]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[152]" ""
+		"Background_Male_RigRN.placeHolderList[146]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[153]" ""
+		"Background_Male_RigRN.placeHolderList[147]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[154]" ""
+		"Background_Male_RigRN.placeHolderList[148]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[155]" ""
+		"Background_Male_RigRN.placeHolderList[149]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Shoulder_CTRL_Grp|Background_Male_Rig:R_Shoulder_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[156]" ""
+		"Background_Male_RigRN.placeHolderList[150]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[157]" ""
+		"Background_Male_RigRN.placeHolderList[151]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[158]" ""
+		"Background_Male_RigRN.placeHolderList[152]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[159]" ""
+		"Background_Male_RigRN.placeHolderList[153]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[160]" ""
+		"Background_Male_RigRN.placeHolderList[154]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[161]" ""
+		"Background_Male_RigRN.placeHolderList[155]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Wrist_CTRL_Grp|Background_Male_Rig:L_Wrist_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[162]" ""
+		"Background_Male_RigRN.placeHolderList[156]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[163]" ""
+		"Background_Male_RigRN.placeHolderList[157]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[164]" ""
+		"Background_Male_RigRN.placeHolderList[158]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[165]" ""
+		"Background_Male_RigRN.placeHolderList[159]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[166]" ""
+		"Background_Male_RigRN.placeHolderList[160]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[167]" ""
+		"Background_Male_RigRN.placeHolderList[161]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_1_CTRL_Grp|Background_Male_Rig:L_Finger1_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[168]" ""
+		"Background_Male_RigRN.placeHolderList[162]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[169]" ""
+		"Background_Male_RigRN.placeHolderList[163]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[170]" ""
+		"Background_Male_RigRN.placeHolderList[164]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[171]" ""
+		"Background_Male_RigRN.placeHolderList[165]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[172]" ""
+		"Background_Male_RigRN.placeHolderList[166]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[173]" ""
+		"Background_Male_RigRN.placeHolderList[167]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_2_CTRL_Grp|Background_Male_Rig:L_Finger1_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[174]" ""
+		"Background_Male_RigRN.placeHolderList[168]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[175]" ""
+		"Background_Male_RigRN.placeHolderList[169]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[176]" ""
+		"Background_Male_RigRN.placeHolderList[170]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[177]" ""
+		"Background_Male_RigRN.placeHolderList[171]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[178]" ""
+		"Background_Male_RigRN.placeHolderList[172]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[179]" ""
+		"Background_Male_RigRN.placeHolderList[173]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger1_3_CTRL_Grp|Background_Male_Rig:L_Finger1_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[180]" ""
+		"Background_Male_RigRN.placeHolderList[174]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[181]" ""
+		"Background_Male_RigRN.placeHolderList[175]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[182]" ""
+		"Background_Male_RigRN.placeHolderList[176]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[183]" ""
+		"Background_Male_RigRN.placeHolderList[177]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[184]" ""
+		"Background_Male_RigRN.placeHolderList[178]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[185]" ""
+		"Background_Male_RigRN.placeHolderList[179]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_1_CTRL_Grp|Background_Male_Rig:L_Finger2_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[186]" ""
+		"Background_Male_RigRN.placeHolderList[180]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[187]" ""
+		"Background_Male_RigRN.placeHolderList[181]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[188]" ""
+		"Background_Male_RigRN.placeHolderList[182]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[189]" ""
+		"Background_Male_RigRN.placeHolderList[183]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[190]" ""
+		"Background_Male_RigRN.placeHolderList[184]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[191]" ""
+		"Background_Male_RigRN.placeHolderList[185]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_2_CTRL_Grp|Background_Male_Rig:L_Finger2_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[192]" ""
+		"Background_Male_RigRN.placeHolderList[186]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[193]" ""
+		"Background_Male_RigRN.placeHolderList[187]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[194]" ""
+		"Background_Male_RigRN.placeHolderList[188]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[195]" ""
+		"Background_Male_RigRN.placeHolderList[189]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[196]" ""
+		"Background_Male_RigRN.placeHolderList[190]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[197]" ""
+		"Background_Male_RigRN.placeHolderList[191]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger2_3_CTRL_Grp|Background_Male_Rig:L_Finger2_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[198]" ""
+		"Background_Male_RigRN.placeHolderList[192]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[199]" ""
+		"Background_Male_RigRN.placeHolderList[193]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[200]" ""
+		"Background_Male_RigRN.placeHolderList[194]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[201]" ""
+		"Background_Male_RigRN.placeHolderList[195]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[202]" ""
+		"Background_Male_RigRN.placeHolderList[196]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[203]" ""
+		"Background_Male_RigRN.placeHolderList[197]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_1_CTRL_Grp|Background_Male_Rig:L_Finger3_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[204]" ""
+		"Background_Male_RigRN.placeHolderList[198]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[205]" ""
+		"Background_Male_RigRN.placeHolderList[199]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[206]" ""
+		"Background_Male_RigRN.placeHolderList[200]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[207]" ""
+		"Background_Male_RigRN.placeHolderList[201]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[208]" ""
+		"Background_Male_RigRN.placeHolderList[202]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[209]" ""
+		"Background_Male_RigRN.placeHolderList[203]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_2_CTRL_Grp|Background_Male_Rig:L_Finger3_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[210]" ""
+		"Background_Male_RigRN.placeHolderList[204]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[211]" ""
+		"Background_Male_RigRN.placeHolderList[205]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[212]" ""
+		"Background_Male_RigRN.placeHolderList[206]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[213]" ""
+		"Background_Male_RigRN.placeHolderList[207]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[214]" ""
+		"Background_Male_RigRN.placeHolderList[208]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[215]" ""
+		"Background_Male_RigRN.placeHolderList[209]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger3_3_CTRL_Grp|Background_Male_Rig:L_Finger3_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[216]" ""
+		"Background_Male_RigRN.placeHolderList[210]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[217]" ""
+		"Background_Male_RigRN.placeHolderList[211]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[218]" ""
+		"Background_Male_RigRN.placeHolderList[212]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[219]" ""
+		"Background_Male_RigRN.placeHolderList[213]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[220]" ""
+		"Background_Male_RigRN.placeHolderList[214]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[221]" ""
+		"Background_Male_RigRN.placeHolderList[215]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_1_CTRL_Grp|Background_Male_Rig:L_Finger4_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[222]" ""
+		"Background_Male_RigRN.placeHolderList[216]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[223]" ""
+		"Background_Male_RigRN.placeHolderList[217]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[224]" ""
+		"Background_Male_RigRN.placeHolderList[218]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[225]" ""
+		"Background_Male_RigRN.placeHolderList[219]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[226]" ""
+		"Background_Male_RigRN.placeHolderList[220]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[227]" ""
+		"Background_Male_RigRN.placeHolderList[221]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_2_CTRL_Grp|Background_Male_Rig:L_Finger4_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[228]" ""
+		"Background_Male_RigRN.placeHolderList[222]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[229]" ""
+		"Background_Male_RigRN.placeHolderList[223]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[230]" ""
+		"Background_Male_RigRN.placeHolderList[224]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[231]" ""
+		"Background_Male_RigRN.placeHolderList[225]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[232]" ""
+		"Background_Male_RigRN.placeHolderList[226]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[233]" ""
+		"Background_Male_RigRN.placeHolderList[227]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger4_3_CTRL_Grp|Background_Male_Rig:L_Finger4_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[234]" ""
+		"Background_Male_RigRN.placeHolderList[228]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[235]" ""
+		"Background_Male_RigRN.placeHolderList[229]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[236]" ""
+		"Background_Male_RigRN.placeHolderList[230]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[237]" ""
+		"Background_Male_RigRN.placeHolderList[231]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[238]" ""
+		"Background_Male_RigRN.placeHolderList[232]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[239]" ""
+		"Background_Male_RigRN.placeHolderList[233]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_1_CTRL_Grp|Background_Male_Rig:L_Finger5_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[240]" ""
+		"Background_Male_RigRN.placeHolderList[234]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[241]" ""
+		"Background_Male_RigRN.placeHolderList[235]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[242]" ""
+		"Background_Male_RigRN.placeHolderList[236]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[243]" ""
+		"Background_Male_RigRN.placeHolderList[237]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[244]" ""
+		"Background_Male_RigRN.placeHolderList[238]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[245]" ""
+		"Background_Male_RigRN.placeHolderList[239]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_2_CTRL_Grp|Background_Male_Rig:L_Finger5_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[246]" ""
+		"Background_Male_RigRN.placeHolderList[240]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[247]" ""
+		"Background_Male_RigRN.placeHolderList[241]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[248]" ""
+		"Background_Male_RigRN.placeHolderList[242]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[249]" ""
+		"Background_Male_RigRN.placeHolderList[243]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[250]" ""
+		"Background_Male_RigRN.placeHolderList[244]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[251]" ""
+		"Background_Male_RigRN.placeHolderList[245]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Hand_Ctrls|Background_Male_Rig:L_Finger5_3_CTRL_Grp|Background_Male_Rig:L_Finger5_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[252]" ""
+		"Background_Male_RigRN.placeHolderList[246]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[253]" ""
+		"Background_Male_RigRN.placeHolderList[247]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[254]" ""
+		"Background_Male_RigRN.placeHolderList[248]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[255]" ""
+		"Background_Male_RigRN.placeHolderList[249]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[256]" ""
+		"Background_Male_RigRN.placeHolderList[250]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[257]" ""
+		"Background_Male_RigRN.placeHolderList[251]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Wrist_CTRL_Grp|Background_Male_Rig:R_Wrist_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[258]" ""
+		"Background_Male_RigRN.placeHolderList[252]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[259]" ""
+		"Background_Male_RigRN.placeHolderList[253]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[260]" ""
+		"Background_Male_RigRN.placeHolderList[254]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[261]" ""
+		"Background_Male_RigRN.placeHolderList[255]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[262]" ""
+		"Background_Male_RigRN.placeHolderList[256]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[263]" ""
+		"Background_Male_RigRN.placeHolderList[257]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_1_CTRL_Grp|Background_Male_Rig:R_Finger1_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[264]" ""
+		"Background_Male_RigRN.placeHolderList[258]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[265]" ""
+		"Background_Male_RigRN.placeHolderList[259]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[266]" ""
+		"Background_Male_RigRN.placeHolderList[260]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[267]" ""
+		"Background_Male_RigRN.placeHolderList[261]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[268]" ""
+		"Background_Male_RigRN.placeHolderList[262]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[269]" ""
+		"Background_Male_RigRN.placeHolderList[263]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_2_CTRL_Grp|Background_Male_Rig:R_Finger1_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[270]" ""
+		"Background_Male_RigRN.placeHolderList[264]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[271]" ""
+		"Background_Male_RigRN.placeHolderList[265]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[272]" ""
+		"Background_Male_RigRN.placeHolderList[266]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[273]" ""
+		"Background_Male_RigRN.placeHolderList[267]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[274]" ""
+		"Background_Male_RigRN.placeHolderList[268]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[275]" ""
+		"Background_Male_RigRN.placeHolderList[269]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger1_3_CTRL_Grp|Background_Male_Rig:R_Finger1_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[276]" ""
+		"Background_Male_RigRN.placeHolderList[270]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[277]" ""
+		"Background_Male_RigRN.placeHolderList[271]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[278]" ""
+		"Background_Male_RigRN.placeHolderList[272]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[279]" ""
+		"Background_Male_RigRN.placeHolderList[273]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[280]" ""
+		"Background_Male_RigRN.placeHolderList[274]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[281]" ""
+		"Background_Male_RigRN.placeHolderList[275]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_1_CTRL_Grp|Background_Male_Rig:R_Finger2_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[282]" ""
+		"Background_Male_RigRN.placeHolderList[276]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[283]" ""
+		"Background_Male_RigRN.placeHolderList[277]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[284]" ""
+		"Background_Male_RigRN.placeHolderList[278]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[285]" ""
+		"Background_Male_RigRN.placeHolderList[279]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[286]" ""
+		"Background_Male_RigRN.placeHolderList[280]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[287]" ""
+		"Background_Male_RigRN.placeHolderList[281]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_2_CTRL_Grp|Background_Male_Rig:R_Finger2_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[288]" ""
+		"Background_Male_RigRN.placeHolderList[282]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[289]" ""
+		"Background_Male_RigRN.placeHolderList[283]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[290]" ""
+		"Background_Male_RigRN.placeHolderList[284]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[291]" ""
+		"Background_Male_RigRN.placeHolderList[285]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[292]" ""
+		"Background_Male_RigRN.placeHolderList[286]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[293]" ""
+		"Background_Male_RigRN.placeHolderList[287]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger2_3_CTRL_Grp|Background_Male_Rig:R_Finger2_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[294]" ""
+		"Background_Male_RigRN.placeHolderList[288]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[295]" ""
+		"Background_Male_RigRN.placeHolderList[289]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[296]" ""
+		"Background_Male_RigRN.placeHolderList[290]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[297]" ""
+		"Background_Male_RigRN.placeHolderList[291]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[298]" ""
+		"Background_Male_RigRN.placeHolderList[292]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[299]" ""
+		"Background_Male_RigRN.placeHolderList[293]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_1_CTRL_Grp|Background_Male_Rig:R_Finger3_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[300]" ""
+		"Background_Male_RigRN.placeHolderList[294]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[301]" ""
+		"Background_Male_RigRN.placeHolderList[295]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[302]" ""
+		"Background_Male_RigRN.placeHolderList[296]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[303]" ""
+		"Background_Male_RigRN.placeHolderList[297]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[304]" ""
+		"Background_Male_RigRN.placeHolderList[298]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[305]" ""
+		"Background_Male_RigRN.placeHolderList[299]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_2_CTRL_Grp|Background_Male_Rig:R_Finger3_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[306]" ""
+		"Background_Male_RigRN.placeHolderList[300]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[307]" ""
+		"Background_Male_RigRN.placeHolderList[301]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[308]" ""
+		"Background_Male_RigRN.placeHolderList[302]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[309]" ""
+		"Background_Male_RigRN.placeHolderList[303]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[310]" ""
+		"Background_Male_RigRN.placeHolderList[304]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[311]" ""
+		"Background_Male_RigRN.placeHolderList[305]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger3_3_CTRL_Grp|Background_Male_Rig:R_Finger3_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[312]" ""
+		"Background_Male_RigRN.placeHolderList[306]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[313]" ""
+		"Background_Male_RigRN.placeHolderList[307]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[314]" ""
+		"Background_Male_RigRN.placeHolderList[308]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[315]" ""
+		"Background_Male_RigRN.placeHolderList[309]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[316]" ""
+		"Background_Male_RigRN.placeHolderList[310]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[317]" ""
+		"Background_Male_RigRN.placeHolderList[311]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_1_CTRL_Grp|Background_Male_Rig:R_Finger4_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[318]" ""
+		"Background_Male_RigRN.placeHolderList[312]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[319]" ""
+		"Background_Male_RigRN.placeHolderList[313]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[320]" ""
+		"Background_Male_RigRN.placeHolderList[314]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[321]" ""
+		"Background_Male_RigRN.placeHolderList[315]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[322]" ""
+		"Background_Male_RigRN.placeHolderList[316]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[323]" ""
+		"Background_Male_RigRN.placeHolderList[317]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_2_CTRL_Grp|Background_Male_Rig:R_Finger4_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[324]" ""
+		"Background_Male_RigRN.placeHolderList[318]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[325]" ""
+		"Background_Male_RigRN.placeHolderList[319]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[326]" ""
+		"Background_Male_RigRN.placeHolderList[320]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[327]" ""
+		"Background_Male_RigRN.placeHolderList[321]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[328]" ""
+		"Background_Male_RigRN.placeHolderList[322]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[329]" ""
+		"Background_Male_RigRN.placeHolderList[323]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger4_3_CTRL_Grp|Background_Male_Rig:R_Finger4_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[330]" ""
+		"Background_Male_RigRN.placeHolderList[324]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[331]" ""
+		"Background_Male_RigRN.placeHolderList[325]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[332]" ""
+		"Background_Male_RigRN.placeHolderList[326]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[333]" ""
+		"Background_Male_RigRN.placeHolderList[327]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[334]" ""
+		"Background_Male_RigRN.placeHolderList[328]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[335]" ""
+		"Background_Male_RigRN.placeHolderList[329]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_1_CTRL_Grp|Background_Male_Rig:R_Finger5_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[336]" ""
+		"Background_Male_RigRN.placeHolderList[330]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[337]" ""
+		"Background_Male_RigRN.placeHolderList[331]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[338]" ""
+		"Background_Male_RigRN.placeHolderList[332]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[339]" ""
+		"Background_Male_RigRN.placeHolderList[333]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[340]" ""
+		"Background_Male_RigRN.placeHolderList[334]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[341]" ""
+		"Background_Male_RigRN.placeHolderList[335]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_2_CTRL_Grp|Background_Male_Rig:R_Finger5_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[342]" ""
+		"Background_Male_RigRN.placeHolderList[336]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[343]" ""
+		"Background_Male_RigRN.placeHolderList[337]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[344]" ""
+		"Background_Male_RigRN.placeHolderList[338]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[345]" ""
+		"Background_Male_RigRN.placeHolderList[339]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[346]" ""
+		"Background_Male_RigRN.placeHolderList[340]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[347]" ""
+		"Background_Male_RigRN.placeHolderList[341]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Hand_Ctrls|Background_Male_Rig:R_Finger5_3_CTRL_Grp|Background_Male_Rig:R_Finger5_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[348]" ""
+		"Background_Male_RigRN.placeHolderList[342]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[349]" ""
+		"Background_Male_RigRN.placeHolderList[343]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[350]" ""
+		"Background_Male_RigRN.placeHolderList[344]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[351]" ""
+		"Background_Male_RigRN.placeHolderList[345]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[352]" ""
+		"Background_Male_RigRN.placeHolderList[346]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[353]" ""
+		"Background_Male_RigRN.placeHolderList[347]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_6_Head_CTRL_Grp|Background_Male_Rig:Spine_6_Head_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[354]" ""
+		"Background_Male_RigRN.placeHolderList[348]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[355]" ""
+		"Background_Male_RigRN.placeHolderList[349]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[356]" ""
+		"Background_Male_RigRN.placeHolderList[350]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[357]" ""
+		"Background_Male_RigRN.placeHolderList[351]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[358]" ""
+		"Background_Male_RigRN.placeHolderList[352]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[359]" ""
+		"Background_Male_RigRN.placeHolderList[353]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_5_CTRL_Grp|Background_Male_Rig:Spine_5_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[360]" ""
+		"Background_Male_RigRN.placeHolderList[354]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[361]" ""
+		"Background_Male_RigRN.placeHolderList[355]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[362]" ""
+		"Background_Male_RigRN.placeHolderList[356]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[363]" ""
+		"Background_Male_RigRN.placeHolderList[357]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[364]" ""
+		"Background_Male_RigRN.placeHolderList[358]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[365]" ""
+		"Background_Male_RigRN.placeHolderList[359]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_4_CTRL_Grp|Background_Male_Rig:Spine_4_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[366]" ""
+		"Background_Male_RigRN.placeHolderList[360]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[367]" ""
+		"Background_Male_RigRN.placeHolderList[361]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[368]" ""
+		"Background_Male_RigRN.placeHolderList[362]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[369]" ""
+		"Background_Male_RigRN.placeHolderList[363]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[370]" ""
+		"Background_Male_RigRN.placeHolderList[364]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[371]" ""
+		"Background_Male_RigRN.placeHolderList[365]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_3_CTRL_Grp|Background_Male_Rig:Spine_3_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[372]" ""
+		"Background_Male_RigRN.placeHolderList[366]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[373]" ""
+		"Background_Male_RigRN.placeHolderList[367]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[374]" ""
+		"Background_Male_RigRN.placeHolderList[368]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[375]" ""
+		"Background_Male_RigRN.placeHolderList[369]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[376]" ""
+		"Background_Male_RigRN.placeHolderList[370]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[377]" ""
+		"Background_Male_RigRN.placeHolderList[371]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_2_CTRL_Grp|Background_Male_Rig:Spine_2_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[378]" ""
+		"Background_Male_RigRN.placeHolderList[372]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[379]" ""
+		"Background_Male_RigRN.placeHolderList[373]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[380]" ""
+		"Background_Male_RigRN.placeHolderList[374]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[381]" ""
+		"Background_Male_RigRN.placeHolderList[375]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[382]" ""
+		"Background_Male_RigRN.placeHolderList[376]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[383]" ""
+		"Background_Male_RigRN.placeHolderList[377]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Spine_1_CTRL_Grp|Background_Male_Rig:Spine_1_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[384]" ""
+		"Background_Male_RigRN.placeHolderList[378]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[385]" ""
+		"Background_Male_RigRN.placeHolderList[379]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[386]" ""
+		"Background_Male_RigRN.placeHolderList[380]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[387]" ""
+		"Background_Male_RigRN.placeHolderList[381]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[388]" ""
+		"Background_Male_RigRN.placeHolderList[382]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[389]" ""
+		"Background_Male_RigRN.placeHolderList[383]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:Hip_CTRL_Grp|Background_Male_Rig:Hip_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[390]" ""
+		"Background_Male_RigRN.placeHolderList[384]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[391]" ""
+		"Background_Male_RigRN.placeHolderList[385]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[392]" ""
+		"Background_Male_RigRN.placeHolderList[386]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[393]" ""
+		"Background_Male_RigRN.placeHolderList[387]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[394]" ""
+		"Background_Male_RigRN.placeHolderList[388]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[395]" ""
+		"Background_Male_RigRN.placeHolderList[389]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:L_Foot_CTRL_Grp|Background_Male_Rig:L_Foot_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[396]" ""
+		"Background_Male_RigRN.placeHolderList[390]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.translateX" 
-		"Background_Male_RigRN.placeHolderList[397]" ""
+		"Background_Male_RigRN.placeHolderList[391]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.translateY" 
-		"Background_Male_RigRN.placeHolderList[398]" ""
+		"Background_Male_RigRN.placeHolderList[392]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.translateZ" 
-		"Background_Male_RigRN.placeHolderList[399]" ""
+		"Background_Male_RigRN.placeHolderList[393]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.rotateX" 
-		"Background_Male_RigRN.placeHolderList[400]" ""
+		"Background_Male_RigRN.placeHolderList[394]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.rotateY" 
-		"Background_Male_RigRN.placeHolderList[401]" ""
+		"Background_Male_RigRN.placeHolderList[395]" ""
 		5 4 "Background_Male_RigRN" "|Background_Male_Rig:BackMale|Background_Male_Rig:BM_CTRLS|Background_Male_Rig:COG_CTRL_Grp|Background_Male_Rig:COG_CTRL|Background_Male_Rig:R_Foot_CTRL_Grp|Background_Male_Rig:R_Foot_CTRL.rotateZ" 
-		"Background_Male_RigRN.placeHolderList[402]" "";
+		"Background_Male_RigRN.placeHolderList[396]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode animCurveTL -n "L_Leg_2_FK_CTRL_translateX";
@@ -4423,8 +4405,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n"
 		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
 		+ "            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n"
-		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
-		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 540\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
+		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 532\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"pass\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n"
 		+ "            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n"
@@ -4447,8 +4429,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"componentEditorPanel\" (localizedPanelLabel(\"Component Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Component Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 540\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 540\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 532\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 532\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -11290,24 +11272,6 @@ createNode animCurveTL -n "Spine_5_CTRL_translateX";
 		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
 		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
 		2 18 2 18 2 18 2 18 2;
-createNode animCurveTL -n "Transform_CTRL_translateX";
-	rename -uid "0CB09995-4C63-781A-7CE3-5681EF0289F8";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
 createNode animCurveTL -n "R_Arm_PV_IK_CTRL_translateX";
 	rename -uid "21E87AC7-4D13-1F21-DCA3-D78AA799F3AE";
 	setAttr ".tan" 5;
@@ -11526,24 +11490,6 @@ createNode animCurveTL -n "R_Finger1_1_CTRL_translateY";
 		2 18 2 18 2 18 2 18 2;
 createNode animCurveTL -n "Spine_5_CTRL_translateY";
 	rename -uid "18273740-469A-174D-DD3F-CAB1FD2C35C2";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
-createNode animCurveTL -n "Transform_CTRL_translateY";
-	rename -uid "9EF87D35-40B0-B8D5-6F35-75B0733B1D6C";
 	setAttr ".tan" 5;
 	setAttr ".wgt" no;
 	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
@@ -11794,24 +11740,6 @@ createNode animCurveTL -n "Spine_5_CTRL_translateZ";
 		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
 		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
 		2 18 2 18 2 18 2 18 2;
-createNode animCurveTL -n "Transform_CTRL_translateZ";
-	rename -uid "BB3A1B85-4B38-3C10-6861-B79E61B850AB";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
 createNode animCurveTL -n "R_Arm_PV_IK_CTRL_translateZ";
 	rename -uid "72659748-4B39-384E-D1F5-3483CAF06F1F";
 	setAttr ".tan" 5;
@@ -11994,24 +11922,6 @@ createNode animCurveTA -n "R_Finger1_3_CTRL_rotateX";
 		2 18 2 18 2 18 2 18 2;
 createNode animCurveTA -n "R_Finger1_1_CTRL_rotateX";
 	rename -uid "ED560BCC-4EEE-DEA2-F58F-6BB226E64816";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
-createNode animCurveTA -n "Transform_CTRL_rotateX";
-	rename -uid "A1A9EC31-4BFF-F2D4-3C97-FCB0ABB84F5D";
 	setAttr ".tan" 5;
 	setAttr ".wgt" no;
 	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
@@ -12226,24 +12136,6 @@ createNode animCurveTA -n "R_Finger1_1_CTRL_rotateY";
 		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
 		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
 		2 18 2 18 2 18 2 18 2;
-createNode animCurveTA -n "Transform_CTRL_rotateY";
-	rename -uid "B216ACCA-4069-ABA0-6A47-579DB3D39062";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
 createNode animCurveTA -n "R_Arm_PV_IK_CTRL_rotateY";
 	rename -uid "C95F20F2-4CA4-B749-D753-F8B0E27104FC";
 	setAttr ".tan" 5;
@@ -12424,24 +12316,6 @@ createNode animCurveTA -n "R_Finger1_1_CTRL_rotateZ";
 		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
 		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
 		2 18 2 18 2 18 2 18 2;
-createNode animCurveTA -n "Transform_CTRL_rotateZ";
-	rename -uid "362E8F0A-40EA-4070-9428-34A74EBEECE7";
-	setAttr ".tan" 5;
-	setAttr ".wgt" no;
-	setAttr -s 102 ".ktv[0:101]"  2 0 3 0 4 0 5 0 7 0 8 0 9 0 10 0 12 0 13 0
-		 14 0 15 0 17 0 18 0 19 0 20 0 22 0 23 0 24 0 25 0 27 0 28 0 29 0 30 0 32 0 33 0 34 0
-		 35 0 37 0 38 0 39 0 40 0 42 0 43 0 44 0 45 0 47 0 48 0 49 0 50 0 52 0 53 0 54 0 55 0
-		 57 0 58 0 59 0 60 0 62 0 63 0 64 0 65 0 67 0 68 0 69 0 70 0 72 0 73 0 74 0 75 0 77 0
-		 78 0 79 0 80 0 82 0 83 0 84 0 85 0 87 0 88 0 89 0 90 0 92 0 93 0 94 0 95 0 97 0 98 0
-		 99 0 100 0 102 0 103 0 104 0 105 0 107 0 108 0 109 0 110 0 112 0 113 0 114 0 115 0
-		 117 0 118 0 119 0 120 0 122 0 123 0 124 0 125 0 127 0 128 0;
-	setAttr -s 102 ".kit[0:101]"  18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 
-		18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 2 18 
-		2 18 2 18 2 18 2 18 2;
 createNode animCurveTA -n "R_Arm_PV_IK_CTRL_rotateZ";
 	rename -uid "A4F8049C-4DA9-5DE9-796D-8984F8E2CE52";
 	setAttr ".tan" 5;
@@ -12603,408 +12477,402 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-connectAttr "Transform_CTRL_translateX.o" "Background_Male_RigRN.phl[1]";
-connectAttr "Transform_CTRL_translateY.o" "Background_Male_RigRN.phl[2]";
-connectAttr "Transform_CTRL_translateZ.o" "Background_Male_RigRN.phl[3]";
-connectAttr "Transform_CTRL_rotateX.o" "Background_Male_RigRN.phl[4]";
-connectAttr "Transform_CTRL_rotateY.o" "Background_Male_RigRN.phl[5]";
-connectAttr "Transform_CTRL_rotateZ.o" "Background_Male_RigRN.phl[6]";
-connectAttr "COG_CTRL_translateX.o" "Background_Male_RigRN.phl[7]";
-connectAttr "COG_CTRL_translateY.o" "Background_Male_RigRN.phl[8]";
-connectAttr "COG_CTRL_translateZ.o" "Background_Male_RigRN.phl[9]";
-connectAttr "COG_CTRL_rotateX.o" "Background_Male_RigRN.phl[10]";
-connectAttr "COG_CTRL_rotateY.o" "Background_Male_RigRN.phl[11]";
-connectAttr "COG_CTRL_rotateZ.o" "Background_Male_RigRN.phl[12]";
-connectAttr "R_Leg_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[13]";
-connectAttr "R_Leg_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[14]";
-connectAttr "R_Leg_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[15]";
-connectAttr "R_Leg_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[16]";
-connectAttr "R_Leg_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[17]";
-connectAttr "R_Leg_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[18]";
-connectAttr "R_Leg_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[19]";
-connectAttr "R_Leg_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[20]";
-connectAttr "R_Leg_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[21]";
-connectAttr "R_Leg_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[22]";
-connectAttr "R_Leg_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[23]";
-connectAttr "R_Leg_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[24]";
-connectAttr "R_Leg_3_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[25]";
-connectAttr "R_Leg_3_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[26]";
-connectAttr "R_Leg_3_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[27]";
-connectAttr "R_Leg_3_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[28]";
-connectAttr "R_Leg_3_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[29]";
-connectAttr "R_Leg_3_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[30]";
-connectAttr "L_Leg_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[31]";
-connectAttr "L_Leg_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[32]";
-connectAttr "L_Leg_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[33]";
-connectAttr "L_Leg_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[34]";
-connectAttr "L_Leg_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[35]";
-connectAttr "L_Leg_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[36]";
-connectAttr "L_Leg_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[37]";
-connectAttr "L_Leg_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[38]";
-connectAttr "L_Leg_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[39]";
-connectAttr "L_Leg_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[40]";
-connectAttr "L_Leg_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[41]";
-connectAttr "L_Leg_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[42]";
-connectAttr "L_Leg_3_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[43]";
-connectAttr "L_Leg_3_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[44]";
-connectAttr "L_Leg_3_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[45]";
-connectAttr "L_Leg_3_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[46]";
-connectAttr "L_Leg_3_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[47]";
-connectAttr "L_Leg_3_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[48]";
-connectAttr "R_Arm_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[49]";
-connectAttr "R_Arm_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[50]";
-connectAttr "R_Arm_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[51]";
-connectAttr "R_Arm_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[52]";
-connectAttr "R_Arm_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[53]";
-connectAttr "R_Arm_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[54]";
-connectAttr "R_Arm_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[55]";
-connectAttr "R_Arm_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[56]";
-connectAttr "R_Arm_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[57]";
-connectAttr "R_Arm_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[58]";
-connectAttr "R_Arm_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[59]";
-connectAttr "R_Arm_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[60]";
-connectAttr "L_Arm_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[61]";
-connectAttr "L_Arm_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[62]";
-connectAttr "L_Arm_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[63]";
-connectAttr "L_Arm_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[64]";
-connectAttr "L_Arm_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[65]";
-connectAttr "L_Arm_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[66]";
-connectAttr "L_Arm_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[67]";
-connectAttr "L_Arm_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[68]";
-connectAttr "L_Arm_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[69]";
-connectAttr "L_Arm_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[70]";
-connectAttr "L_Arm_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[71]";
-connectAttr "L_Arm_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[72]";
-connectAttr "L_Arm_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[73]";
-connectAttr "L_Arm_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[74]";
-connectAttr "L_Arm_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[75]";
-connectAttr "L_Arm_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[76]";
-connectAttr "L_Arm_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[77]";
-connectAttr "L_Arm_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[78]";
-connectAttr "L_Arm_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[79]";
-connectAttr "L_Arm_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[80]";
-connectAttr "L_Arm_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[81]";
-connectAttr "L_Arm_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[82]";
-connectAttr "L_Arm_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[83]";
-connectAttr "L_Arm_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[84]";
-connectAttr "L_Arm_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[85]";
-connectAttr "L_Arm_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[86]";
-connectAttr "L_Arm_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[87]";
-connectAttr "L_Arm_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[88]";
-connectAttr "L_Arm_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[89]";
-connectAttr "L_Arm_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[90]";
-connectAttr "R_Arm_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[91]";
-connectAttr "R_Arm_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[92]";
-connectAttr "R_Arm_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[93]";
-connectAttr "R_Arm_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[94]";
-connectAttr "R_Arm_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[95]";
-connectAttr "R_Arm_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[96]";
-connectAttr "R_Arm_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[97]";
-connectAttr "R_Arm_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[98]";
-connectAttr "R_Arm_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[99]";
-connectAttr "R_Arm_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[100]";
-connectAttr "R_Arm_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[101]";
-connectAttr "R_Arm_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[102]";
-connectAttr "R_Arm_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[103]";
-connectAttr "R_Arm_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[104]";
-connectAttr "R_Arm_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[105]";
-connectAttr "R_Arm_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[106]";
-connectAttr "R_Arm_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[107]";
-connectAttr "R_Arm_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[108]";
-connectAttr "L_Leg_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[109]";
-connectAttr "L_Leg_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[110]";
-connectAttr "L_Leg_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[111]";
-connectAttr "L_Leg_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[112]";
-connectAttr "L_Leg_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[113]";
-connectAttr "L_Leg_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[114]";
-connectAttr "L_Leg_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[115]";
-connectAttr "L_Leg_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[116]";
-connectAttr "L_Leg_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[117]";
-connectAttr "L_Leg_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[118]";
-connectAttr "L_Leg_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[119]";
-connectAttr "L_Leg_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[120]";
-connectAttr "L_Leg_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[121]";
-connectAttr "L_Leg_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[122]";
-connectAttr "L_Leg_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[123]";
-connectAttr "L_Leg_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[124]";
-connectAttr "L_Leg_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[125]";
-connectAttr "L_Leg_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[126]";
-connectAttr "R_Leg_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[127]";
-connectAttr "R_Leg_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[128]";
-connectAttr "R_Leg_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[129]";
-connectAttr "R_Leg_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[130]";
-connectAttr "R_Leg_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[131]";
-connectAttr "R_Leg_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[132]";
-connectAttr "R_Leg_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[133]";
-connectAttr "R_Leg_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[134]";
-connectAttr "R_Leg_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[135]";
-connectAttr "R_Leg_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[136]";
-connectAttr "R_Leg_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[137]";
-connectAttr "R_Leg_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[138]";
-connectAttr "R_Leg_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[139]";
-connectAttr "R_Leg_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[140]";
-connectAttr "R_Leg_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[141]";
-connectAttr "R_Leg_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[142]";
-connectAttr "R_Leg_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[143]";
-connectAttr "R_Leg_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[144]";
-connectAttr "L_Shoulder_CTRL_translateX.o" "Background_Male_RigRN.phl[145]";
-connectAttr "L_Shoulder_CTRL_translateY.o" "Background_Male_RigRN.phl[146]";
-connectAttr "L_Shoulder_CTRL_translateZ.o" "Background_Male_RigRN.phl[147]";
-connectAttr "L_Shoulder_CTRL_rotateX.o" "Background_Male_RigRN.phl[148]";
-connectAttr "L_Shoulder_CTRL_rotateY.o" "Background_Male_RigRN.phl[149]";
-connectAttr "L_Shoulder_CTRL_rotateZ.o" "Background_Male_RigRN.phl[150]";
-connectAttr "R_Shoulder_CTRL_translateX.o" "Background_Male_RigRN.phl[151]";
-connectAttr "R_Shoulder_CTRL_translateY.o" "Background_Male_RigRN.phl[152]";
-connectAttr "R_Shoulder_CTRL_translateZ.o" "Background_Male_RigRN.phl[153]";
-connectAttr "R_Shoulder_CTRL_rotateX.o" "Background_Male_RigRN.phl[154]";
-connectAttr "R_Shoulder_CTRL_rotateY.o" "Background_Male_RigRN.phl[155]";
-connectAttr "R_Shoulder_CTRL_rotateZ.o" "Background_Male_RigRN.phl[156]";
-connectAttr "L_Wrist_CTRL_translateX.o" "Background_Male_RigRN.phl[157]";
-connectAttr "L_Wrist_CTRL_translateY.o" "Background_Male_RigRN.phl[158]";
-connectAttr "L_Wrist_CTRL_translateZ.o" "Background_Male_RigRN.phl[159]";
-connectAttr "L_Wrist_CTRL_rotateX.o" "Background_Male_RigRN.phl[160]";
-connectAttr "L_Wrist_CTRL_rotateY.o" "Background_Male_RigRN.phl[161]";
-connectAttr "L_Wrist_CTRL_rotateZ.o" "Background_Male_RigRN.phl[162]";
-connectAttr "L_Finger1_1_CTRL_translateX.o" "Background_Male_RigRN.phl[163]";
-connectAttr "L_Finger1_1_CTRL_translateY.o" "Background_Male_RigRN.phl[164]";
-connectAttr "L_Finger1_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[165]";
-connectAttr "L_Finger1_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[166]";
-connectAttr "L_Finger1_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[167]";
-connectAttr "L_Finger1_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[168]";
-connectAttr "L_Finger1_2_CTRL_translateX.o" "Background_Male_RigRN.phl[169]";
-connectAttr "L_Finger1_2_CTRL_translateY.o" "Background_Male_RigRN.phl[170]";
-connectAttr "L_Finger1_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[171]";
-connectAttr "L_Finger1_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[172]";
-connectAttr "L_Finger1_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[173]";
-connectAttr "L_Finger1_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[174]";
-connectAttr "L_Finger1_3_CTRL_translateX.o" "Background_Male_RigRN.phl[175]";
-connectAttr "L_Finger1_3_CTRL_translateY.o" "Background_Male_RigRN.phl[176]";
-connectAttr "L_Finger1_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[177]";
-connectAttr "L_Finger1_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[178]";
-connectAttr "L_Finger1_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[179]";
-connectAttr "L_Finger1_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[180]";
-connectAttr "L_Finger2_1_CTRL_translateX.o" "Background_Male_RigRN.phl[181]";
-connectAttr "L_Finger2_1_CTRL_translateY.o" "Background_Male_RigRN.phl[182]";
-connectAttr "L_Finger2_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[183]";
-connectAttr "L_Finger2_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[184]";
-connectAttr "L_Finger2_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[185]";
-connectAttr "L_Finger2_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[186]";
-connectAttr "L_Finger2_2_CTRL_translateX.o" "Background_Male_RigRN.phl[187]";
-connectAttr "L_Finger2_2_CTRL_translateY.o" "Background_Male_RigRN.phl[188]";
-connectAttr "L_Finger2_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[189]";
-connectAttr "L_Finger2_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[190]";
-connectAttr "L_Finger2_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[191]";
-connectAttr "L_Finger2_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[192]";
-connectAttr "L_Finger2_3_CTRL_translateX.o" "Background_Male_RigRN.phl[193]";
-connectAttr "L_Finger2_3_CTRL_translateY.o" "Background_Male_RigRN.phl[194]";
-connectAttr "L_Finger2_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[195]";
-connectAttr "L_Finger2_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[196]";
-connectAttr "L_Finger2_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[197]";
-connectAttr "L_Finger2_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[198]";
-connectAttr "L_Finger3_1_CTRL_translateX.o" "Background_Male_RigRN.phl[199]";
-connectAttr "L_Finger3_1_CTRL_translateY.o" "Background_Male_RigRN.phl[200]";
-connectAttr "L_Finger3_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[201]";
-connectAttr "L_Finger3_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[202]";
-connectAttr "L_Finger3_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[203]";
-connectAttr "L_Finger3_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[204]";
-connectAttr "L_Finger3_2_CTRL_translateX.o" "Background_Male_RigRN.phl[205]";
-connectAttr "L_Finger3_2_CTRL_translateY.o" "Background_Male_RigRN.phl[206]";
-connectAttr "L_Finger3_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[207]";
-connectAttr "L_Finger3_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[208]";
-connectAttr "L_Finger3_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[209]";
-connectAttr "L_Finger3_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[210]";
-connectAttr "L_Finger3_3_CTRL_translateX.o" "Background_Male_RigRN.phl[211]";
-connectAttr "L_Finger3_3_CTRL_translateY.o" "Background_Male_RigRN.phl[212]";
-connectAttr "L_Finger3_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[213]";
-connectAttr "L_Finger3_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[214]";
-connectAttr "L_Finger3_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[215]";
-connectAttr "L_Finger3_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[216]";
-connectAttr "L_Finger4_1_CTRL_translateX.o" "Background_Male_RigRN.phl[217]";
-connectAttr "L_Finger4_1_CTRL_translateY.o" "Background_Male_RigRN.phl[218]";
-connectAttr "L_Finger4_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[219]";
-connectAttr "L_Finger4_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[220]";
-connectAttr "L_Finger4_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[221]";
-connectAttr "L_Finger4_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[222]";
-connectAttr "L_Finger4_2_CTRL_translateX.o" "Background_Male_RigRN.phl[223]";
-connectAttr "L_Finger4_2_CTRL_translateY.o" "Background_Male_RigRN.phl[224]";
-connectAttr "L_Finger4_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[225]";
-connectAttr "L_Finger4_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[226]";
-connectAttr "L_Finger4_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[227]";
-connectAttr "L_Finger4_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[228]";
-connectAttr "L_Finger4_3_CTRL_translateX.o" "Background_Male_RigRN.phl[229]";
-connectAttr "L_Finger4_3_CTRL_translateY.o" "Background_Male_RigRN.phl[230]";
-connectAttr "L_Finger4_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[231]";
-connectAttr "L_Finger4_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[232]";
-connectAttr "L_Finger4_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[233]";
-connectAttr "L_Finger4_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[234]";
-connectAttr "L_Finger5_1_CTRL_translateX.o" "Background_Male_RigRN.phl[235]";
-connectAttr "L_Finger5_1_CTRL_translateY.o" "Background_Male_RigRN.phl[236]";
-connectAttr "L_Finger5_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[237]";
-connectAttr "L_Finger5_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[238]";
-connectAttr "L_Finger5_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[239]";
-connectAttr "L_Finger5_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[240]";
-connectAttr "L_Finger5_2_CTRL_translateX.o" "Background_Male_RigRN.phl[241]";
-connectAttr "L_Finger5_2_CTRL_translateY.o" "Background_Male_RigRN.phl[242]";
-connectAttr "L_Finger5_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[243]";
-connectAttr "L_Finger5_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[244]";
-connectAttr "L_Finger5_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[245]";
-connectAttr "L_Finger5_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[246]";
-connectAttr "L_Finger5_3_CTRL_translateX.o" "Background_Male_RigRN.phl[247]";
-connectAttr "L_Finger5_3_CTRL_translateY.o" "Background_Male_RigRN.phl[248]";
-connectAttr "L_Finger5_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[249]";
-connectAttr "L_Finger5_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[250]";
-connectAttr "L_Finger5_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[251]";
-connectAttr "L_Finger5_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[252]";
-connectAttr "R_Wrist_CTRL_translateX.o" "Background_Male_RigRN.phl[253]";
-connectAttr "R_Wrist_CTRL_translateY.o" "Background_Male_RigRN.phl[254]";
-connectAttr "R_Wrist_CTRL_translateZ.o" "Background_Male_RigRN.phl[255]";
-connectAttr "R_Wrist_CTRL_rotateX.o" "Background_Male_RigRN.phl[256]";
-connectAttr "R_Wrist_CTRL_rotateY.o" "Background_Male_RigRN.phl[257]";
-connectAttr "R_Wrist_CTRL_rotateZ.o" "Background_Male_RigRN.phl[258]";
-connectAttr "R_Finger1_1_CTRL_translateX.o" "Background_Male_RigRN.phl[259]";
-connectAttr "R_Finger1_1_CTRL_translateY.o" "Background_Male_RigRN.phl[260]";
-connectAttr "R_Finger1_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[261]";
-connectAttr "R_Finger1_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[262]";
-connectAttr "R_Finger1_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[263]";
-connectAttr "R_Finger1_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[264]";
-connectAttr "R_Finger1_2_CTRL_translateX.o" "Background_Male_RigRN.phl[265]";
-connectAttr "R_Finger1_2_CTRL_translateY.o" "Background_Male_RigRN.phl[266]";
-connectAttr "R_Finger1_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[267]";
-connectAttr "R_Finger1_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[268]";
-connectAttr "R_Finger1_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[269]";
-connectAttr "R_Finger1_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[270]";
-connectAttr "R_Finger1_3_CTRL_translateX.o" "Background_Male_RigRN.phl[271]";
-connectAttr "R_Finger1_3_CTRL_translateY.o" "Background_Male_RigRN.phl[272]";
-connectAttr "R_Finger1_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[273]";
-connectAttr "R_Finger1_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[274]";
-connectAttr "R_Finger1_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[275]";
-connectAttr "R_Finger1_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[276]";
-connectAttr "R_Finger2_1_CTRL_translateX.o" "Background_Male_RigRN.phl[277]";
-connectAttr "R_Finger2_1_CTRL_translateY.o" "Background_Male_RigRN.phl[278]";
-connectAttr "R_Finger2_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[279]";
-connectAttr "R_Finger2_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[280]";
-connectAttr "R_Finger2_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[281]";
-connectAttr "R_Finger2_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[282]";
-connectAttr "R_Finger2_2_CTRL_translateX.o" "Background_Male_RigRN.phl[283]";
-connectAttr "R_Finger2_2_CTRL_translateY.o" "Background_Male_RigRN.phl[284]";
-connectAttr "R_Finger2_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[285]";
-connectAttr "R_Finger2_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[286]";
-connectAttr "R_Finger2_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[287]";
-connectAttr "R_Finger2_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[288]";
-connectAttr "R_Finger2_3_CTRL_translateX.o" "Background_Male_RigRN.phl[289]";
-connectAttr "R_Finger2_3_CTRL_translateY.o" "Background_Male_RigRN.phl[290]";
-connectAttr "R_Finger2_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[291]";
-connectAttr "R_Finger2_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[292]";
-connectAttr "R_Finger2_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[293]";
-connectAttr "R_Finger2_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[294]";
-connectAttr "R_Finger3_1_CTRL_translateX.o" "Background_Male_RigRN.phl[295]";
-connectAttr "R_Finger3_1_CTRL_translateY.o" "Background_Male_RigRN.phl[296]";
-connectAttr "R_Finger3_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[297]";
-connectAttr "R_Finger3_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[298]";
-connectAttr "R_Finger3_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[299]";
-connectAttr "R_Finger3_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[300]";
-connectAttr "R_Finger3_2_CTRL_translateX.o" "Background_Male_RigRN.phl[301]";
-connectAttr "R_Finger3_2_CTRL_translateY.o" "Background_Male_RigRN.phl[302]";
-connectAttr "R_Finger3_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[303]";
-connectAttr "R_Finger3_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[304]";
-connectAttr "R_Finger3_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[305]";
-connectAttr "R_Finger3_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[306]";
-connectAttr "R_Finger3_3_CTRL_translateX.o" "Background_Male_RigRN.phl[307]";
-connectAttr "R_Finger3_3_CTRL_translateY.o" "Background_Male_RigRN.phl[308]";
-connectAttr "R_Finger3_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[309]";
-connectAttr "R_Finger3_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[310]";
-connectAttr "R_Finger3_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[311]";
-connectAttr "R_Finger3_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[312]";
-connectAttr "R_Finger4_1_CTRL_translateX.o" "Background_Male_RigRN.phl[313]";
-connectAttr "R_Finger4_1_CTRL_translateY.o" "Background_Male_RigRN.phl[314]";
-connectAttr "R_Finger4_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[315]";
-connectAttr "R_Finger4_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[316]";
-connectAttr "R_Finger4_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[317]";
-connectAttr "R_Finger4_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[318]";
-connectAttr "R_Finger4_2_CTRL_translateX.o" "Background_Male_RigRN.phl[319]";
-connectAttr "R_Finger4_2_CTRL_translateY.o" "Background_Male_RigRN.phl[320]";
-connectAttr "R_Finger4_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[321]";
-connectAttr "R_Finger4_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[322]";
-connectAttr "R_Finger4_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[323]";
-connectAttr "R_Finger4_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[324]";
-connectAttr "R_Finger4_3_CTRL_translateX.o" "Background_Male_RigRN.phl[325]";
-connectAttr "R_Finger4_3_CTRL_translateY.o" "Background_Male_RigRN.phl[326]";
-connectAttr "R_Finger4_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[327]";
-connectAttr "R_Finger4_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[328]";
-connectAttr "R_Finger4_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[329]";
-connectAttr "R_Finger4_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[330]";
-connectAttr "R_Finger5_1_CTRL_translateX.o" "Background_Male_RigRN.phl[331]";
-connectAttr "R_Finger5_1_CTRL_translateY.o" "Background_Male_RigRN.phl[332]";
-connectAttr "R_Finger5_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[333]";
-connectAttr "R_Finger5_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[334]";
-connectAttr "R_Finger5_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[335]";
-connectAttr "R_Finger5_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[336]";
-connectAttr "R_Finger5_2_CTRL_translateX.o" "Background_Male_RigRN.phl[337]";
-connectAttr "R_Finger5_2_CTRL_translateY.o" "Background_Male_RigRN.phl[338]";
-connectAttr "R_Finger5_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[339]";
-connectAttr "R_Finger5_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[340]";
-connectAttr "R_Finger5_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[341]";
-connectAttr "R_Finger5_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[342]";
-connectAttr "R_Finger5_3_CTRL_translateX.o" "Background_Male_RigRN.phl[343]";
-connectAttr "R_Finger5_3_CTRL_translateY.o" "Background_Male_RigRN.phl[344]";
-connectAttr "R_Finger5_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[345]";
-connectAttr "R_Finger5_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[346]";
-connectAttr "R_Finger5_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[347]";
-connectAttr "R_Finger5_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[348]";
-connectAttr "Spine_6_Head_CTRL_translateX.o" "Background_Male_RigRN.phl[349]";
-connectAttr "Spine_6_Head_CTRL_translateY.o" "Background_Male_RigRN.phl[350]";
-connectAttr "Spine_6_Head_CTRL_translateZ.o" "Background_Male_RigRN.phl[351]";
-connectAttr "Spine_6_Head_CTRL_rotateX.o" "Background_Male_RigRN.phl[352]";
-connectAttr "Spine_6_Head_CTRL_rotateY.o" "Background_Male_RigRN.phl[353]";
-connectAttr "Spine_6_Head_CTRL_rotateZ.o" "Background_Male_RigRN.phl[354]";
-connectAttr "Spine_5_CTRL_translateX.o" "Background_Male_RigRN.phl[355]";
-connectAttr "Spine_5_CTRL_translateY.o" "Background_Male_RigRN.phl[356]";
-connectAttr "Spine_5_CTRL_translateZ.o" "Background_Male_RigRN.phl[357]";
-connectAttr "Spine_5_CTRL_rotateX.o" "Background_Male_RigRN.phl[358]";
-connectAttr "Spine_5_CTRL_rotateY.o" "Background_Male_RigRN.phl[359]";
-connectAttr "Spine_5_CTRL_rotateZ.o" "Background_Male_RigRN.phl[360]";
-connectAttr "Spine_4_CTRL_translateX.o" "Background_Male_RigRN.phl[361]";
-connectAttr "Spine_4_CTRL_translateY.o" "Background_Male_RigRN.phl[362]";
-connectAttr "Spine_4_CTRL_translateZ.o" "Background_Male_RigRN.phl[363]";
-connectAttr "Spine_4_CTRL_rotateX.o" "Background_Male_RigRN.phl[364]";
-connectAttr "Spine_4_CTRL_rotateY.o" "Background_Male_RigRN.phl[365]";
-connectAttr "Spine_4_CTRL_rotateZ.o" "Background_Male_RigRN.phl[366]";
-connectAttr "Spine_3_CTRL_translateX.o" "Background_Male_RigRN.phl[367]";
-connectAttr "Spine_3_CTRL_translateY.o" "Background_Male_RigRN.phl[368]";
-connectAttr "Spine_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[369]";
-connectAttr "Spine_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[370]";
-connectAttr "Spine_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[371]";
-connectAttr "Spine_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[372]";
-connectAttr "Spine_2_CTRL_translateX.o" "Background_Male_RigRN.phl[373]";
-connectAttr "Spine_2_CTRL_translateY.o" "Background_Male_RigRN.phl[374]";
-connectAttr "Spine_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[375]";
-connectAttr "Spine_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[376]";
-connectAttr "Spine_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[377]";
-connectAttr "Spine_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[378]";
-connectAttr "Spine_1_CTRL_translateX.o" "Background_Male_RigRN.phl[379]";
-connectAttr "Spine_1_CTRL_translateY.o" "Background_Male_RigRN.phl[380]";
-connectAttr "Spine_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[381]";
-connectAttr "Spine_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[382]";
-connectAttr "Spine_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[383]";
-connectAttr "Spine_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[384]";
-connectAttr "Hip_CTRL_translateX.o" "Background_Male_RigRN.phl[385]";
-connectAttr "Hip_CTRL_translateY.o" "Background_Male_RigRN.phl[386]";
-connectAttr "Hip_CTRL_translateZ.o" "Background_Male_RigRN.phl[387]";
-connectAttr "Hip_CTRL_rotateX.o" "Background_Male_RigRN.phl[388]";
-connectAttr "Hip_CTRL_rotateY.o" "Background_Male_RigRN.phl[389]";
-connectAttr "Hip_CTRL_rotateZ.o" "Background_Male_RigRN.phl[390]";
-connectAttr "L_Foot_CTRL_translateX.o" "Background_Male_RigRN.phl[391]";
-connectAttr "L_Foot_CTRL_translateY.o" "Background_Male_RigRN.phl[392]";
-connectAttr "L_Foot_CTRL_translateZ.o" "Background_Male_RigRN.phl[393]";
-connectAttr "L_Foot_CTRL_rotateX.o" "Background_Male_RigRN.phl[394]";
-connectAttr "L_Foot_CTRL_rotateY.o" "Background_Male_RigRN.phl[395]";
-connectAttr "L_Foot_CTRL_rotateZ.o" "Background_Male_RigRN.phl[396]";
-connectAttr "R_Foot_CTRL_translateX.o" "Background_Male_RigRN.phl[397]";
-connectAttr "R_Foot_CTRL_translateY.o" "Background_Male_RigRN.phl[398]";
-connectAttr "R_Foot_CTRL_translateZ.o" "Background_Male_RigRN.phl[399]";
-connectAttr "R_Foot_CTRL_rotateX.o" "Background_Male_RigRN.phl[400]";
-connectAttr "R_Foot_CTRL_rotateY.o" "Background_Male_RigRN.phl[401]";
-connectAttr "R_Foot_CTRL_rotateZ.o" "Background_Male_RigRN.phl[402]";
+connectAttr "COG_CTRL_translateX.o" "Background_Male_RigRN.phl[1]";
+connectAttr "COG_CTRL_translateY.o" "Background_Male_RigRN.phl[2]";
+connectAttr "COG_CTRL_translateZ.o" "Background_Male_RigRN.phl[3]";
+connectAttr "COG_CTRL_rotateX.o" "Background_Male_RigRN.phl[4]";
+connectAttr "COG_CTRL_rotateY.o" "Background_Male_RigRN.phl[5]";
+connectAttr "COG_CTRL_rotateZ.o" "Background_Male_RigRN.phl[6]";
+connectAttr "R_Leg_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[7]";
+connectAttr "R_Leg_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[8]";
+connectAttr "R_Leg_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[9]";
+connectAttr "R_Leg_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[10]";
+connectAttr "R_Leg_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[11]";
+connectAttr "R_Leg_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[12]";
+connectAttr "R_Leg_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[13]";
+connectAttr "R_Leg_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[14]";
+connectAttr "R_Leg_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[15]";
+connectAttr "R_Leg_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[16]";
+connectAttr "R_Leg_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[17]";
+connectAttr "R_Leg_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[18]";
+connectAttr "R_Leg_3_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[19]";
+connectAttr "R_Leg_3_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[20]";
+connectAttr "R_Leg_3_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[21]";
+connectAttr "R_Leg_3_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[22]";
+connectAttr "R_Leg_3_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[23]";
+connectAttr "R_Leg_3_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[24]";
+connectAttr "L_Leg_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[25]";
+connectAttr "L_Leg_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[26]";
+connectAttr "L_Leg_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[27]";
+connectAttr "L_Leg_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[28]";
+connectAttr "L_Leg_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[29]";
+connectAttr "L_Leg_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[30]";
+connectAttr "L_Leg_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[31]";
+connectAttr "L_Leg_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[32]";
+connectAttr "L_Leg_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[33]";
+connectAttr "L_Leg_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[34]";
+connectAttr "L_Leg_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[35]";
+connectAttr "L_Leg_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[36]";
+connectAttr "L_Leg_3_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[37]";
+connectAttr "L_Leg_3_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[38]";
+connectAttr "L_Leg_3_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[39]";
+connectAttr "L_Leg_3_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[40]";
+connectAttr "L_Leg_3_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[41]";
+connectAttr "L_Leg_3_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[42]";
+connectAttr "R_Arm_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[43]";
+connectAttr "R_Arm_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[44]";
+connectAttr "R_Arm_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[45]";
+connectAttr "R_Arm_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[46]";
+connectAttr "R_Arm_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[47]";
+connectAttr "R_Arm_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[48]";
+connectAttr "R_Arm_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[49]";
+connectAttr "R_Arm_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[50]";
+connectAttr "R_Arm_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[51]";
+connectAttr "R_Arm_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[52]";
+connectAttr "R_Arm_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[53]";
+connectAttr "R_Arm_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[54]";
+connectAttr "L_Arm_1_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[55]";
+connectAttr "L_Arm_1_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[56]";
+connectAttr "L_Arm_1_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[57]";
+connectAttr "L_Arm_1_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[58]";
+connectAttr "L_Arm_1_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[59]";
+connectAttr "L_Arm_1_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[60]";
+connectAttr "L_Arm_2_FK_CTRL_translateX.o" "Background_Male_RigRN.phl[61]";
+connectAttr "L_Arm_2_FK_CTRL_translateY.o" "Background_Male_RigRN.phl[62]";
+connectAttr "L_Arm_2_FK_CTRL_translateZ.o" "Background_Male_RigRN.phl[63]";
+connectAttr "L_Arm_2_FK_CTRL_rotateX.o" "Background_Male_RigRN.phl[64]";
+connectAttr "L_Arm_2_FK_CTRL_rotateY.o" "Background_Male_RigRN.phl[65]";
+connectAttr "L_Arm_2_FK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[66]";
+connectAttr "L_Arm_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[67]";
+connectAttr "L_Arm_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[68]";
+connectAttr "L_Arm_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[69]";
+connectAttr "L_Arm_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[70]";
+connectAttr "L_Arm_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[71]";
+connectAttr "L_Arm_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[72]";
+connectAttr "L_Arm_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[73]";
+connectAttr "L_Arm_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[74]";
+connectAttr "L_Arm_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[75]";
+connectAttr "L_Arm_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[76]";
+connectAttr "L_Arm_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[77]";
+connectAttr "L_Arm_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[78]";
+connectAttr "L_Arm_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[79]";
+connectAttr "L_Arm_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[80]";
+connectAttr "L_Arm_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[81]";
+connectAttr "L_Arm_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[82]";
+connectAttr "L_Arm_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[83]";
+connectAttr "L_Arm_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[84]";
+connectAttr "R_Arm_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[85]";
+connectAttr "R_Arm_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[86]";
+connectAttr "R_Arm_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[87]";
+connectAttr "R_Arm_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[88]";
+connectAttr "R_Arm_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[89]";
+connectAttr "R_Arm_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[90]";
+connectAttr "R_Arm_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[91]";
+connectAttr "R_Arm_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[92]";
+connectAttr "R_Arm_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[93]";
+connectAttr "R_Arm_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[94]";
+connectAttr "R_Arm_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[95]";
+connectAttr "R_Arm_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[96]";
+connectAttr "R_Arm_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[97]";
+connectAttr "R_Arm_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[98]";
+connectAttr "R_Arm_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[99]";
+connectAttr "R_Arm_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[100]";
+connectAttr "R_Arm_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[101]";
+connectAttr "R_Arm_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[102]";
+connectAttr "L_Leg_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[103]";
+connectAttr "L_Leg_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[104]";
+connectAttr "L_Leg_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[105]";
+connectAttr "L_Leg_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[106]";
+connectAttr "L_Leg_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[107]";
+connectAttr "L_Leg_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[108]";
+connectAttr "L_Leg_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[109]";
+connectAttr "L_Leg_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[110]";
+connectAttr "L_Leg_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[111]";
+connectAttr "L_Leg_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[112]";
+connectAttr "L_Leg_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[113]";
+connectAttr "L_Leg_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[114]";
+connectAttr "L_Leg_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[115]";
+connectAttr "L_Leg_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[116]";
+connectAttr "L_Leg_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[117]";
+connectAttr "L_Leg_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[118]";
+connectAttr "L_Leg_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[119]";
+connectAttr "L_Leg_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[120]";
+connectAttr "R_Leg_1_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[121]";
+connectAttr "R_Leg_1_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[122]";
+connectAttr "R_Leg_1_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[123]";
+connectAttr "R_Leg_1_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[124]";
+connectAttr "R_Leg_1_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[125]";
+connectAttr "R_Leg_1_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[126]";
+connectAttr "R_Leg_PV_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[127]";
+connectAttr "R_Leg_PV_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[128]";
+connectAttr "R_Leg_PV_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[129]";
+connectAttr "R_Leg_PV_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[130]";
+connectAttr "R_Leg_PV_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[131]";
+connectAttr "R_Leg_PV_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[132]";
+connectAttr "R_Leg_3_IK_CTRL_rotateX.o" "Background_Male_RigRN.phl[133]";
+connectAttr "R_Leg_3_IK_CTRL_rotateY.o" "Background_Male_RigRN.phl[134]";
+connectAttr "R_Leg_3_IK_CTRL_rotateZ.o" "Background_Male_RigRN.phl[135]";
+connectAttr "R_Leg_3_IK_CTRL_translateX.o" "Background_Male_RigRN.phl[136]";
+connectAttr "R_Leg_3_IK_CTRL_translateY.o" "Background_Male_RigRN.phl[137]";
+connectAttr "R_Leg_3_IK_CTRL_translateZ.o" "Background_Male_RigRN.phl[138]";
+connectAttr "L_Shoulder_CTRL_translateX.o" "Background_Male_RigRN.phl[139]";
+connectAttr "L_Shoulder_CTRL_translateY.o" "Background_Male_RigRN.phl[140]";
+connectAttr "L_Shoulder_CTRL_translateZ.o" "Background_Male_RigRN.phl[141]";
+connectAttr "L_Shoulder_CTRL_rotateX.o" "Background_Male_RigRN.phl[142]";
+connectAttr "L_Shoulder_CTRL_rotateY.o" "Background_Male_RigRN.phl[143]";
+connectAttr "L_Shoulder_CTRL_rotateZ.o" "Background_Male_RigRN.phl[144]";
+connectAttr "R_Shoulder_CTRL_translateX.o" "Background_Male_RigRN.phl[145]";
+connectAttr "R_Shoulder_CTRL_translateY.o" "Background_Male_RigRN.phl[146]";
+connectAttr "R_Shoulder_CTRL_translateZ.o" "Background_Male_RigRN.phl[147]";
+connectAttr "R_Shoulder_CTRL_rotateX.o" "Background_Male_RigRN.phl[148]";
+connectAttr "R_Shoulder_CTRL_rotateY.o" "Background_Male_RigRN.phl[149]";
+connectAttr "R_Shoulder_CTRL_rotateZ.o" "Background_Male_RigRN.phl[150]";
+connectAttr "L_Wrist_CTRL_translateX.o" "Background_Male_RigRN.phl[151]";
+connectAttr "L_Wrist_CTRL_translateY.o" "Background_Male_RigRN.phl[152]";
+connectAttr "L_Wrist_CTRL_translateZ.o" "Background_Male_RigRN.phl[153]";
+connectAttr "L_Wrist_CTRL_rotateX.o" "Background_Male_RigRN.phl[154]";
+connectAttr "L_Wrist_CTRL_rotateY.o" "Background_Male_RigRN.phl[155]";
+connectAttr "L_Wrist_CTRL_rotateZ.o" "Background_Male_RigRN.phl[156]";
+connectAttr "L_Finger1_1_CTRL_translateX.o" "Background_Male_RigRN.phl[157]";
+connectAttr "L_Finger1_1_CTRL_translateY.o" "Background_Male_RigRN.phl[158]";
+connectAttr "L_Finger1_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[159]";
+connectAttr "L_Finger1_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[160]";
+connectAttr "L_Finger1_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[161]";
+connectAttr "L_Finger1_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[162]";
+connectAttr "L_Finger1_2_CTRL_translateX.o" "Background_Male_RigRN.phl[163]";
+connectAttr "L_Finger1_2_CTRL_translateY.o" "Background_Male_RigRN.phl[164]";
+connectAttr "L_Finger1_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[165]";
+connectAttr "L_Finger1_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[166]";
+connectAttr "L_Finger1_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[167]";
+connectAttr "L_Finger1_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[168]";
+connectAttr "L_Finger1_3_CTRL_translateX.o" "Background_Male_RigRN.phl[169]";
+connectAttr "L_Finger1_3_CTRL_translateY.o" "Background_Male_RigRN.phl[170]";
+connectAttr "L_Finger1_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[171]";
+connectAttr "L_Finger1_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[172]";
+connectAttr "L_Finger1_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[173]";
+connectAttr "L_Finger1_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[174]";
+connectAttr "L_Finger2_1_CTRL_translateX.o" "Background_Male_RigRN.phl[175]";
+connectAttr "L_Finger2_1_CTRL_translateY.o" "Background_Male_RigRN.phl[176]";
+connectAttr "L_Finger2_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[177]";
+connectAttr "L_Finger2_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[178]";
+connectAttr "L_Finger2_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[179]";
+connectAttr "L_Finger2_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[180]";
+connectAttr "L_Finger2_2_CTRL_translateX.o" "Background_Male_RigRN.phl[181]";
+connectAttr "L_Finger2_2_CTRL_translateY.o" "Background_Male_RigRN.phl[182]";
+connectAttr "L_Finger2_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[183]";
+connectAttr "L_Finger2_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[184]";
+connectAttr "L_Finger2_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[185]";
+connectAttr "L_Finger2_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[186]";
+connectAttr "L_Finger2_3_CTRL_translateX.o" "Background_Male_RigRN.phl[187]";
+connectAttr "L_Finger2_3_CTRL_translateY.o" "Background_Male_RigRN.phl[188]";
+connectAttr "L_Finger2_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[189]";
+connectAttr "L_Finger2_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[190]";
+connectAttr "L_Finger2_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[191]";
+connectAttr "L_Finger2_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[192]";
+connectAttr "L_Finger3_1_CTRL_translateX.o" "Background_Male_RigRN.phl[193]";
+connectAttr "L_Finger3_1_CTRL_translateY.o" "Background_Male_RigRN.phl[194]";
+connectAttr "L_Finger3_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[195]";
+connectAttr "L_Finger3_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[196]";
+connectAttr "L_Finger3_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[197]";
+connectAttr "L_Finger3_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[198]";
+connectAttr "L_Finger3_2_CTRL_translateX.o" "Background_Male_RigRN.phl[199]";
+connectAttr "L_Finger3_2_CTRL_translateY.o" "Background_Male_RigRN.phl[200]";
+connectAttr "L_Finger3_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[201]";
+connectAttr "L_Finger3_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[202]";
+connectAttr "L_Finger3_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[203]";
+connectAttr "L_Finger3_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[204]";
+connectAttr "L_Finger3_3_CTRL_translateX.o" "Background_Male_RigRN.phl[205]";
+connectAttr "L_Finger3_3_CTRL_translateY.o" "Background_Male_RigRN.phl[206]";
+connectAttr "L_Finger3_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[207]";
+connectAttr "L_Finger3_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[208]";
+connectAttr "L_Finger3_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[209]";
+connectAttr "L_Finger3_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[210]";
+connectAttr "L_Finger4_1_CTRL_translateX.o" "Background_Male_RigRN.phl[211]";
+connectAttr "L_Finger4_1_CTRL_translateY.o" "Background_Male_RigRN.phl[212]";
+connectAttr "L_Finger4_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[213]";
+connectAttr "L_Finger4_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[214]";
+connectAttr "L_Finger4_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[215]";
+connectAttr "L_Finger4_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[216]";
+connectAttr "L_Finger4_2_CTRL_translateX.o" "Background_Male_RigRN.phl[217]";
+connectAttr "L_Finger4_2_CTRL_translateY.o" "Background_Male_RigRN.phl[218]";
+connectAttr "L_Finger4_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[219]";
+connectAttr "L_Finger4_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[220]";
+connectAttr "L_Finger4_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[221]";
+connectAttr "L_Finger4_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[222]";
+connectAttr "L_Finger4_3_CTRL_translateX.o" "Background_Male_RigRN.phl[223]";
+connectAttr "L_Finger4_3_CTRL_translateY.o" "Background_Male_RigRN.phl[224]";
+connectAttr "L_Finger4_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[225]";
+connectAttr "L_Finger4_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[226]";
+connectAttr "L_Finger4_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[227]";
+connectAttr "L_Finger4_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[228]";
+connectAttr "L_Finger5_1_CTRL_translateX.o" "Background_Male_RigRN.phl[229]";
+connectAttr "L_Finger5_1_CTRL_translateY.o" "Background_Male_RigRN.phl[230]";
+connectAttr "L_Finger5_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[231]";
+connectAttr "L_Finger5_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[232]";
+connectAttr "L_Finger5_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[233]";
+connectAttr "L_Finger5_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[234]";
+connectAttr "L_Finger5_2_CTRL_translateX.o" "Background_Male_RigRN.phl[235]";
+connectAttr "L_Finger5_2_CTRL_translateY.o" "Background_Male_RigRN.phl[236]";
+connectAttr "L_Finger5_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[237]";
+connectAttr "L_Finger5_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[238]";
+connectAttr "L_Finger5_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[239]";
+connectAttr "L_Finger5_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[240]";
+connectAttr "L_Finger5_3_CTRL_translateX.o" "Background_Male_RigRN.phl[241]";
+connectAttr "L_Finger5_3_CTRL_translateY.o" "Background_Male_RigRN.phl[242]";
+connectAttr "L_Finger5_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[243]";
+connectAttr "L_Finger5_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[244]";
+connectAttr "L_Finger5_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[245]";
+connectAttr "L_Finger5_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[246]";
+connectAttr "R_Wrist_CTRL_translateX.o" "Background_Male_RigRN.phl[247]";
+connectAttr "R_Wrist_CTRL_translateY.o" "Background_Male_RigRN.phl[248]";
+connectAttr "R_Wrist_CTRL_translateZ.o" "Background_Male_RigRN.phl[249]";
+connectAttr "R_Wrist_CTRL_rotateX.o" "Background_Male_RigRN.phl[250]";
+connectAttr "R_Wrist_CTRL_rotateY.o" "Background_Male_RigRN.phl[251]";
+connectAttr "R_Wrist_CTRL_rotateZ.o" "Background_Male_RigRN.phl[252]";
+connectAttr "R_Finger1_1_CTRL_translateX.o" "Background_Male_RigRN.phl[253]";
+connectAttr "R_Finger1_1_CTRL_translateY.o" "Background_Male_RigRN.phl[254]";
+connectAttr "R_Finger1_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[255]";
+connectAttr "R_Finger1_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[256]";
+connectAttr "R_Finger1_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[257]";
+connectAttr "R_Finger1_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[258]";
+connectAttr "R_Finger1_2_CTRL_translateX.o" "Background_Male_RigRN.phl[259]";
+connectAttr "R_Finger1_2_CTRL_translateY.o" "Background_Male_RigRN.phl[260]";
+connectAttr "R_Finger1_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[261]";
+connectAttr "R_Finger1_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[262]";
+connectAttr "R_Finger1_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[263]";
+connectAttr "R_Finger1_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[264]";
+connectAttr "R_Finger1_3_CTRL_translateX.o" "Background_Male_RigRN.phl[265]";
+connectAttr "R_Finger1_3_CTRL_translateY.o" "Background_Male_RigRN.phl[266]";
+connectAttr "R_Finger1_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[267]";
+connectAttr "R_Finger1_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[268]";
+connectAttr "R_Finger1_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[269]";
+connectAttr "R_Finger1_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[270]";
+connectAttr "R_Finger2_1_CTRL_translateX.o" "Background_Male_RigRN.phl[271]";
+connectAttr "R_Finger2_1_CTRL_translateY.o" "Background_Male_RigRN.phl[272]";
+connectAttr "R_Finger2_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[273]";
+connectAttr "R_Finger2_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[274]";
+connectAttr "R_Finger2_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[275]";
+connectAttr "R_Finger2_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[276]";
+connectAttr "R_Finger2_2_CTRL_translateX.o" "Background_Male_RigRN.phl[277]";
+connectAttr "R_Finger2_2_CTRL_translateY.o" "Background_Male_RigRN.phl[278]";
+connectAttr "R_Finger2_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[279]";
+connectAttr "R_Finger2_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[280]";
+connectAttr "R_Finger2_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[281]";
+connectAttr "R_Finger2_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[282]";
+connectAttr "R_Finger2_3_CTRL_translateX.o" "Background_Male_RigRN.phl[283]";
+connectAttr "R_Finger2_3_CTRL_translateY.o" "Background_Male_RigRN.phl[284]";
+connectAttr "R_Finger2_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[285]";
+connectAttr "R_Finger2_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[286]";
+connectAttr "R_Finger2_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[287]";
+connectAttr "R_Finger2_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[288]";
+connectAttr "R_Finger3_1_CTRL_translateX.o" "Background_Male_RigRN.phl[289]";
+connectAttr "R_Finger3_1_CTRL_translateY.o" "Background_Male_RigRN.phl[290]";
+connectAttr "R_Finger3_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[291]";
+connectAttr "R_Finger3_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[292]";
+connectAttr "R_Finger3_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[293]";
+connectAttr "R_Finger3_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[294]";
+connectAttr "R_Finger3_2_CTRL_translateX.o" "Background_Male_RigRN.phl[295]";
+connectAttr "R_Finger3_2_CTRL_translateY.o" "Background_Male_RigRN.phl[296]";
+connectAttr "R_Finger3_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[297]";
+connectAttr "R_Finger3_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[298]";
+connectAttr "R_Finger3_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[299]";
+connectAttr "R_Finger3_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[300]";
+connectAttr "R_Finger3_3_CTRL_translateX.o" "Background_Male_RigRN.phl[301]";
+connectAttr "R_Finger3_3_CTRL_translateY.o" "Background_Male_RigRN.phl[302]";
+connectAttr "R_Finger3_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[303]";
+connectAttr "R_Finger3_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[304]";
+connectAttr "R_Finger3_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[305]";
+connectAttr "R_Finger3_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[306]";
+connectAttr "R_Finger4_1_CTRL_translateX.o" "Background_Male_RigRN.phl[307]";
+connectAttr "R_Finger4_1_CTRL_translateY.o" "Background_Male_RigRN.phl[308]";
+connectAttr "R_Finger4_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[309]";
+connectAttr "R_Finger4_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[310]";
+connectAttr "R_Finger4_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[311]";
+connectAttr "R_Finger4_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[312]";
+connectAttr "R_Finger4_2_CTRL_translateX.o" "Background_Male_RigRN.phl[313]";
+connectAttr "R_Finger4_2_CTRL_translateY.o" "Background_Male_RigRN.phl[314]";
+connectAttr "R_Finger4_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[315]";
+connectAttr "R_Finger4_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[316]";
+connectAttr "R_Finger4_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[317]";
+connectAttr "R_Finger4_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[318]";
+connectAttr "R_Finger4_3_CTRL_translateX.o" "Background_Male_RigRN.phl[319]";
+connectAttr "R_Finger4_3_CTRL_translateY.o" "Background_Male_RigRN.phl[320]";
+connectAttr "R_Finger4_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[321]";
+connectAttr "R_Finger4_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[322]";
+connectAttr "R_Finger4_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[323]";
+connectAttr "R_Finger4_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[324]";
+connectAttr "R_Finger5_1_CTRL_translateX.o" "Background_Male_RigRN.phl[325]";
+connectAttr "R_Finger5_1_CTRL_translateY.o" "Background_Male_RigRN.phl[326]";
+connectAttr "R_Finger5_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[327]";
+connectAttr "R_Finger5_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[328]";
+connectAttr "R_Finger5_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[329]";
+connectAttr "R_Finger5_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[330]";
+connectAttr "R_Finger5_2_CTRL_translateX.o" "Background_Male_RigRN.phl[331]";
+connectAttr "R_Finger5_2_CTRL_translateY.o" "Background_Male_RigRN.phl[332]";
+connectAttr "R_Finger5_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[333]";
+connectAttr "R_Finger5_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[334]";
+connectAttr "R_Finger5_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[335]";
+connectAttr "R_Finger5_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[336]";
+connectAttr "R_Finger5_3_CTRL_translateX.o" "Background_Male_RigRN.phl[337]";
+connectAttr "R_Finger5_3_CTRL_translateY.o" "Background_Male_RigRN.phl[338]";
+connectAttr "R_Finger5_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[339]";
+connectAttr "R_Finger5_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[340]";
+connectAttr "R_Finger5_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[341]";
+connectAttr "R_Finger5_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[342]";
+connectAttr "Spine_6_Head_CTRL_translateX.o" "Background_Male_RigRN.phl[343]";
+connectAttr "Spine_6_Head_CTRL_translateY.o" "Background_Male_RigRN.phl[344]";
+connectAttr "Spine_6_Head_CTRL_translateZ.o" "Background_Male_RigRN.phl[345]";
+connectAttr "Spine_6_Head_CTRL_rotateX.o" "Background_Male_RigRN.phl[346]";
+connectAttr "Spine_6_Head_CTRL_rotateY.o" "Background_Male_RigRN.phl[347]";
+connectAttr "Spine_6_Head_CTRL_rotateZ.o" "Background_Male_RigRN.phl[348]";
+connectAttr "Spine_5_CTRL_translateX.o" "Background_Male_RigRN.phl[349]";
+connectAttr "Spine_5_CTRL_translateY.o" "Background_Male_RigRN.phl[350]";
+connectAttr "Spine_5_CTRL_translateZ.o" "Background_Male_RigRN.phl[351]";
+connectAttr "Spine_5_CTRL_rotateX.o" "Background_Male_RigRN.phl[352]";
+connectAttr "Spine_5_CTRL_rotateY.o" "Background_Male_RigRN.phl[353]";
+connectAttr "Spine_5_CTRL_rotateZ.o" "Background_Male_RigRN.phl[354]";
+connectAttr "Spine_4_CTRL_translateX.o" "Background_Male_RigRN.phl[355]";
+connectAttr "Spine_4_CTRL_translateY.o" "Background_Male_RigRN.phl[356]";
+connectAttr "Spine_4_CTRL_translateZ.o" "Background_Male_RigRN.phl[357]";
+connectAttr "Spine_4_CTRL_rotateX.o" "Background_Male_RigRN.phl[358]";
+connectAttr "Spine_4_CTRL_rotateY.o" "Background_Male_RigRN.phl[359]";
+connectAttr "Spine_4_CTRL_rotateZ.o" "Background_Male_RigRN.phl[360]";
+connectAttr "Spine_3_CTRL_translateX.o" "Background_Male_RigRN.phl[361]";
+connectAttr "Spine_3_CTRL_translateY.o" "Background_Male_RigRN.phl[362]";
+connectAttr "Spine_3_CTRL_translateZ.o" "Background_Male_RigRN.phl[363]";
+connectAttr "Spine_3_CTRL_rotateX.o" "Background_Male_RigRN.phl[364]";
+connectAttr "Spine_3_CTRL_rotateY.o" "Background_Male_RigRN.phl[365]";
+connectAttr "Spine_3_CTRL_rotateZ.o" "Background_Male_RigRN.phl[366]";
+connectAttr "Spine_2_CTRL_translateX.o" "Background_Male_RigRN.phl[367]";
+connectAttr "Spine_2_CTRL_translateY.o" "Background_Male_RigRN.phl[368]";
+connectAttr "Spine_2_CTRL_translateZ.o" "Background_Male_RigRN.phl[369]";
+connectAttr "Spine_2_CTRL_rotateX.o" "Background_Male_RigRN.phl[370]";
+connectAttr "Spine_2_CTRL_rotateY.o" "Background_Male_RigRN.phl[371]";
+connectAttr "Spine_2_CTRL_rotateZ.o" "Background_Male_RigRN.phl[372]";
+connectAttr "Spine_1_CTRL_translateX.o" "Background_Male_RigRN.phl[373]";
+connectAttr "Spine_1_CTRL_translateY.o" "Background_Male_RigRN.phl[374]";
+connectAttr "Spine_1_CTRL_translateZ.o" "Background_Male_RigRN.phl[375]";
+connectAttr "Spine_1_CTRL_rotateX.o" "Background_Male_RigRN.phl[376]";
+connectAttr "Spine_1_CTRL_rotateY.o" "Background_Male_RigRN.phl[377]";
+connectAttr "Spine_1_CTRL_rotateZ.o" "Background_Male_RigRN.phl[378]";
+connectAttr "Hip_CTRL_translateX.o" "Background_Male_RigRN.phl[379]";
+connectAttr "Hip_CTRL_translateY.o" "Background_Male_RigRN.phl[380]";
+connectAttr "Hip_CTRL_translateZ.o" "Background_Male_RigRN.phl[381]";
+connectAttr "Hip_CTRL_rotateX.o" "Background_Male_RigRN.phl[382]";
+connectAttr "Hip_CTRL_rotateY.o" "Background_Male_RigRN.phl[383]";
+connectAttr "Hip_CTRL_rotateZ.o" "Background_Male_RigRN.phl[384]";
+connectAttr "L_Foot_CTRL_translateX.o" "Background_Male_RigRN.phl[385]";
+connectAttr "L_Foot_CTRL_translateY.o" "Background_Male_RigRN.phl[386]";
+connectAttr "L_Foot_CTRL_translateZ.o" "Background_Male_RigRN.phl[387]";
+connectAttr "L_Foot_CTRL_rotateX.o" "Background_Male_RigRN.phl[388]";
+connectAttr "L_Foot_CTRL_rotateY.o" "Background_Male_RigRN.phl[389]";
+connectAttr "L_Foot_CTRL_rotateZ.o" "Background_Male_RigRN.phl[390]";
+connectAttr "R_Foot_CTRL_translateX.o" "Background_Male_RigRN.phl[391]";
+connectAttr "R_Foot_CTRL_translateY.o" "Background_Male_RigRN.phl[392]";
+connectAttr "R_Foot_CTRL_translateZ.o" "Background_Male_RigRN.phl[393]";
+connectAttr "R_Foot_CTRL_rotateX.o" "Background_Male_RigRN.phl[394]";
+connectAttr "R_Foot_CTRL_rotateY.o" "Background_Male_RigRN.phl[395]";
+connectAttr "R_Foot_CTRL_rotateZ.o" "Background_Male_RigRN.phl[396]";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
