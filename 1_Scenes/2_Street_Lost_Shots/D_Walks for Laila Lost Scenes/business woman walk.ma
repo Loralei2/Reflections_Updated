@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: business woman walk.ma
-//Last modified: Mon, Nov 30, 2020 07:11:50 AM
+//Last modified: Wed, Feb 03, 2021 07:45:26 PM
 //Codeset: 1252
 file -rdi 1 -ns "Business_Woman_Rig" -rfn "Business_Woman_RigRN" -op "v=0;" 
 		-typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Business Woman Rig.ma";
@@ -17,17 +17,17 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
-fileInfo "UUID" "71ED42A7-4215-68E4-C86A-53BA54B82908";
+fileInfo "UUID" "86F8FE6F-42AA-8419-E5CD-7FB0F1FD9F4C";
 createNode transform -s -n "persp";
 	rename -uid "C420F4DC-454C-BC8F-8136-6BB56E94D36D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1053.5520507347235 135.15983205199001 239.0720175421018 ;
-	setAttr ".r" -type "double3" -3.3383527319356059 -2237.000000000171 8.8367964388454896e-16 ;
+	setAttr ".t" -type "double3" -587.50450698837687 25.560029972232503 243.22287595576691 ;
+	setAttr ".r" -type "double3" 5.061647268061404 -2234.1999999999075 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "66052EBC-4C05-C813-FA43-58BFE30D56F8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1108.1043226126301;
+	setAttr ".coi" 641.96766409790973;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -85,27 +85,27 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "55A128F2-4CD4-E12B-D606-37BC1B7186D5";
+	rename -uid "535F5009-4979-2438-9066-7984EE75EE49";
 	setAttr -s 83 ".lnk";
 	setAttr -s 83 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "2DEE9FAF-4191-B134-992A-7D8EA30DF096";
+	rename -uid "0C2E7551-4C82-877F-947D-699758487F9D";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "6284103D-4A73-E0AF-3120-B69B794CB28D";
+	rename -uid "8C15D22E-4FE6-ED6A-E568-34A7B9C3D05F";
 	setAttr ".tpdt[0].tpcd" -type "Int32Array" 1 0 ;
 createNode displayLayerManager -n "layerManager";
-	rename -uid "6C17592C-4699-7025-9AFB-D3ADBEE5E418";
+	rename -uid "DFA44440-4435-C9C3-1C4A-E99B6FE739D3";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "07997D86-462C-0F65-FAB9-188E3ED96D69";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "E5451CEE-4919-0CF0-3AA2-BB92164598F0";
+	rename -uid "535D16EA-4BF1-575C-6A15-DF98E0A9CB2C";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "9953415B-474F-4793-A8A8-A59B6ED797A1";
 	setAttr ".g" yes;
 createNode reference -n "Business_Woman_RigRN";
 	rename -uid "841D7280-4697-66F2-A6CE-F088722A7B27";
-	setAttr -s 167 ".phl";
+	setAttr -s 173 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -273,14 +273,20 @@ createNode reference -n "Business_Woman_RigRN";
 	setAttr ".phl[165]" 0;
 	setAttr ".phl[166]" 0;
 	setAttr ".phl[167]" 0;
+	setAttr ".phl[168]" 0;
+	setAttr ".phl[169]" 0;
+	setAttr ".phl[170]" 0;
+	setAttr ".phl[171]" 0;
+	setAttr ".phl[172]" 0;
+	setAttr ".phl[173]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Business_Woman_RigRN"
 		"Business_Woman_RigRN" 0
-		"Business_Woman_RigRN" 291
+		"Business_Woman_RigRN" 301
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl" 
 		"visibility" " 1"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl" 
-		"translate" " -type \"double3\" 0.0096260566536960634 -1.68287969423150008 0"
+		"translate" " -type \"double3\" 0.94080366335635679 -6.94020710085041248 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl" 
 		"translateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl" 
@@ -298,24 +304,26 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl" 
 		"scale" " -type \"double3\" 1 1 1"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Hip_Jnt_Ctrl_Grp|Business_Woman_Rig:Hip_Jnt_Ctrl" 
-		"rotate" " -type \"double3\" -3.4139678238340565 -4.06191587179760205 0"
+		"rotate" " -type \"double3\" -8.71068237533872924 5.10362999919210125 -0.78085700402128799"
+		
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Hip_Jnt_Ctrl_Grp|Business_Woman_Rig:Hip_Jnt_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Hip_Jnt_Ctrl_Grp|Business_Woman_Rig:Hip_Jnt_Ctrl" 
 		"rotateY" " -av"
+		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Hip_Jnt_Ctrl_Grp|Business_Woman_Rig:Hip_Jnt_Ctrl" 
+		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl" 
-		"rotate" " -type \"double3\" 8.00866106867499639 0 0"
+		"rotate" " -type \"double3\" 0.00024546962503233362 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 17.04545377095306691 0 0"
+		"rotate" " -type \"double3\" -12.05150000000000432 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:Neck_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Neck_Jnt_001_Ctrl|Business_Woman_Rig:Head_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Head_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" -24.99528215427165989 -0.85864387214659443 -1.70624886740899084"
-		
+		"rotate" " -type \"double3\" 12.52680606011069386 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:Neck_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Neck_Jnt_001_Ctrl|Business_Woman_Rig:Head_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Head_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:Neck_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Neck_Jnt_001_Ctrl|Business_Woman_Rig:Head_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Head_Jnt_001_Ctrl" 
@@ -323,7 +331,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:Neck_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Neck_Jnt_001_Ctrl|Business_Woman_Rig:Head_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Head_Jnt_001_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 4.80307342445280572 -21.36355139308260931 -66.7559115415716775"
+		"rotate" " -type \"double3\" 13.5022129001626876 11.04659513570862472 -58.01878364280583611"
 		
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -332,7 +340,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_" 
-		"rotate" " -type \"double3\" 21.80232452337108384 -29.02444963188123594 -26.18327197087430491"
+		"rotate" " -type \"double3\" 10.21787596630738726 5.36629490409444543 -21.92330762487410212"
 		
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_" 
 		"rotateX" " -av"
@@ -341,7 +349,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" -1.09389484198285181 10.73134190959194001 -1.91297281526166008"
+		"rotate" " -type \"double3\" -5.27808207502746551 5.7625074323752985 -11.87926661040687648"
 		
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -350,7 +358,8 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:COG_Ctrl_Grp|Business_Woman_Rig:COG_Ctrl|Business_Woman_Rig:Upper_Body_Ctrl_Grp|Business_Woman_Rig:Upper_Body_Ctrl|Business_Woman_Rig:Spine_Jnt_001_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_001_Ctrl|Business_Woman_Rig:Spine_Jnt_002_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_002_Ctrl|Business_Woman_Rig:Spine_Jnt_003_Ctrl_Grp|Business_Woman_Rig:Spine_Jnt_003_Ctrl|Business_Woman_Rig:R_Clav_Jnt_Ctrl_Grp|Business_Woman_Rig:R_Clav_Jnt_Ctrl|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_001_Ctrl|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_002_Ctrl_|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl_Grp|Business_Woman_Rig:R_Arm_Jnt_003_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" 1.78374063870583921 0.81945138184462096 0"
+		"translate" " -type \"double3\" 4.26601409933176257 3.8957798104419803 -0.23105389496572762"
+		
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
 		"translateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
@@ -358,7 +367,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" 0 0 -54.80986344273878785"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl" 
@@ -394,8 +403,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_L_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_L_Heel_Ctrl_Grp|Business_Woman_Rig:_L_Heel_Ctrl|Business_Woman_Rig:_L_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_L_OuterRoll_Ctrl|Business_Woman_Rig:_L_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_L_InnerRoll_Ctrl|Business_Woman_Rig:_L_Toe_Ctrl_Grp|Business_Woman_Rig:_L_Toe_Ctrl|Business_Woman_Rig:_L_Ball_Ctrl_Grp|Business_Woman_Rig:_L_Ball_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" 1.82443417947210662 0.25733700170857943 0.20004021764768459"
-		
+		"translate" " -type \"double3\" -5.88612026627340512 -2.70408672720541521 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
 		"translateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
@@ -403,7 +411,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -23.11841370434991205"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl" 
@@ -427,7 +435,7 @@ createNode reference -n "Business_Woman_RigRN";
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_R_Heel_Ctrl_Grp|Business_Woman_Rig:_R_Heel_Ctrl|Business_Woman_Rig:_R_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_R_OuterRoll_Ctrl|Business_Woman_Rig:_R_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_R_InnerRoll_Ctrl|Business_Woman_Rig:_R_Toe_Ctrl_Grp|Business_Woman_Rig:_R_Toe_Ctrl" 
 		"translateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_R_Heel_Ctrl_Grp|Business_Woman_Rig:_R_Heel_Ctrl|Business_Woman_Rig:_R_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_R_OuterRoll_Ctrl|Business_Woman_Rig:_R_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_R_InnerRoll_Ctrl|Business_Woman_Rig:_R_Toe_Ctrl_Grp|Business_Woman_Rig:_R_Toe_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -25.63171051875935191"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_R_Heel_Ctrl_Grp|Business_Woman_Rig:_R_Heel_Ctrl|Business_Woman_Rig:_R_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_R_OuterRoll_Ctrl|Business_Woman_Rig:_R_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_R_InnerRoll_Ctrl|Business_Woman_Rig:_R_Toe_Ctrl_Grp|Business_Woman_Rig:_R_Toe_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_R_Heel_Ctrl_Grp|Business_Woman_Rig:_R_Heel_Ctrl|Business_Woman_Rig:_R_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_R_OuterRoll_Ctrl|Business_Woman_Rig:_R_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_R_InnerRoll_Ctrl|Business_Woman_Rig:_R_Toe_Ctrl_Grp|Business_Woman_Rig:_R_Toe_Ctrl|Business_Woman_Rig:_R_ToeFlap_Ctrl_Grp|Business_Woman_Rig:_R_ToeFlap_Ctrl" 
@@ -460,6 +468,12 @@ createNode reference -n "Business_Woman_RigRN";
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:Transform_Ctrl_Grp|Business_Woman_Rig:Transform_Ctrl|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_IK_R_Leg_Jnt_003_Ctrl|Business_Woman_Rig:_R_Heel_Ctrl_Grp|Business_Woman_Rig:_R_Heel_Ctrl|Business_Woman_Rig:_R_OuterRoll_Ctrl_Grp|Business_Woman_Rig:_R_OuterRoll_Ctrl|Business_Woman_Rig:_R_InnerRoll_Ctrl_Grp|Business_Woman_Rig:_R_InnerRoll_Ctrl|Business_Woman_Rig:_R_Toe_Ctrl_Grp|Business_Woman_Rig:_R_Toe_Ctrl|Business_Woman_Rig:_R_Ball_Ctrl_Grp|Business_Woman_Rig:_R_Ball_Ctrl" 
 		"rotateZ" " -av"
+		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl" 
+		"rotate" " -type \"double3\" 0 0 0"
+		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl" 
+		"rotate" " -type \"double3\" 0 -0.1711542546603228 0"
+		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl" 
+		"rotateY" " -av"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:BFGeo_low|Business_Woman_Rig:BFJacket_low|Business_Woman_Rig:BFJacket_lowShape" 
 		"ghosting" " 0"
 		2 "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:BFGeo_low|Business_Woman_Rig:BFJacket_low|Business_Woman_Rig:BFJacket_lowShape" 
@@ -863,7 +877,19 @@ createNode reference -n "Business_Woman_RigRN";
 		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_FingerOne_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_001_Ctrl|Business_Woman_Rig:_R_FingerOne_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_002_Ctrl|Business_Woman_Rig:_R_FingerOne_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_003_Ctrl.rotateX" 
 		"Business_Woman_RigRN.placeHolderList[166]" ""
 		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_FingerOne_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_001_Ctrl|Business_Woman_Rig:_R_FingerOne_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_002_Ctrl|Business_Woman_Rig:_R_FingerOne_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_FingerOne_Jnt_003_Ctrl.rotateY" 
-		"Business_Woman_RigRN.placeHolderList[167]" "";
+		"Business_Woman_RigRN.placeHolderList[167]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.translateX" 
+		"Business_Woman_RigRN.placeHolderList[168]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.translateY" 
+		"Business_Woman_RigRN.placeHolderList[169]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.translateZ" 
+		"Business_Woman_RigRN.placeHolderList[170]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.rotateX" 
+		"Business_Woman_RigRN.placeHolderList[171]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.rotateY" 
+		"Business_Woman_RigRN.placeHolderList[172]" ""
+		5 4 "Business_Woman_RigRN" "|Business_Woman_Rig:Business_woman_rig|Business_Woman_Rig:All_Jnts_Grp|Business_Woman_Rig:Bound_Jnts_Grp|Business_Woman_Rig:COG_Jnt|Business_Woman_Rig:Upper_Body_Jnt_001|Business_Woman_Rig:Spine_Jnt_001|Business_Woman_Rig:Spine_Jnt_002|Business_Woman_Rig:Spine_Jnt_004|Business_Woman_Rig:R_Clav_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_001|Business_Woman_Rig:R_Arm_Jnt_002|Business_Woman_Rig:R_Arm_Jnt_003|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_001_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_002_Ctrl|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl_Grp|Business_Woman_Rig:_R_Thumb_Jnt_003_Ctrl.rotateZ" 
+		"Business_Woman_RigRN.placeHolderList[173]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode animCurveTL -n "COG_Ctrl_translateY";
@@ -1155,8 +1181,8 @@ createNode animCurveTA -n "_L_ToeFlap_Ctrl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 17 ".ktv[0:16]"  1 23.537764496948625 6 0 11 0 16 0 21 0
-		 26 0 31 0 36 -20.333797515194064 41 0 46 0 51 0 56 0 61 0 66 0 71 0 76 -15.262463885439372
-		 81 15.984956476663648;
+		 26 0 31 0 36 -20.333797515194064 41 18.600365235448201 46 0 51 0 56 0 61 0 66 0 71 0
+		 76 -15.262463885439372 81 15.984956476663648;
 createNode animCurveTL -n "_L_Ball_Ctrl_translateX";
 	rename -uid "33897439-410B-EFAA-13E7-18A0391BB8C1";
 	setAttr ".tan" 18;
@@ -1306,7 +1332,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
 		+ "            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n"
 		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 0\n            -ikHandles 0\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
-		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1262\n            -height 441\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 532\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"pass\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n"
 		+ "            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n"
@@ -1333,13 +1359,13 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -bumpResolution 4 4 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n"
 		+ "                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n"
 		+ "                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1262\\n    -height 441\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1262\\n    -height 441\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 532\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 532\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "BA12255C-4D97-4E09-DDA1-6F9AFC2B174A";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 86 -ast 1 -aet 200 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 81 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode animCurveTL -n "Hip_Jnt_Ctrl_translateX";
 	rename -uid "3093BAEF-477C-EC3B-168B-078B6810F69F";
@@ -1347,40 +1373,87 @@ createNode animCurveTL -n "Hip_Jnt_Ctrl_translateX";
 	setAttr ".wgt" no;
 	setAttr -s 17 ".ktv[0:16]"  1 0 6 0 11 0 16 0 21 0 26 0 31 0 36 0 41 0
 		 46 0 51 0 56 0 61 0 66 0 71 0 76 0 81 0;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  1 1;
+	setAttr -s 17 ".kiy[15:16]"  0 0;
+	setAttr -s 17 ".kox[8:16]"  1 1 1 1 1 1 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "Hip_Jnt_Ctrl_translateY";
 	rename -uid "B4170A38-4180-99E5-2B15-BDBAAD375C5E";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 17 ".ktv[0:16]"  1 0 6 0 11 0 16 0 21 0 26 0 31 0 36 0 41 0
 		 46 0 51 0 56 0 61 0 66 0 71 0 76 0 81 0;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  1 1;
+	setAttr -s 17 ".kiy[15:16]"  0 0;
+	setAttr -s 17 ".kox[8:16]"  1 1 1 1 1 1 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "Hip_Jnt_Ctrl_translateZ";
 	rename -uid "1935D0F5-42C6-2176-12C8-C59A0C8AE2E1";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 17 ".ktv[0:16]"  1 0 6 0 11 0 16 0 21 0 26 0 31 0 36 0 41 0
 		 46 0 51 0 56 0 61 0 66 0 71 0 76 0 81 0;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  1 1;
+	setAttr -s 17 ".kiy[15:16]"  0 0;
+	setAttr -s 17 ".kox[8:16]"  1 1 1 1 1 1 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "Hip_Jnt_Ctrl_rotateX";
 	rename -uid "F7281B12-4268-5672-DFFF-8791D4239A2C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 17 ".ktv[0:16]"  1 -8.6758813483575938 6 -5.4224332584511474
-		 11 0 16 5.5128694382042625 21 8.676 26 5.9325821203798409e-05 31 -8.6758813483575938
-		 36 -5.4224332584511474 41 0 46 5.5128694382042589 51 8.676 56 5.9325821203798409e-05
-		 61 -8.6758813483575938 66 -5.4224332584511474 71 0 76 5.5128694382042713 81 8.676;
+	setAttr -s 17 ".ktv[0:16]"  1 -11.092938898642528 6 -5.4224332584511474
+		 11 0 16 5.5128694382042625 21 11.959482862375786 26 3.4951360174976971 31 -8.7106823753387292
+		 36 -5.4224332584511474 41 -11.092938898642528 46 -5.4224332584511474 51 0 56 5.5128694382042625
+		 61 11.959482862375786 66 3.4951360174976971 71 -8.7106823753387292 76 -5.4224332584511474
+		 81 -11.092938898642528;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  0.93941999496538831 1;
+	setAttr -s 17 ".kiy[15:16]"  0.34276824978289605 0;
+	setAttr -s 17 ".kox[8:16]"  1 0.90687929962367109 0.90915999553535587 
+		0.89408444191554659 1 0.75600210012447266 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 0.42139047914503197 0.41644699845016497 
+		0.44789843795727347 0 -0.65456919008412451 0 0 0;
 createNode animCurveTA -n "Hip_Jnt_Ctrl_rotateY";
 	rename -uid "7DC8B518-4083-D286-E496-FDBCB9A988D3";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 17 ".ktv[0:16]"  1 0 6 -2.7151844062818196 11 -5.43036881256364
-		 16 -2.7151844062818196 21 0 26 0 31 0 36 -2.7151844062818205 41 -5.43036881256364
-		 46 -2.7151844062818222 51 0 56 0 61 0 66 -2.71518440628182 71 -5.43036881256364 76 -3.3939574570670437
-		 81 0;
+	setAttr -s 17 ".ktv[0:16]"  1 0 6 -2.7151844062818196 11 -7.4244800334720615
+		 16 -2.7151844062818196 21 0 26 0 31 5.1036299991921013 36 -2.7151844062818205 41 0
+		 46 -2.7151844062818196 51 -7.4244800334720615 56 -2.7151844062818196 61 0 66 0 71 5.1036299991921013
+		 76 -2.7151844062818205 81 0;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  0.91489393303178257 1;
+	setAttr -s 17 ".kiy[15:16]"  -0.40369430427197783 0;
+	setAttr -s 17 ".kox[8:16]"  1 0.95488797916937529 1 0.9548879791693754 
+		1 1 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 -0.29696623922228377 0 0.29696623922228388 
+		0 0 0 0 0;
 createNode animCurveTA -n "Hip_Jnt_Ctrl_rotateZ";
 	rename -uid "9AE2C0A0-4C1E-DD06-CA44-1089ED27AAB6";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 17 ".ktv[0:16]"  1 0 6 0 11 0 16 0 21 0 26 0 31 0 36 0 41 0
-		 46 0 51 0 56 0 61 0 66 0 71 0 76 0 81 0;
+	setAttr -s 17 ".ktv[0:16]"  1 0 6 0 11 0 16 0 21 0 26 0 31 -0.78085700402128799
+		 36 0 41 0 46 0 51 0 56 0 61 0 66 0 71 -0.78085700402128799 76 0 81 0;
+	setAttr -s 17 ".kit[15:16]"  1 18;
+	setAttr -s 17 ".kot[8:16]"  1 18 18 18 18 18 18 18 
+		1;
+	setAttr -s 17 ".kix[15:16]"  1 1;
+	setAttr -s 17 ".kiy[15:16]"  0 0;
+	setAttr -s 17 ".kox[8:16]"  1 1 1 1 1 1 1 1 1;
+	setAttr -s 17 ".koy[8:16]"  0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "Upper_Body_Ctrl_rotateX";
 	rename -uid "12D25EA9-4297-1B8C-42B4-239E53B8B7DA";
 	setAttr ".tan" 18;
@@ -1940,9 +2013,40 @@ createNode animCurveTA -n "_L_FingerOne_Jnt_002_Ctrl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  1 -4.422639414529975;
+createNode animCurveTL -n "_R_Thumb_Jnt_003_Ctrl_translateX";
+	rename -uid "47C57547-4AE7-5F11-EE8B-4099933690C6";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 0 11 0 16 0 21 0 26 0;
+createNode animCurveTL -n "_R_Thumb_Jnt_003_Ctrl_translateY";
+	rename -uid "586E8FB0-48C7-01EC-306C-A4B917FD4499";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 0 11 0 16 0 21 0 26 0;
+createNode animCurveTL -n "_R_Thumb_Jnt_003_Ctrl_translateZ";
+	rename -uid "F713514D-441E-6C04-18D3-9897A7C688D4";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 0 11 0 16 0 21 0 26 0;
+createNode animCurveTA -n "_R_Thumb_Jnt_003_Ctrl_rotateX";
+	rename -uid "D2A3DBB4-41D9-9C1A-85D0-A6B9AAAB1F08";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 0 11 0 16 0 21 0 26 0;
+createNode animCurveTA -n "_R_Thumb_Jnt_003_Ctrl_rotateY";
+	rename -uid "CFF9B266-400D-C014-2083-FE81357B5416";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 11.185828868208413 11 8.6568840538189473
+		 16 1.1422698588620976 21 -3.758356297282039 26 -0.1711542546603228;
+createNode animCurveTA -n "_R_Thumb_Jnt_003_Ctrl_rotateZ";
+	rename -uid "2A2214AF-42E2-B91E-7F01-B4A986C9284A";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  1 0 6 0 11 0 16 0 21 0 26 0;
 select -ne :time1;
-	setAttr ".o" 8;
-	setAttr ".unw" 8;
+	setAttr ".o" 31;
+	setAttr ".unw" 31;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -2222,6 +2326,15 @@ connectAttr "_R_FingerOne_Jnt_003_Ctrl_rotateX.o" "Business_Woman_RigRN.phl[166]
 		;
 connectAttr "_R_FingerOne_Jnt_003_Ctrl_rotateY.o" "Business_Woman_RigRN.phl[167]"
 		;
+connectAttr "_R_Thumb_Jnt_003_Ctrl_translateX.o" "Business_Woman_RigRN.phl[168]"
+		;
+connectAttr "_R_Thumb_Jnt_003_Ctrl_translateY.o" "Business_Woman_RigRN.phl[169]"
+		;
+connectAttr "_R_Thumb_Jnt_003_Ctrl_translateZ.o" "Business_Woman_RigRN.phl[170]"
+		;
+connectAttr "_R_Thumb_Jnt_003_Ctrl_rotateX.o" "Business_Woman_RigRN.phl[171]";
+connectAttr "_R_Thumb_Jnt_003_Ctrl_rotateY.o" "Business_Woman_RigRN.phl[172]";
+connectAttr "_R_Thumb_Jnt_003_Ctrl_rotateZ.o" "Business_Woman_RigRN.phl[173]";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
