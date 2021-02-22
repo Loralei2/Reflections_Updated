@@ -1,9 +1,9 @@
 //Maya ASCII 2020 scene
 //Name: Business Legs 01 Take Two.ma
-//Last modified: Tue, Feb 09, 2021 11:15:49 PM
+//Last modified: Mon, Feb 22, 2021 12:32:43 AM
 //Codeset: 1252
 file -rdi 1 -ns "Laila_Rig_004" -rfn "Laila_Rig_004RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Laila Rig 004.ma";
 file -rdi 1 -ns "business_woman_walk" -rfn "business_woman_walkRN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/business woman walk.ma";
 file -rdi 2 -ns "Business_Woman_Rig" -rfn "business_woman_walk:Business_Woman_RigRN"
@@ -37,7 +37,7 @@ file -rdi 1 -ns "Business_Man_Walk2" -rfn "Business_Man_WalkRN2" -op "v=0;"
 file -rdi 2 -ns "Background_Male_Rig" -rfn "Business_Man_Walk2:Background_Male_RigRN"
 		 -op "v=0;p=17;f=0" -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/Rigs//BackgroundMale_Rigged.ma";
 file -rdi 1 -ns "CityPostProps" -rfn "CityPostPropsRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef/City/CityPostProps.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//City/CityPostProps.ma";
 file -rdi 2 -ns "Lampost" -rfn "CityPostProps:LampostRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/Git/Reflections_Updated/2_Assets//Buildings/Lampost.ma";
 file -rdi 2 -ns "Aparment" -rfn "CityPostProps:AparmentRN" -op "v=0;" -typ "mayaAscii"
@@ -79,7 +79,7 @@ file -rdi 2 -ns "Building56" -rfn "CityPostProps:Building55RN1" -op "v=0;"
 file -rdi 2 -ns "Alley" -rfn "CityPostProps:AlleyRN1" -op "v=0;" -typ "mayaAscii"
 		 "D:/Git/Reflections_Updated/2_Assets//Props/Alley.ma";
 file -rdi 2 -ns "Road" -rfn "CityPostProps:RoadRN" -op "v=0;" -typ "mayaAscii"
-		 "D:/Git/Reflections_Updated/2_Assets//Buildings/Road.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Buildings/Road.ma";
 file -rdi 2 -ns "fireEscapeNoLadder" -rfn "CityPostProps:fireEscapeNoLadderRN"
 		 -op "v=0;" -typ "mayaAscii" "D:/Git/Reflections_Updated/2_Assets//Props/fireEscapeNoLadder.ma";
 file -rdi 2 -ns "FireEscape2" -rfn "CityPostProps:FireEscapeRN" -op "v=0;" 
@@ -89,7 +89,7 @@ file -rdi 2 -ns "fireHydrant" -rfn "CityPostProps:fireHydrantRN" -op "v=0;"
 file -rdi 2 -ns "BikeRack1" -rfn "CityPostProps:BikeRackRN1" -op "v=0;" -typ
 		 "mayaAscii" "D:/Git/Reflections_Updated/2_Assets//Props/BikeRack.ma";
 file -r -ns "Laila_Rig_004" -dr 1 -rfn "Laila_Rig_004RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Laila Rig 004.ma";
 file -r -ns "business_woman_walk" -dr 1 -rfn "business_woman_walkRN" -op "v=0;" 
 		-typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/business woman walk.ma";
 file -r -ns "business_woman_fast_walk" -dr 1 -rfn "business_woman_fast_walkRN" -op
@@ -107,7 +107,7 @@ file -r -ns "Business_Man_Slow_Walk1" -dr 1 -rfn "Business_Man_Slow_WalkRN1" -op
 file -r -ns "Business_Man_Walk2" -dr 1 -rfn "Business_Man_WalkRN2" -op "v=0;" -typ
 		 "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/Business Man Walk.ma";
 file -r -ns "CityPostProps" -dr 1 -rfn "CityPostPropsRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef/City/CityPostProps.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//City/CityPostProps.ma";
 requires maya "2020";
 requires -nodeType "RedshiftOptions" "redshift4maya" "3.0.36";
 requires "stereoCamera" "10.0";
@@ -119,17 +119,17 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
-fileInfo "UUID" "FB0D87A7-4C74-ED0B-D3A2-8BBC52FC043A";
+fileInfo "UUID" "28C95948-46BD-20D7-3159-D5A062C183D2";
 createNode transform -s -n "persp";
 	rename -uid "5E95FE9E-4594-D1C8-5821-689ACAE9D887";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 480.57637834390545 259.42796890338536 407.42670018908109 ;
-	setAttr ".r" -type "double3" -17.138352733771217 490.59999999957927 0 ;
+	setAttr ".t" -type "double3" -126.57971464153054 188.10627234350608 800.21688685285949 ;
+	setAttr ".r" -type "double3" 12.86164726621786 228.20000000039028 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2D2B0696-49BD-8C7D-4881-0CBC67F67354";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 505.90768528268904;
+	setAttr ".coi" 873.25035863817448;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -195,12 +195,14 @@ createNode camera -n "cameraShape1" -p "camera1";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 7605.0613436698632;
+	setAttr ".ovr" 1.3;
+	setAttr ".coi" 5285.1549478904717;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
 	setAttr ".man" -type "string" "camera1_mask";
 	setAttr ".tp" -type "double3" 90.017345333263847 101.47411213497661 466.90834937429349 ;
+	setAttr ".dr" yes;
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -n "city";
 	rename -uid "4D17AE52-4E22-3D46-C3DC-5CA9740D4158";
@@ -212,28 +214,28 @@ createNode transform -n "city";
 	setAttr ".sp" -type "double3" 187.38499529612568 0 114.06444948684135 ;
 	setAttr ".spt" -type "double3" 5059.3948729953854 0 3079.7401361447191 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "866FD71E-4E44-89B9-CD2C-2A88C5873601";
-	setAttr -s 590 ".lnk";
-	setAttr -s 590 ".slnk";
+	rename -uid "95370B84-4ED6-C328-B706-0C81255FF837";
+	setAttr -s 792 ".lnk";
+	setAttr -s 792 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "C31CCA01-4319-50C2-A1E0-728668BC9FE7";
-	setAttr ".bsdt[0].bscd" -type "Int32Array" 8 0 7 3 4 5
-		 6 1 2 ;
+	rename -uid "804AC89A-4E7C-711D-1470-25BD3D708673";
+	setAttr ".bsdt[0].bscd" -type "Int32Array" 7 3 4 5 6 1
+		 2 0 ;
 	setAttr -s 7 ".bspr";
 	setAttr -s 7 ".obsv";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "FBA043E6-4927-F5F7-FD94-21AD6914C203";
-	setAttr ".tpdt[0].tpcd" -type "Int32Array" 8 0 7 3 4 5
-		 6 1 2 ;
+	rename -uid "ADCA2E03-42FB-A1AF-B63D-B3ADE5BE6594";
+	setAttr ".tpdt[0].tpcd" -type "Int32Array" 8 7 3 4 5 6
+		 1 2 0 ;
 	setAttr -s 7 ".tppr";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "05E8B788-459D-5F0F-1AA3-AFAE8FF44DF3";
+	rename -uid "FCF3D568-487A-D415-3812-BE8305582124";
 	setAttr -s 3 ".dli[1:2]"  1 2;
 	setAttr -s 3 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "3259414F-407D-8D07-9023-479DFE21E5A7";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "F5E7D9B8-408B-56B3-E1DE-3FAFD4DA741E";
+	rename -uid "38D5FC26-4624-FF9A-79EE-8FB51FB4F2C5";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "02231DF2-4EA6-9581-24F1-B0876591188A";
 	setAttr ".g" yes;
@@ -251,9 +253,9 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n"
 		+ "            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n"
 		+ "            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
-		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
-		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 0\n            -ikHandles 0\n            -deformers 0\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n"
-		+ "            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 546\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
+		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 0\n            -ikHandles 0\n            -deformers 0\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n"
+		+ "            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 636\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"pass\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n"
 		+ "            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n"
@@ -266,7 +268,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -doNotSelectNewObjects 1\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"DopeSheetEd\");\n            dopeSheetEditor -e \n                -displayValues 0\n                -snapTime \"integer\" \n                -snapValue \"none\" \n                -outliner \"dopeSheetPanel1OutlineEd\" \n                -showSummary 1\n                -showScene 0\n                -hierarchyBelow 0\n                -showTicks 1\n                -selectionWindow 0 0 0 0 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"timeEditorPanel\" (localizedPanelLabel(\"Time Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Time Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"clipEditorPanel\" (localizedPanelLabel(\"Trax Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n"
 		+ "\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Trax Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = clipEditorNameFromPanel($panelName);\n            clipEditor -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -initialized 0\n                -manageSequencer 0 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"sequenceEditorPanel\" (localizedPanelLabel(\"Camera Sequencer\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Camera Sequencer\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = sequenceEditorNameFromPanel($panelName);\n            clipEditor -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -initialized 0\n                -manageSequencer 1 \n                $editorName;\n"
-		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperGraphPanel\" (localizedPanelLabel(\"Hypergraph Hierarchy\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypergraph Hierarchy\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"HyperGraphEd\");\n            hyperGraph -e \n                -graphLayoutStyle \"hierarchicalLayout\" \n                -orientation \"horiz\" \n                -mergeConnections 0\n                -zoom 1\n                -animateTransition 0\n                -showRelationships 1\n                -showShapes 0\n                -showDeformers 0\n                -showExpressions 0\n                -showConstraints 0\n                -showConnectionFromSelected 0\n                -showConnectionToSelected 0\n                -showConstraintLabels 0\n                -showUnderworld 0\n                -showInvisible 0\n                -transitionFrames 1\n"
+		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperGraphPanel\" (localizedPanelLabel(\"Hypergraph Hierarchy\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypergraph Hierarchy\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"HyperGraphEd\");\n            hyperGraph -e \n                -graphLayoutStyle \"hierarchicalLayout\" \n                -orientation \"horiz\" \n                -mergeConnections 1\n                -zoom 1\n                -animateTransition 0\n                -showRelationships 1\n                -showShapes 1\n                -showDeformers 0\n                -showExpressions 0\n                -showConstraints 0\n                -showConnectionFromSelected 0\n                -showConnectionToSelected 0\n                -showConstraintLabels 0\n                -showUnderworld 0\n                -showInvisible 1\n                -transitionFrames 1\n"
 		+ "                -opaqueContainers 0\n                -freeform 0\n                -imagePosition 0 0 \n                -imageScale 1\n                -imageEnabled 0\n                -graphType \"DAG\" \n                -heatMapDisplay 0\n                -updateSelection 1\n                -updateNodeAdded 1\n                -useDrawOverrideColor 0\n                -limitGraphTraversal -1\n                -range 0 0 \n                -iconSize \"smallIcons\" \n                -showCachedConnections 0\n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"visorPanel\" (localizedPanelLabel(\"Visor\")) `;\n"
 		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Visor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif ($nodeEditorPanelVisible || $nodeEditorWorkspaceControlOpen) {\n\t\tif (\"\" == $panelName) {\n\t\t\tif ($useSceneConfig) {\n\t\t\t\t$panelName = `scriptedPanel -unParent  -type \"nodeEditorPanel\" -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels `;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -connectNodeOnCreation 0\n                -connectOnDrop 0\n                -copyConnectionsOnPaste 0\n                -connectionStyle \"bezier\" \n                -defaultPinnedState 0\n"
 		+ "                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -crosshairOnEdgeDragging 0\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -editorMode \"default\" \n                -hasWatchpoint 0\n                $editorName;\n\t\t\t}\n\t\t} else {\n\t\t\t$label = `panel -q -label $panelName`;\n\t\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n"
@@ -280,8 +282,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -bumpResolution 4 4 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n"
 		+ "                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n"
 		+ "                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 546\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 546\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 636\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 636\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -5994,6 +5996,9 @@ createNode animCurveTU -n "Hip_Jnt_Ctrl_scaleZ1";
 	setAttr -s 4 ".ktv[0:3]"  21 1 29 1 37 1 45 1;
 createNode reference -n "Laila_Rig_004RN";
 	rename -uid "8C18A728-469D-65F9-C8F3-2399EAF36B4A";
+	setAttr -s 2 ".fn";
+	setAttr ".fn[0]" -type "string" "C:/Users/meagh/OneDrive/Documents/reflectionsBackUp/ReflectionRepo/Reflections_Updated/2_Assets/Rigs/Laila Rig 004.ma";
+	setAttr ".fn[1]" -type "string" "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
 	setAttr -s 1392 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
@@ -7390,7 +7395,7 @@ createNode reference -n "Laila_Rig_004RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Laila_Rig_004RN"
 		"Laila_Rig_004RN" 0
-		"Laila_Rig_004RN" 3362
+		"Laila_Rig_004RN" 3180
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl" 
@@ -7448,7 +7453,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -57.10144647531805617"
+		"rotate" " -type \"double3\" 0 0 -49.23595273155582674"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl" 
@@ -7480,7 +7485,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -0.57738249107350714"
+		"rotate" " -type \"double3\" 0 0 -0.15285052463474352"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerOne_Jnt_003_Ctrl" 
@@ -7496,7 +7501,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -68.23280657062181831"
+		"rotate" " -type \"double3\" 0 0 -57.92897838665722077"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl" 
@@ -7528,7 +7533,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -53.6199017533208675"
+		"rotate" " -type \"double3\" 0 0 -23.88435856947500469"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_L_FingerTwo_Jnt_003_Ctrl" 
@@ -7640,7 +7645,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -61.52518970681798294"
+		"rotate" " -type \"double3\" 0 0 -52.15476369611534579"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl" 
@@ -7656,7 +7661,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -47.12214441487675742"
+		"rotate" " -type \"double3\" 0 0 -15.91196194009195608"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl" 
@@ -7672,7 +7677,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -47.12214441487675742"
+		"rotate" " -type \"double3\" 0 0 -7.77009353307261108"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerTwo_Jnt_003_Ctrl" 
@@ -7688,7 +7693,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -62.76157990821831589"
+		"rotate" " -type \"double3\" 0 0 -52.6204507055952817"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl" 
@@ -7704,7 +7709,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -62.76157990821831589"
+		"rotate" " -type \"double3\" 0 0 -25.15736393982558283"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl" 
@@ -7720,7 +7725,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -62.76157990821831589"
+		"rotate" " -type \"double3\" 0 0 2.05022484221882406"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerFour_Jnt_003_Ctrl" 
@@ -7736,7 +7741,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -67.69537229110869703"
+		"rotate" " -type \"double3\" 0 0 -61.41315714552733596"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl" 
@@ -7752,7 +7757,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -51.61123486771020907"
+		"rotate" " -type \"double3\" 0 0 -10.63497117978375428"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl" 
@@ -7768,7 +7773,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -51.61123486771020907"
+		"rotate" " -type \"double3\" 0 0 -10.91286461816101472"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerThree_Jnt_003_Ctrl" 
@@ -7784,7 +7789,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -40.76375832614917982"
+		"rotate" " -type \"double3\" 0 0 -23.80051870709902673"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl" 
@@ -7800,7 +7805,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -43.41423833406893351"
+		"rotate" " -type \"double3\" 0 0 -24.54232656640550303"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl" 
@@ -7816,7 +7821,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -53.52033724611394661"
+		"rotate" " -type \"double3\" 0 0 -8.51130468380630312"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_002_Ctrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_SetCtrl|Laila_Rig_004:mary_Rig_001_R_FingerOne_Jnt_003_Ctrl" 
@@ -7832,7 +7837,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 14.70697967363027914 1.9487184703798841 -2.59568381160562289"
+		"rotate" " -type \"double3\" 8.3058720891682718 4.54005417021923829 -6.04733074200984433"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -7849,7 +7854,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 0 -8.35212509659583446 -29.99204810822062939"
+		"rotate" " -type \"double3\" 0 -19.45848050980946198 -29.99204810822065426"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_001_Ctrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_SetCtrl|Laila_Rig_004:mary_Rig_001_R_Thumb_Jnt_002_Ctrl" 
@@ -8062,6 +8067,8 @@ createNode reference -n "Laila_Rig_004RN";
 		"ghostColorPreA" " 0.5"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:upperJawShape" 
 		"ghostColorPostA" " 0.5"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:upperJawShape" 
+		"uvSet[0].uvSetName" " -type \"string\" \"BodyDiffuseUVLayer\""
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:missingTooth|Laila_Rig_004:missingToothShape" 
 		"ghosting" " 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:missingTooth|Laila_Rig_004:missingToothShape" 
@@ -8072,6 +8079,7 @@ createNode reference -n "Laila_Rig_004RN";
 		"ghostColorPreA" " 0.5"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:missingTooth|Laila_Rig_004:missingToothShape" 
 		"ghostColorPostA" " 0.5"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls" "visibility" " 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl" 
 		"translate" " -type \"double3\" 145.97474524847717703 0 715.56249362541768733"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl" 
@@ -8089,7 +8097,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
-		"translate" " -type \"double3\" 0.21106489075309945 -0.72648374118234116 21.33816359727162038"
+		"translate" " -type \"double3\" -5.67083012117698004 0.095661672594914648 21.39634393329052742"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
 		"translateX" " -av"
@@ -8098,7 +8106,8 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -0.15329262366987781 -31.21017285974728139 2.07641675344760657"
+		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl" 
@@ -8154,7 +8163,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_001_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_004:R_Leg_Pivot_Grp|Laila_Rig_004:R_Leg_Pivot_Grp_Ctrl|Laila_Rig_004:R_Leg_Pivot_Grp_Ctrl_Offset" 
-		"translate" " -type \"double3\" -0.74784477396289828 4.97018858784987838 16.93930456438737053"
+		"translate" " -type \"double3\" -0.10915506768710245 -1.60249732740253847 47.8131813685163749"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_hip_jnt_Ctrl|Laila_Rig_004:R_Leg_Pivot_Grp|Laila_Rig_004:R_Leg_Pivot_Grp_Ctrl|Laila_Rig_004:R_Leg_Pivot_Grp_Ctrl_Offset" 
 		"translateX" " -av"
@@ -8196,7 +8205,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl" 
-		"rotate" " -type \"double3\" 0 13.36341513622145527 0"
+		"rotate" " -type \"double3\" 0 7.00529992833527348 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl" 
@@ -8214,7 +8223,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" -2.93846981724041445 -0.22392783554530313 1.01155375070410503"
+		"rotate" " -type \"double3\" -3.1213860966613729 -19.73937711425996255 2.03924495913311921"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -8231,7 +8240,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" -1.41447225326860249 3.73740960717386095 0.47044296755365961"
+		"rotate" " -type \"double3\" -1.43335702511091179 -10.02602534761173025 0.8122538577889864"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl" 
 		"rotateX" " -av"
@@ -8264,7 +8273,8 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 8.78655545038461661"
+		"rotate" " -type \"double3\" 0.40274997446257615 -0.72739094665505966 33.78047233674617189"
+		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl" 
@@ -8280,7 +8290,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 14.69598732722483803 5.10134960538684545 -57.66272028703525621"
+		"rotate" " -type \"double3\" 15.67353970052488776 5.72813621854986632 -89.4112231097167296"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -8299,7 +8309,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 7.05057919888095519 -32.08103111364646054 -0.45689169598710344"
+		"rotate" " -type \"double3\" 130.72796762428663442 -87.37263218610910087 -151.99445925833467186"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl" 
 		"rotateX" " -av"
@@ -8316,7 +8326,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" -6.87407086478228635 -30.11340355862640905 36.47089210966942119"
+		"rotate" " -type \"double3\" -14.15724678949833404 -39.78374652722341409 3.562804036421237"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -8333,7 +8343,8 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -7.38892026954906367"
+		"rotate" " -type \"double3\" -0.89179521477566304 -3.18945070308767198 -13.18718399201918601"
+		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl" 
@@ -8351,7 +8362,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 2.39674612962802058 -11.28028113912633756 48.68301359309600684"
+		"rotate" " -type \"double3\" 7.35598257477590334 -35.18642363413555785 57.47975710148153183"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl" 
 		"rotateX" " -av"
@@ -8368,7 +8379,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl" 
-		"rotate" " -type \"double3\" 48.75946304955322574 48.90627173343273171 103.74187530507218469"
+		"rotate" " -type \"double3\" 167.13247738471795856 179.5360294920793649 191.69424599341249404"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl" 
 		"rotateX" " -av"
@@ -8385,7 +8396,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl" 
-		"rotate" " -type \"double3\" 84.56541956567316731 30.32089588550308079 3.36991867384558574"
+		"rotate" " -type \"double3\" 27.9993924561270866 18.61609247073503326 6.06898453656843806"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt_Ctrl|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl_grp|Laila_Rig_004:laila_rig_upper_body_jnt_ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Clavicle_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_002_Ctrl|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_R_Arm_Jnt_003_Ctrl" 
 		"rotateX" " -av"
@@ -8462,7 +8473,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Switch_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Switch_Ctrl" 
 		"LFingerCurl" " -av -k 1 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
-		"translate" " -type \"double3\" -1.22148611273228891 2.36586292356121142 0.38150160255750887"
+		"translate" " -type \"double3\" 0.31396741360576641 8.01426870031461647 3.88463992646069967"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
 		"translateX" " -av"
@@ -8628,7 +8639,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl|Laila_Rig_004:laila_Rig_001_L_Heel_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Heel_Ctrl|Laila_Rig_004:laila_Rig_001_L_OuterRoll_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_OuterRoll_Ctrl|Laila_Rig_004:laila_Rig_001_L_InnerRoll_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_InnerRoll_Ctrl|Laila_Rig_004:laila_Rig_001_L_Toe_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Toe_Ctrl|Laila_Rig_004:laila_Rig_001_L_Ball_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Ball_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
-		"translate" " -type \"double3\" -18.8656359620824432 -8.34941878564602291 1.30838332872189866"
+		"translate" " -type \"double3\" -9.37666026614133585 -3.24068343805121684 7.06529174627670997"
 		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_IK_R_Reg_Jnt_003_Ctrl" 
 		"translateX" " -av"
@@ -8758,14 +8769,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -8774,14 +8777,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateX" " -av"
@@ -8790,14 +8785,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -8806,14 +8793,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -8822,7 +8801,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:BS_M_Viseme_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Ctrl" 
-		"translate" " -type \"double3\" 0 81.63930050184748666 0"
+		"translate" " -type \"double3\" 0 67.21960006293087986 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:BS_M_Viseme_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:BS_M_Viseme_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Ctrl" 
@@ -8854,14 +8833,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:typeMesh39" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -8870,14 +8841,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateX" " -av"
@@ -8886,14 +8849,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -8902,14 +8857,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -9014,7 +8961,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:MouthLeftRight_Border_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:MouthLeftRight_Border_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Border_Ctrl|Laila_Rig_004:MouthLeftRight_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Ctrl" 
-		"translate" " -type \"double3\" -3.29442722865862692 0 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:MouthLeftRight_Border_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Border_Ctrl|Laila_Rig_004:MouthLeftRight_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:MouthLeftRight_Border_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Border_Ctrl|Laila_Rig_004:MouthLeftRight_Ctrl_Grp|Laila_Rig_004:MouthLeftRight_Ctrl" 
@@ -9062,14 +9009,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:L_BS_BrowSqueeze_Ctrl_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9078,14 +9017,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9093,14 +9024,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -9142,14 +9065,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:typeMesh32" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9158,14 +9073,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9173,14 +9080,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -9190,7 +9089,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl" 
-		"translate" " -type \"double3\" 0 12.03430107630562773 0"
+		"translate" " -type \"double3\" 0 11.92743181461209545 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl" 
@@ -9206,7 +9105,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl" 
-		"translate" " -type \"double3\" 0 6.11103088758848134 0"
+		"translate" " -type \"double3\" 0 12.60880066366038932 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:L_BS_LowerLidBlink_Ctrl" 
@@ -9246,14 +9145,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9261,14 +9152,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -9334,14 +9217,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:typeMesh30" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9350,14 +9225,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9366,14 +9233,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -9430,14 +9289,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:typeMesh29" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9446,14 +9297,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9462,14 +9305,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -9670,7 +9505,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl|Laila_Rig_004:R_BS_Sneer_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Ctrl" 
-		"translate" " -type \"double3\" 0 20.52690963095370691 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl|Laila_Rig_004:R_BS_Sneer_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl|Laila_Rig_004:R_BS_Sneer_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Ctrl" 
@@ -9686,7 +9521,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Border_Ctrl|Laila_Rig_004:R_BS_Sneer_Ctrl_Grp|Laila_Rig_004:R_BS_Sneer_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl|Laila_Rig_004:L_BS_Sneer_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Ctrl" 
-		"translate" " -type \"double3\" 0 10.86622653093049529 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl|Laila_Rig_004:L_BS_Sneer_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Border_Ctrl|Laila_Rig_004:L_BS_Sneer_Ctrl_Grp|Laila_Rig_004:L_BS_Sneer_Ctrl" 
@@ -9718,14 +9553,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:typeMesh35" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9734,14 +9561,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9749,14 +9568,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -9814,14 +9625,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:typeMesh36" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -9830,14 +9633,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -9845,14 +9640,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -9862,7 +9649,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:R_BS_UpperLipUp_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Ctrl" 
-		"translate" " -type \"double3\" 0 10.78389350904964594 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:R_BS_UpperLipUp_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:R_BS_UpperLipUp_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Ctrl" 
@@ -9934,7 +9721,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl|Laila_Rig_004:R_BS_Squint_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Ctrl" 
-		"translate" " -type \"double3\" 0 14.95382623613215145 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl|Laila_Rig_004:R_BS_Squint_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Border_Ctrl|Laila_Rig_004:R_BS_Squint_Ctrl_Grp|Laila_Rig_004:R_BS_Squint_Ctrl" 
@@ -9974,7 +9761,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl|Laila_Rig_004:L_BS_Squint_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Ctrl" 
-		"translate" " -type \"double3\" 0 14.95382623613215145 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl|Laila_Rig_004:L_BS_Squint_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Border_Ctrl|Laila_Rig_004:L_BS_Squint_Ctrl_Grp|Laila_Rig_004:L_BS_Squint_Ctrl" 
@@ -10006,14 +9793,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:SquintType1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -10022,14 +9801,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -10038,14 +9809,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -10150,7 +9913,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl" 
-		"translate" " -type \"double3\" 0 12.04108079379693663 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl" 
@@ -10166,7 +9929,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutUp_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl" 
-		"translate" " -type \"double3\" 0 12.04108079379693663 0"
+		"translate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutUp_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutUp_Ctrl" 
@@ -10246,7 +10009,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl" 
-		"translate" " -type \"double3\" 0 19.49307965239241724 0"
+		"translate" " -type \"double3\" 0 24.32292876880814703 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl" 
@@ -10262,7 +10025,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsOutDown_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl" 
-		"translate" " -type \"double3\" 0 16.03710734123335513 0"
+		"translate" " -type \"double3\" 0 15.92907471236402017 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsOutDown_Ctrl" 
@@ -10294,14 +10057,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:typeMesh23" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -10310,14 +10065,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -10326,14 +10073,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -10342,7 +10081,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"translate" " -type \"double3\" 0 21.6321061403521071 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Ctrl" 
@@ -10358,7 +10097,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"translate" " -type \"double3\" 0 21.6321061403521071 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidDown_Ctrl" 
@@ -10390,14 +10129,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:typeMesh24" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -10406,14 +10137,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -10422,14 +10145,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -10438,7 +10153,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"translate" " -type \"double3\" 0 13.07274296814517101 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Ctrl" 
@@ -10454,7 +10169,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:L_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"translate" " -type \"double3\" 0 13.07274296814517101 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:L_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:L_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:L_BS_BrowsFlat_Ctrl" 
@@ -10486,14 +10201,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:typeMesh25" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -10502,14 +10209,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -10518,14 +10217,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -10534,7 +10225,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Ctrl" 
-		"translate" " -type \"double3\" 0 22.73247260642878231 0"
+		"translate" " -type \"double3\" 0 50.30950740786022379 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Ctrl" 
@@ -10550,7 +10241,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Ctrl" 
-		"translate" " -type \"double3\" 0 31.42841824977423926 0"
+		"translate" " -type \"double3\" 0 69.5546088685129007 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Ctrl" 
 		"translateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:L_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:L_BS_BrowMidUp_Ctrl" 
@@ -10582,14 +10273,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:typeMesh26" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateX" " -av"
@@ -10598,14 +10281,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateX" " -av"
@@ -10614,14 +10289,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -10630,14 +10297,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateX" " -av"
@@ -10646,7 +10305,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:R_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Ctrl" 
-		"translate" " -type \"double3\" -4.51518981036681488 -3.03417677419548326 0"
+		"translate" " -type \"double3\" 0 -8.19215353128024226 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:R_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:R_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Ctrl" 
@@ -10662,7 +10321,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:R_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:L_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Ctrl" 
-		"translate" " -type \"double3\" -5.74179301921470842 -7.86060883239134522 0"
+		"translate" " -type \"double3\" -4.95239175675261301 -9.55624911326738768 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:L_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:L_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:L_BS_MouthCorner_Ctrl" 
@@ -11110,14 +10769,6 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:topnurbsSquare1" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
-		"translateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateX" " -av"
@@ -11125,14 +10776,6 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateY" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1" 
 		"rotateZ" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateX" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateY" " -av"
-		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
-		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1" 
@@ -11182,7 +10825,8 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl" 
-		"rotate" " -type \"double3\" 5.61482738557190419 0 0"
+		"rotate" " -type \"double3\" -9.32489728451152189 4.13713695190521502 -0.89788554171378099"
+		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl" 
@@ -11190,7 +10834,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl_Grp|Laila_Rig_004:laila_Rig_001_Neck_Jnt_001_ctrl" 
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"translate" " -type \"double3\" 0 -0.50996391911112515 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
 		"translateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
@@ -11198,7 +10842,8 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" -12.46987671133336661 0 0.015585475347772005"
+		"rotate" " -type \"double3\" -17.33718597777262715 -21.41386962999533949 0.34031980712794635"
+		
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl" 
@@ -11214,7 +10859,7 @@ createNode reference -n "Laila_Rig_004RN";
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl" 
 		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -2.89298585978088951"
+		"rotate" " -type \"double3\" 0 0 -1.83731530304254664"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl" 
 		"rotateX" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Head_Jnt_001_Ctrl|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Jaw_Jnt_001_Ctrl" 
@@ -12189,53 +11834,53 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[419]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[420]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[421]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[422]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[423]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[424]" ""
+		"Laila_Rig_004RN.placeHolderList[421]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[425]" ""
+		"Laila_Rig_004RN.placeHolderList[422]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[423]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[424]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[425]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[426]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[427]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[428]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[429]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[430]" ""
+		"Laila_Rig_004RN.placeHolderList[427]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[431]" ""
+		"Laila_Rig_004RN.placeHolderList[428]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[429]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[430]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[431]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[432]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[433]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[434]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[435]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[436]" ""
+		"Laila_Rig_004RN.placeHolderList[433]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[437]" ""
+		"Laila_Rig_004RN.placeHolderList[434]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[435]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[436]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[437]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[438]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[439]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[440]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[441]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[442]" ""
+		"Laila_Rig_004RN.placeHolderList[439]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[443]" ""
+		"Laila_Rig_004RN.placeHolderList[440]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[441]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[442]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[443]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[444]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Border_Ctrl|Laila_Rig_004:BS_M_Viseme_Ctrl_Grp|Laila_Rig_004:BS_M_Viseme_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[445]" ""
@@ -12261,53 +11906,53 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[455]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_M_Viseme_Border_Ctrl_Grp|Laila_Rig_004:typeMesh39.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[456]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[457]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[458]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[459]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[460]" ""
+		"Laila_Rig_004RN.placeHolderList[457]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[461]" ""
+		"Laila_Rig_004RN.placeHolderList[458]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[459]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[460]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[461]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[462]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[463]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[464]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[465]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[466]" ""
+		"Laila_Rig_004RN.placeHolderList[463]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[467]" ""
+		"Laila_Rig_004RN.placeHolderList[464]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[465]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[466]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[467]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[468]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[469]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[470]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[471]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[472]" ""
+		"Laila_Rig_004RN.placeHolderList[469]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[473]" ""
+		"Laila_Rig_004RN.placeHolderList[470]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[471]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[472]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[473]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[474]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[475]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[476]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[477]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[478]" ""
+		"Laila_Rig_004RN.placeHolderList[475]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[479]" ""
+		"Laila_Rig_004RN.placeHolderList[476]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[477]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[478]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[479]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[480]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_F_Viseme_Border_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Border_Ctrl|Laila_Rig_004:BS_F_Viseme_Ctrl_Grp|Laila_Rig_004:BS_F_Viseme_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[481]" ""
@@ -12417,41 +12062,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[533]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:L_BS_BrowSqueeze_Ctrl_Grp|Laila_Rig_004:L_BS_BrowSqueeze_Ctrl.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[534]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[535]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[536]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[537]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[538]" ""
+		"Laila_Rig_004RN.placeHolderList[535]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[539]" ""
+		"Laila_Rig_004RN.placeHolderList[536]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[537]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[538]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[539]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[540]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[541]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[542]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[543]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[544]" ""
+		"Laila_Rig_004RN.placeHolderList[541]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[545]" ""
+		"Laila_Rig_004RN.placeHolderList[542]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[543]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[544]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[545]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[546]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[547]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[548]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[549]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[550]" ""
+		"Laila_Rig_004RN.placeHolderList[547]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[551]" ""
+		"Laila_Rig_004RN.placeHolderList[548]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[549]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[550]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[551]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[552]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Border_Ctrl|Laila_Rig_004:R_BS_BrowSqueeze_Ctrl_Grp|Laila_Rig_004:R_BS_BrowSqueeze_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[553]" ""
@@ -12477,41 +12122,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[563]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowSqueeze_Grp|Laila_Rig_004:typeMesh32.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[564]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[565]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[566]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[567]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[568]" ""
+		"Laila_Rig_004RN.placeHolderList[565]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[569]" ""
+		"Laila_Rig_004RN.placeHolderList[566]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[567]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[568]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[569]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[570]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[571]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[572]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[573]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[574]" ""
+		"Laila_Rig_004RN.placeHolderList[571]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[575]" ""
+		"Laila_Rig_004RN.placeHolderList[572]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[573]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[574]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[575]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[576]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[577]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[578]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[579]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[580]" ""
+		"Laila_Rig_004RN.placeHolderList[577]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[581]" ""
+		"Laila_Rig_004RN.placeHolderList[578]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[579]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[580]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[581]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[582]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLidBlink_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Border_Ctrl|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLidBlink_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[583]" ""
@@ -12555,29 +12200,29 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[602]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[603]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[604]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[605]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[606]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[607]" ""
+		"Laila_Rig_004RN.placeHolderList[604]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[608]" ""
+		"Laila_Rig_004RN.placeHolderList[605]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[606]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[607]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[608]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[609]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[610]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[611]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[612]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[613]" ""
+		"Laila_Rig_004RN.placeHolderList[610]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[614]" ""
+		"Laila_Rig_004RN.placeHolderList[611]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[612]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[613]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[614]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[615]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Border_Ctrl|Laila_Rig_004:R_BS_Blink_Ctrl_Grp|Laila_Rig_004:R_BS_Blink_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[616]" ""
@@ -12621,41 +12266,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[635]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Blink_Grp|Laila_Rig_004:typeMesh30.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[636]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[637]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[638]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[639]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[640]" ""
+		"Laila_Rig_004RN.placeHolderList[637]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[641]" ""
+		"Laila_Rig_004RN.placeHolderList[638]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[639]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[640]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[641]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[642]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[643]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[644]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[645]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[646]" ""
+		"Laila_Rig_004RN.placeHolderList[643]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[647]" ""
+		"Laila_Rig_004RN.placeHolderList[644]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[645]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[646]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[647]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[648]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[649]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[650]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[651]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[652]" ""
+		"Laila_Rig_004RN.placeHolderList[649]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[653]" ""
+		"Laila_Rig_004RN.placeHolderList[650]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[651]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[652]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[653]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[654]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Border_Ctrl|Laila_Rig_004:R_BS_CheeksSuckedIn_Ctrl_Grp|Laila_Rig_004:R_BS_CheeksSuckedIn_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[655]" ""
@@ -12693,41 +12338,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[671]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_CheeksSuckedIn_Grp|Laila_Rig_004:typeMesh29.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[672]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[673]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[674]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[675]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[676]" ""
+		"Laila_Rig_004RN.placeHolderList[673]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[677]" ""
+		"Laila_Rig_004RN.placeHolderList[674]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[675]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[676]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[677]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[678]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[679]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[680]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[681]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[682]" ""
+		"Laila_Rig_004RN.placeHolderList[679]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[683]" ""
+		"Laila_Rig_004RN.placeHolderList[680]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[681]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[682]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[683]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[684]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[685]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[686]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[687]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[688]" ""
+		"Laila_Rig_004RN.placeHolderList[685]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[689]" ""
+		"Laila_Rig_004RN.placeHolderList[686]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[687]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[688]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[689]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[690]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_PuffyCheeks_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Border_Ctrl|Laila_Rig_004:R_BS_PuffyCheeks_Ctrl_Grp|Laila_Rig_004:R_BS_PuffyCheeks_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[691]" ""
@@ -12909,41 +12554,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[779]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Sneer_Grp|Laila_Rig_004:typeMesh35.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[780]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[781]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[782]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[783]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[784]" ""
+		"Laila_Rig_004RN.placeHolderList[781]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[785]" ""
+		"Laila_Rig_004RN.placeHolderList[782]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[783]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[784]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[785]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[786]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[787]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[788]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[789]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[790]" ""
+		"Laila_Rig_004RN.placeHolderList[787]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[791]" ""
+		"Laila_Rig_004RN.placeHolderList[788]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[789]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[790]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[791]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[792]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[793]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[794]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[795]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[796]" ""
+		"Laila_Rig_004RN.placeHolderList[793]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[797]" ""
+		"Laila_Rig_004RN.placeHolderList[794]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[795]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[796]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[797]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[798]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Border_Ctrl|Laila_Rig_004:R_BS_LowerLipDown_Ctrl_Grp|Laila_Rig_004:R_BS_LowerLipDown_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[799]" ""
@@ -12981,41 +12626,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[815]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_LowerLipDown_Grp|Laila_Rig_004:typeMesh36.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[816]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[817]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[818]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[819]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[820]" ""
+		"Laila_Rig_004RN.placeHolderList[817]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[821]" ""
+		"Laila_Rig_004RN.placeHolderList[818]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[819]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[820]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[821]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[822]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[823]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[824]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[825]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[826]" ""
+		"Laila_Rig_004RN.placeHolderList[823]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[827]" ""
+		"Laila_Rig_004RN.placeHolderList[824]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[825]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[826]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[827]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[828]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[829]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[830]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[831]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[832]" ""
+		"Laila_Rig_004RN.placeHolderList[829]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[833]" ""
+		"Laila_Rig_004RN.placeHolderList[830]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[831]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[832]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[833]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[834]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_UpperLipUp_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Border_Ctrl|Laila_Rig_004:R_BS_UpperLipUp_Ctrl_Grp|Laila_Rig_004:R_BS_UpperLipUp_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[835]" ""
@@ -13125,41 +12770,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[887]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Squint_Grp|Laila_Rig_004:SquintType1.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[888]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[889]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[890]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[891]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[892]" ""
+		"Laila_Rig_004RN.placeHolderList[889]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[893]" ""
+		"Laila_Rig_004RN.placeHolderList[890]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[891]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[892]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[893]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[894]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[895]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[896]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[897]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[898]" ""
+		"Laila_Rig_004RN.placeHolderList[895]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[899]" ""
+		"Laila_Rig_004RN.placeHolderList[896]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[897]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[898]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[899]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[900]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[901]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[902]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[903]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[904]" ""
+		"Laila_Rig_004RN.placeHolderList[901]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[905]" ""
+		"Laila_Rig_004RN.placeHolderList[902]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[903]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[904]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[905]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[906]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFullUp_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFullUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFullUp_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[907]" ""
@@ -13341,41 +12986,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[995]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsOutDown_Grp|Laila_Rig_004:typeMesh23.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[996]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[997]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[998]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[999]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1000]" ""
+		"Laila_Rig_004RN.placeHolderList[997]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1001]" ""
+		"Laila_Rig_004RN.placeHolderList[998]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[999]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1000]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1001]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1002]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1003]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1004]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1005]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1006]" ""
+		"Laila_Rig_004RN.placeHolderList[1003]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1007]" ""
+		"Laila_Rig_004RN.placeHolderList[1004]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1005]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1006]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1007]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1008]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1009]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1010]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1011]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1012]" ""
+		"Laila_Rig_004RN.placeHolderList[1009]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1013]" ""
+		"Laila_Rig_004RN.placeHolderList[1010]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1011]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1012]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1013]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1014]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidDown_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidDown_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[1015]" ""
@@ -13413,41 +13058,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[1031]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidDown_Grp|Laila_Rig_004:typeMesh24.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[1032]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1033]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1034]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1035]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1036]" ""
+		"Laila_Rig_004RN.placeHolderList[1033]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1037]" ""
+		"Laila_Rig_004RN.placeHolderList[1034]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1035]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1036]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1037]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1038]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1039]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1040]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1041]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1042]" ""
+		"Laila_Rig_004RN.placeHolderList[1039]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1043]" ""
+		"Laila_Rig_004RN.placeHolderList[1040]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1041]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1042]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1043]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1044]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1045]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1046]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1047]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1048]" ""
+		"Laila_Rig_004RN.placeHolderList[1045]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1049]" ""
+		"Laila_Rig_004RN.placeHolderList[1046]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1047]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1048]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1049]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1050]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Border_Ctrl|Laila_Rig_004:R_BS_BrowsFlat_Ctrl_Grp|Laila_Rig_004:R_BS_BrowsFlat_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[1051]" ""
@@ -13485,41 +13130,41 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[1067]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsFlat_Grp|Laila_Rig_004:typeMesh25.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[1068]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1069]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1070]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1071]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1072]" ""
+		"Laila_Rig_004RN.placeHolderList[1069]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1073]" ""
+		"Laila_Rig_004RN.placeHolderList[1070]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1071]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1072]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1073]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1074]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1075]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1076]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1077]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1078]" ""
+		"Laila_Rig_004RN.placeHolderList[1075]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1079]" ""
+		"Laila_Rig_004RN.placeHolderList[1076]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1077]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1078]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1079]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1080]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1081]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1082]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1083]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1084]" ""
+		"Laila_Rig_004RN.placeHolderList[1081]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1085]" ""
+		"Laila_Rig_004RN.placeHolderList[1082]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1083]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1084]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1085]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1086]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Border_Ctrl|Laila_Rig_004:R_BS_BrowMidUp_Ctrl_Grp|Laila_Rig_004:R_BS_BrowMidUp_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[1087]" ""
@@ -13557,53 +13202,53 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[1103]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_BrowsMidUp_Grp|Laila_Rig_004:typeMesh26.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[1104]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1105]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1106]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1107]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1108]" ""
+		"Laila_Rig_004RN.placeHolderList[1105]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1109]" ""
+		"Laila_Rig_004RN.placeHolderList[1106]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1107]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1108]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1109]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:topnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1110]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1111]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1112]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1113]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1114]" ""
+		"Laila_Rig_004RN.placeHolderList[1111]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1115]" ""
+		"Laila_Rig_004RN.placeHolderList[1112]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1113]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1114]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1115]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:leftnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1116]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1117]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1118]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1119]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1120]" ""
+		"Laila_Rig_004RN.placeHolderList[1117]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1121]" ""
+		"Laila_Rig_004RN.placeHolderList[1118]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1119]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1120]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1121]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1122]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1123]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1124]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1125]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1126]" ""
+		"Laila_Rig_004RN.placeHolderList[1123]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1127]" ""
+		"Laila_Rig_004RN.placeHolderList[1124]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1125]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1126]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1127]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1128]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_MouthCornerGrp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Border_Ctrl|Laila_Rig_004:R_BS_MouthCorner_Ctrl_Grp|Laila_Rig_004:R_BS_MouthCorner_Ctrl.translateX" 
 		"Laila_Rig_004RN.placeHolderList[1129]" ""
@@ -13953,29 +13598,29 @@ createNode reference -n "Laila_Rig_004RN";
 		"Laila_Rig_004RN.placeHolderList[1301]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:topnurbsSquare1.rotateZ" 
 		"Laila_Rig_004RN.placeHolderList[1302]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1303]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1304]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1305]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1306]" ""
+		"Laila_Rig_004RN.placeHolderList[1303]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1307]" ""
+		"Laila_Rig_004RN.placeHolderList[1304]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1305]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1306]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1307]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:bottomnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1308]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
-		"Laila_Rig_004RN.placeHolderList[1309]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
-		"Laila_Rig_004RN.placeHolderList[1310]" ""
-		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
-		"Laila_Rig_004RN.placeHolderList[1311]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateX" 
-		"Laila_Rig_004RN.placeHolderList[1312]" ""
+		"Laila_Rig_004RN.placeHolderList[1309]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateY" 
-		"Laila_Rig_004RN.placeHolderList[1313]" ""
+		"Laila_Rig_004RN.placeHolderList[1310]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.rotateZ" 
+		"Laila_Rig_004RN.placeHolderList[1311]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateX" 
+		"Laila_Rig_004RN.placeHolderList[1312]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateY" 
+		"Laila_Rig_004RN.placeHolderList[1313]" ""
+		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:rightnurbsSquare1.translateZ" 
 		"Laila_Rig_004RN.placeHolderList[1314]" ""
 		5 4 "Laila_Rig_004RN" "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:L_Blendshape_UI_Ctrl_Grp|Laila_Rig_004:L_Blendshape_UI_Ctrl|Laila_Rig_004:BS_Wide_Eye_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl|Laila_Rig_004:R_BS_WideEye_Ctrl_Grp|Laila_Rig_004:R_BS_WideEye_Ctrl.translateY" 
 		"Laila_Rig_004RN.placeHolderList[1315]" ""
@@ -29398,6 +29043,9 @@ createNode animCurveTL -n "laila_Rig_001_Head_Jnt_001_Ctrl_translateX1";
 	setAttr -s 65 ".kot[64]"  18;
 createNode reference -n "CityPostPropsRN";
 	rename -uid "35F8CC34-4E29-B616-52B0-5CA9EAB524A0";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"CityPostPropsRN"
 		"CityPostProps:TownHomesRN" 0
@@ -29465,7 +29113,7 @@ createNode reference -n "CityPostPropsRN";
 		0 "|CityPostProps:UtahWoolenmills:UtahWoolenMills" "|city" "-s -r "
 		"CityPostProps:RedBikeRackRN" 1
 		0 "|CityPostProps:RedBikeRack:RedBikeRack" "|city" "-s -r "
-		"CityPostPropsRN" 23
+		"CityPostPropsRN" 25
 		0 "|CityPostProps:apartment_geo" "|city" "-s -r "
 		0 "|CityPostProps:BikeRack_geo3" "|city" "-s -r "
 		0 "|CityPostProps:BikeRack_geo4" "|city" "-s -r "
@@ -29489,6 +29137,10 @@ createNode reference -n "CityPostPropsRN";
 		0 "|CityPostProps:trashCan3" "|city" "-s -r "
 		0 "|CityPostProps:QuadSideWalkTurn15" "|city" "-s -r "
 		0 "|CityPostProps:apartment_geo1" "|city" "-s -r "
+		5 4 "CityPostPropsRN" "CityPostProps:rsMaterial1.diffuse_color" "CityPostPropsRN.placeHolderList[1]" 
+		""
+		5 4 "CityPostPropsRN" "CityPostProps:materialInfo1.texture" "CityPostPropsRN.placeHolderList[2]" 
+		""
 		"CityPostProps:Endicott_BuildingRN" 1
 		0 "|CityPostProps:Endicott_Building:Endicott_Building" "|city" "-s -r "
 		"CityPostProps:LampostRN" 1
@@ -29516,9 +29168,15 @@ createNode RedshiftOptions -s -n "redshiftOptions";
 	setAttr ".primaryGIEngine" 4;
 	setAttr ".secondaryGIEngine" 4;
 	setAttr ".renderViewState" -type "string" "AAAA/wAAABI/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAegBpAHAAcwAAAAAAAAAGAGwAegB3AAAAXwAAAAAAAAAAQFkAAAAAAAAAAAACAAAABgAAAFAARAA6AC8ARwBpAHQALwBSAGUAZgBsAGUAYwB0AGkAbwBuAC8AUwBlAG4AaQBvAHIAQQBuAGkAbQBhAHQAaQBvAG4ALwBpAG0AYQBnAGUAcwAAAAAAAABAAEMAOgAvAFAAcgBvAGcAcgBhAG0ARABhAHQAYQAvAFIAZQBkAHMAaABpAGYAdAAvAEQAYQB0AGEALwBMAFUAVAAAAEwAQwA6AC8AUAByAG8AZwByAGEAbQAgAEYAaQBsAGUAcwAvAEEAdQB0AG8AZABlAHMAawAvAE0AYQB5AGEAMgAwADEAOAAvAGIAaQBuAAAASABDADoALwBQAHIAbwBnAHIAYQBtAEQAYQB0AGEALwBSAGUAZABzAGgAaQBmAHQALwBEAGEAdABhAC8AUAByAGUAcwBlAHQAcwAAAEwAQwA6AC8AUAByAG8AZwByAGEAbQAgAEYAaQBsAGUAcwAvAEEAdQB0AG8AZABlAHMAawAvAE0AYQB5AGEAMgAwADEAOAAvAGIAaQBuAAAAAQAAAAEAAABUAEYAcgBhAG0AZQAgADwAZgByAGEAbQBlAD4AOgAgADwAZABhAHQAZQA+ACAAPAB0AGkAbQBlAD4AIAAoADwAZgByAGEAbQBlAHQAaQBtAGUAPgApAD/wAAAAAAAAP/AAAAAAAAA/8AAAAAAAAAEAAAABP/AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAAQEBAAAAAAUB";
+createNode file -n "file1";
+	rename -uid "C220BF73-4009-59E7-A9CE-199DF4E06508";
+	setAttr ".ftn" -type "string" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Textures/sideWalk/sideWalk_rsMaterial1_Color.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "place2dTexture1";
+	rename -uid "8BED3ACA-45CD-8F51-6E2E-4C952F9DF5F6";
 select -ne :time1;
-	setAttr ".o" 16;
-	setAttr ".unw" 16;
+	setAttr ".o" 60;
+	setAttr ".unw" 60;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -29526,19 +29184,19 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 590 ".st";
+	setAttr -s 594 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 549 ".s";
+	setAttr -s 553 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 1124 ".u";
+	setAttr -s 1137 ".u";
 select -ne :defaultRenderingList1;
 	setAttr -s 44 ".r";
 select -ne :lightList1;
 select -ne :defaultTextureList1;
-	setAttr -s 368 ".tx";
+	setAttr -s 380 ".tx";
 select -ne :initialShadingGroup;
 	setAttr -s 11 ".dsm";
 	setAttr ".ro" yes;
@@ -30327,30 +29985,30 @@ connectAttr "L_Blendshape_UI_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[417]";
 connectAttr "L_Blendshape_UI_Ctrl_rotateX.o" "Laila_Rig_004RN.phl[418]";
 connectAttr "L_Blendshape_UI_Ctrl_rotateY.o" "Laila_Rig_004RN.phl[419]";
 connectAttr "L_Blendshape_UI_Ctrl_rotateZ.o" "Laila_Rig_004RN.phl[420]";
-connectAttr "topnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[421]";
-connectAttr "topnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[422]";
-connectAttr "topnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[423]";
-connectAttr "topnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[424]";
-connectAttr "topnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[425]";
-connectAttr "topnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[426]";
-connectAttr "leftnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[427]";
-connectAttr "leftnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[428]";
-connectAttr "leftnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[429]";
-connectAttr "leftnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[430]";
-connectAttr "leftnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[431]";
-connectAttr "leftnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[432]";
-connectAttr "bottomnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[433]";
-connectAttr "bottomnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[434]";
-connectAttr "bottomnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[435]";
-connectAttr "bottomnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[436]";
-connectAttr "bottomnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[437]";
-connectAttr "bottomnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[438]";
-connectAttr "rightnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[439]";
-connectAttr "rightnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[440]";
-connectAttr "rightnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[441]";
-connectAttr "rightnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[442]";
-connectAttr "rightnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[443]";
-connectAttr "rightnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[444]";
+connectAttr "topnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[421]";
+connectAttr "topnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[422]";
+connectAttr "topnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[423]";
+connectAttr "topnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[424]";
+connectAttr "topnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[425]";
+connectAttr "topnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[426]";
+connectAttr "leftnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[427]";
+connectAttr "leftnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[428]";
+connectAttr "leftnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[429]";
+connectAttr "leftnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[430]";
+connectAttr "leftnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[431]";
+connectAttr "leftnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[432]";
+connectAttr "bottomnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[433]";
+connectAttr "bottomnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[434]";
+connectAttr "bottomnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[435]";
+connectAttr "bottomnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[436]";
+connectAttr "bottomnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[437]";
+connectAttr "bottomnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[438]";
+connectAttr "rightnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[439]";
+connectAttr "rightnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[440]";
+connectAttr "rightnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[441]";
+connectAttr "rightnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[442]";
+connectAttr "rightnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[443]";
+connectAttr "rightnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[444]";
 connectAttr "BS_M_Viseme_Ctrl_translateY.o" "Laila_Rig_004RN.phl[445]";
 connectAttr "BS_M_Viseme_Ctrl_translateX.o" "Laila_Rig_004RN.phl[446]";
 connectAttr "BS_M_Viseme_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[447]";
@@ -30363,30 +30021,30 @@ connectAttr "typeMesh39_translateZ.o" "Laila_Rig_004RN.phl[453]";
 connectAttr "typeMesh39_rotateX.o" "Laila_Rig_004RN.phl[454]";
 connectAttr "typeMesh39_rotateY.o" "Laila_Rig_004RN.phl[455]";
 connectAttr "typeMesh39_rotateZ.o" "Laila_Rig_004RN.phl[456]";
-connectAttr "topnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[457]";
-connectAttr "topnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[458]";
-connectAttr "topnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[459]";
-connectAttr "topnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[460]";
-connectAttr "topnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[461]";
-connectAttr "topnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[462]";
-connectAttr "leftnurbsSquare1_translateX.o" "Laila_Rig_004RN.phl[463]";
-connectAttr "leftnurbsSquare1_translateY.o" "Laila_Rig_004RN.phl[464]";
-connectAttr "leftnurbsSquare1_translateZ.o" "Laila_Rig_004RN.phl[465]";
-connectAttr "leftnurbsSquare1_rotateX.o" "Laila_Rig_004RN.phl[466]";
-connectAttr "leftnurbsSquare1_rotateY.o" "Laila_Rig_004RN.phl[467]";
-connectAttr "leftnurbsSquare1_rotateZ.o" "Laila_Rig_004RN.phl[468]";
-connectAttr "bottomnurbsSquare1_translateX10.o" "Laila_Rig_004RN.phl[469]";
-connectAttr "bottomnurbsSquare1_translateY10.o" "Laila_Rig_004RN.phl[470]";
-connectAttr "bottomnurbsSquare1_translateZ10.o" "Laila_Rig_004RN.phl[471]";
-connectAttr "bottomnurbsSquare1_rotateX12.o" "Laila_Rig_004RN.phl[472]";
-connectAttr "bottomnurbsSquare1_rotateY12.o" "Laila_Rig_004RN.phl[473]";
-connectAttr "bottomnurbsSquare1_rotateZ12.o" "Laila_Rig_004RN.phl[474]";
-connectAttr "rightnurbsSquare1_translateX18.o" "Laila_Rig_004RN.phl[475]";
-connectAttr "rightnurbsSquare1_translateY18.o" "Laila_Rig_004RN.phl[476]";
-connectAttr "rightnurbsSquare1_translateZ18.o" "Laila_Rig_004RN.phl[477]";
-connectAttr "rightnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[478]";
-connectAttr "rightnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[479]";
-connectAttr "rightnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[480]";
+connectAttr "topnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[457]";
+connectAttr "topnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[458]";
+connectAttr "topnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[459]";
+connectAttr "topnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[460]";
+connectAttr "topnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[461]";
+connectAttr "topnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[462]";
+connectAttr "leftnurbsSquare1_rotateX.o" "Laila_Rig_004RN.phl[463]";
+connectAttr "leftnurbsSquare1_rotateY.o" "Laila_Rig_004RN.phl[464]";
+connectAttr "leftnurbsSquare1_rotateZ.o" "Laila_Rig_004RN.phl[465]";
+connectAttr "leftnurbsSquare1_translateX.o" "Laila_Rig_004RN.phl[466]";
+connectAttr "leftnurbsSquare1_translateY.o" "Laila_Rig_004RN.phl[467]";
+connectAttr "leftnurbsSquare1_translateZ.o" "Laila_Rig_004RN.phl[468]";
+connectAttr "bottomnurbsSquare1_rotateX12.o" "Laila_Rig_004RN.phl[469]";
+connectAttr "bottomnurbsSquare1_rotateY12.o" "Laila_Rig_004RN.phl[470]";
+connectAttr "bottomnurbsSquare1_rotateZ12.o" "Laila_Rig_004RN.phl[471]";
+connectAttr "bottomnurbsSquare1_translateX10.o" "Laila_Rig_004RN.phl[472]";
+connectAttr "bottomnurbsSquare1_translateY10.o" "Laila_Rig_004RN.phl[473]";
+connectAttr "bottomnurbsSquare1_translateZ10.o" "Laila_Rig_004RN.phl[474]";
+connectAttr "rightnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[475]";
+connectAttr "rightnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[476]";
+connectAttr "rightnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[477]";
+connectAttr "rightnurbsSquare1_translateX18.o" "Laila_Rig_004RN.phl[478]";
+connectAttr "rightnurbsSquare1_translateY18.o" "Laila_Rig_004RN.phl[479]";
+connectAttr "rightnurbsSquare1_translateZ18.o" "Laila_Rig_004RN.phl[480]";
 connectAttr "BS_F_Viseme_Ctrl_translateY.o" "Laila_Rig_004RN.phl[481]";
 connectAttr "BS_F_Viseme_Ctrl_translateX.o" "Laila_Rig_004RN.phl[482]";
 connectAttr "BS_F_Viseme_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[483]";
@@ -30441,24 +30099,24 @@ connectAttr "L_BS_BrowSqueeze_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[531]";
 connectAttr "L_BS_BrowSqueeze_Ctrl_rotateX.o" "Laila_Rig_004RN.phl[532]";
 connectAttr "L_BS_BrowSqueeze_Ctrl_rotateY.o" "Laila_Rig_004RN.phl[533]";
 connectAttr "L_BS_BrowSqueeze_Ctrl_rotateZ.o" "Laila_Rig_004RN.phl[534]";
-connectAttr "topnurbsSquare1_translateX6.o" "Laila_Rig_004RN.phl[535]";
-connectAttr "topnurbsSquare1_translateY6.o" "Laila_Rig_004RN.phl[536]";
-connectAttr "topnurbsSquare1_translateZ6.o" "Laila_Rig_004RN.phl[537]";
-connectAttr "topnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[538]";
-connectAttr "topnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[539]";
-connectAttr "topnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[540]";
-connectAttr "bottomnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[541]";
-connectAttr "bottomnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[542]";
-connectAttr "bottomnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[543]";
-connectAttr "bottomnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[544]";
-connectAttr "bottomnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[545]";
-connectAttr "bottomnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[546]";
-connectAttr "rightnurbsSquare1_translateX6.o" "Laila_Rig_004RN.phl[547]";
-connectAttr "rightnurbsSquare1_translateY6.o" "Laila_Rig_004RN.phl[548]";
-connectAttr "rightnurbsSquare1_translateZ6.o" "Laila_Rig_004RN.phl[549]";
-connectAttr "rightnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[550]";
-connectAttr "rightnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[551]";
-connectAttr "rightnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[552]";
+connectAttr "topnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[535]";
+connectAttr "topnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[536]";
+connectAttr "topnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[537]";
+connectAttr "topnurbsSquare1_translateX6.o" "Laila_Rig_004RN.phl[538]";
+connectAttr "topnurbsSquare1_translateY6.o" "Laila_Rig_004RN.phl[539]";
+connectAttr "topnurbsSquare1_translateZ6.o" "Laila_Rig_004RN.phl[540]";
+connectAttr "bottomnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[541]";
+connectAttr "bottomnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[542]";
+connectAttr "bottomnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[543]";
+connectAttr "bottomnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[544]";
+connectAttr "bottomnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[545]";
+connectAttr "bottomnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[546]";
+connectAttr "rightnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[547]";
+connectAttr "rightnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[548]";
+connectAttr "rightnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[549]";
+connectAttr "rightnurbsSquare1_translateX6.o" "Laila_Rig_004RN.phl[550]";
+connectAttr "rightnurbsSquare1_translateY6.o" "Laila_Rig_004RN.phl[551]";
+connectAttr "rightnurbsSquare1_translateZ6.o" "Laila_Rig_004RN.phl[552]";
 connectAttr "R_BS_BrowSqueeze_Ctrl_translateY.o" "Laila_Rig_004RN.phl[553]";
 connectAttr "R_BS_BrowSqueeze_Ctrl_translateX.o" "Laila_Rig_004RN.phl[554]";
 connectAttr "R_BS_BrowSqueeze_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[555]";
@@ -30471,24 +30129,24 @@ connectAttr "typeMesh32_translateZ.o" "Laila_Rig_004RN.phl[561]";
 connectAttr "typeMesh32_rotateX.o" "Laila_Rig_004RN.phl[562]";
 connectAttr "typeMesh32_rotateY.o" "Laila_Rig_004RN.phl[563]";
 connectAttr "typeMesh32_rotateZ.o" "Laila_Rig_004RN.phl[564]";
-connectAttr "topnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[565]";
-connectAttr "topnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[566]";
-connectAttr "topnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[567]";
-connectAttr "topnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[568]";
-connectAttr "topnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[569]";
-connectAttr "topnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[570]";
-connectAttr "bottomnurbsSquare1_translateX9.o" "Laila_Rig_004RN.phl[571]";
-connectAttr "bottomnurbsSquare1_translateY9.o" "Laila_Rig_004RN.phl[572]";
-connectAttr "bottomnurbsSquare1_translateZ9.o" "Laila_Rig_004RN.phl[573]";
-connectAttr "bottomnurbsSquare1_rotateX11.o" "Laila_Rig_004RN.phl[574]";
-connectAttr "bottomnurbsSquare1_rotateY11.o" "Laila_Rig_004RN.phl[575]";
-connectAttr "bottomnurbsSquare1_rotateZ11.o" "Laila_Rig_004RN.phl[576]";
-connectAttr "rightnurbsSquare1_translateX10.o" "Laila_Rig_004RN.phl[577]";
-connectAttr "rightnurbsSquare1_translateY10.o" "Laila_Rig_004RN.phl[578]";
-connectAttr "rightnurbsSquare1_translateZ10.o" "Laila_Rig_004RN.phl[579]";
-connectAttr "rightnurbsSquare1_rotateX12.o" "Laila_Rig_004RN.phl[580]";
-connectAttr "rightnurbsSquare1_rotateY12.o" "Laila_Rig_004RN.phl[581]";
-connectAttr "rightnurbsSquare1_rotateZ12.o" "Laila_Rig_004RN.phl[582]";
+connectAttr "topnurbsSquare1_rotateX13.o" "Laila_Rig_004RN.phl[565]";
+connectAttr "topnurbsSquare1_rotateY13.o" "Laila_Rig_004RN.phl[566]";
+connectAttr "topnurbsSquare1_rotateZ13.o" "Laila_Rig_004RN.phl[567]";
+connectAttr "topnurbsSquare1_translateX11.o" "Laila_Rig_004RN.phl[568]";
+connectAttr "topnurbsSquare1_translateY11.o" "Laila_Rig_004RN.phl[569]";
+connectAttr "topnurbsSquare1_translateZ11.o" "Laila_Rig_004RN.phl[570]";
+connectAttr "bottomnurbsSquare1_rotateX11.o" "Laila_Rig_004RN.phl[571]";
+connectAttr "bottomnurbsSquare1_rotateY11.o" "Laila_Rig_004RN.phl[572]";
+connectAttr "bottomnurbsSquare1_rotateZ11.o" "Laila_Rig_004RN.phl[573]";
+connectAttr "bottomnurbsSquare1_translateX9.o" "Laila_Rig_004RN.phl[574]";
+connectAttr "bottomnurbsSquare1_translateY9.o" "Laila_Rig_004RN.phl[575]";
+connectAttr "bottomnurbsSquare1_translateZ9.o" "Laila_Rig_004RN.phl[576]";
+connectAttr "rightnurbsSquare1_rotateX12.o" "Laila_Rig_004RN.phl[577]";
+connectAttr "rightnurbsSquare1_rotateY12.o" "Laila_Rig_004RN.phl[578]";
+connectAttr "rightnurbsSquare1_rotateZ12.o" "Laila_Rig_004RN.phl[579]";
+connectAttr "rightnurbsSquare1_translateX10.o" "Laila_Rig_004RN.phl[580]";
+connectAttr "rightnurbsSquare1_translateY10.o" "Laila_Rig_004RN.phl[581]";
+connectAttr "rightnurbsSquare1_translateZ10.o" "Laila_Rig_004RN.phl[582]";
 connectAttr "R_BS_LowerLidBlink_Ctrl_translateY.o" "Laila_Rig_004RN.phl[583]";
 connectAttr "R_BS_LowerLidBlink_Ctrl_translateX.o" "Laila_Rig_004RN.phl[584]";
 connectAttr "R_BS_LowerLidBlink_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[585]";
@@ -30510,18 +30168,18 @@ connectAttr "typeMesh31_rotateZ.o" "Laila_Rig_004RN.phl[600]";
 connectAttr "topnurbsSquare1_rotateX17.o" "Laila_Rig_004RN.phl[601]";
 connectAttr "topnurbsSquare1_rotateY17.o" "Laila_Rig_004RN.phl[602]";
 connectAttr "topnurbsSquare1_rotateZ17.o" "Laila_Rig_004RN.phl[603]";
-connectAttr "bottomnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[604]";
-connectAttr "bottomnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[605]";
-connectAttr "bottomnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[606]";
-connectAttr "bottomnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[607]";
-connectAttr "bottomnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[608]";
-connectAttr "bottomnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[609]";
-connectAttr "rightnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[610]";
-connectAttr "rightnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[611]";
-connectAttr "rightnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[612]";
-connectAttr "rightnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[613]";
-connectAttr "rightnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[614]";
-connectAttr "rightnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[615]";
+connectAttr "bottomnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[604]";
+connectAttr "bottomnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[605]";
+connectAttr "bottomnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[606]";
+connectAttr "bottomnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[607]";
+connectAttr "bottomnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[608]";
+connectAttr "bottomnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[609]";
+connectAttr "rightnurbsSquare1_rotateX14.o" "Laila_Rig_004RN.phl[610]";
+connectAttr "rightnurbsSquare1_rotateY14.o" "Laila_Rig_004RN.phl[611]";
+connectAttr "rightnurbsSquare1_rotateZ14.o" "Laila_Rig_004RN.phl[612]";
+connectAttr "rightnurbsSquare1_translateX12.o" "Laila_Rig_004RN.phl[613]";
+connectAttr "rightnurbsSquare1_translateY12.o" "Laila_Rig_004RN.phl[614]";
+connectAttr "rightnurbsSquare1_translateZ12.o" "Laila_Rig_004RN.phl[615]";
 connectAttr "R_BS_Blink_Ctrl_translateY.o" "Laila_Rig_004RN.phl[616]";
 connectAttr "R_BS_Blink_Ctrl_translateX.o" "Laila_Rig_004RN.phl[617]";
 connectAttr "R_BS_Blink_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[618]";
@@ -30543,24 +30201,24 @@ connectAttr "typeMesh30_translateZ.o" "Laila_Rig_004RN.phl[633]";
 connectAttr "typeMesh30_rotateX.o" "Laila_Rig_004RN.phl[634]";
 connectAttr "typeMesh30_rotateY.o" "Laila_Rig_004RN.phl[635]";
 connectAttr "typeMesh30_rotateZ.o" "Laila_Rig_004RN.phl[636]";
-connectAttr "topnurbsSquare1_translateX16.o" "Laila_Rig_004RN.phl[637]";
-connectAttr "topnurbsSquare1_translateY16.o" "Laila_Rig_004RN.phl[638]";
-connectAttr "topnurbsSquare1_translateZ16.o" "Laila_Rig_004RN.phl[639]";
-connectAttr "topnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[640]";
-connectAttr "topnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[641]";
-connectAttr "topnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[642]";
-connectAttr "bottomnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[643]";
-connectAttr "bottomnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[644]";
-connectAttr "bottomnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[645]";
-connectAttr "bottomnurbsSquare1_rotateX17.o" "Laila_Rig_004RN.phl[646]";
-connectAttr "bottomnurbsSquare1_rotateY17.o" "Laila_Rig_004RN.phl[647]";
-connectAttr "bottomnurbsSquare1_rotateZ17.o" "Laila_Rig_004RN.phl[648]";
-connectAttr "rightnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[649]";
-connectAttr "rightnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[650]";
-connectAttr "rightnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[651]";
-connectAttr "rightnurbsSquare1_rotateX17.o" "Laila_Rig_004RN.phl[652]";
-connectAttr "rightnurbsSquare1_rotateY17.o" "Laila_Rig_004RN.phl[653]";
-connectAttr "rightnurbsSquare1_rotateZ17.o" "Laila_Rig_004RN.phl[654]";
+connectAttr "topnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[637]";
+connectAttr "topnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[638]";
+connectAttr "topnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[639]";
+connectAttr "topnurbsSquare1_translateX16.o" "Laila_Rig_004RN.phl[640]";
+connectAttr "topnurbsSquare1_translateY16.o" "Laila_Rig_004RN.phl[641]";
+connectAttr "topnurbsSquare1_translateZ16.o" "Laila_Rig_004RN.phl[642]";
+connectAttr "bottomnurbsSquare1_rotateX17.o" "Laila_Rig_004RN.phl[643]";
+connectAttr "bottomnurbsSquare1_rotateY17.o" "Laila_Rig_004RN.phl[644]";
+connectAttr "bottomnurbsSquare1_rotateZ17.o" "Laila_Rig_004RN.phl[645]";
+connectAttr "bottomnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[646]";
+connectAttr "bottomnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[647]";
+connectAttr "bottomnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[648]";
+connectAttr "rightnurbsSquare1_rotateX17.o" "Laila_Rig_004RN.phl[649]";
+connectAttr "rightnurbsSquare1_rotateY17.o" "Laila_Rig_004RN.phl[650]";
+connectAttr "rightnurbsSquare1_rotateZ17.o" "Laila_Rig_004RN.phl[651]";
+connectAttr "rightnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[652]";
+connectAttr "rightnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[653]";
+connectAttr "rightnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[654]";
 connectAttr "R_BS_CheeksSuckedIn_Ctrl_translateY.o" "Laila_Rig_004RN.phl[655]";
 connectAttr "R_BS_CheeksSuckedIn_Ctrl_translateX.o" "Laila_Rig_004RN.phl[656]";
 connectAttr "R_BS_CheeksSuckedIn_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[657]";
@@ -30579,24 +30237,24 @@ connectAttr "typeMesh29_translateZ.o" "Laila_Rig_004RN.phl[669]";
 connectAttr "typeMesh29_rotateX.o" "Laila_Rig_004RN.phl[670]";
 connectAttr "typeMesh29_rotateY.o" "Laila_Rig_004RN.phl[671]";
 connectAttr "typeMesh29_rotateZ.o" "Laila_Rig_004RN.phl[672]";
-connectAttr "topnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[673]";
-connectAttr "topnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[674]";
-connectAttr "topnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[675]";
-connectAttr "topnurbsSquare1_rotateX19.o" "Laila_Rig_004RN.phl[676]";
-connectAttr "topnurbsSquare1_rotateY19.o" "Laila_Rig_004RN.phl[677]";
-connectAttr "topnurbsSquare1_rotateZ19.o" "Laila_Rig_004RN.phl[678]";
-connectAttr "bottomnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[679]";
-connectAttr "bottomnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[680]";
-connectAttr "bottomnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[681]";
-connectAttr "bottomnurbsSquare1_rotateX16.o" "Laila_Rig_004RN.phl[682]";
-connectAttr "bottomnurbsSquare1_rotateY16.o" "Laila_Rig_004RN.phl[683]";
-connectAttr "bottomnurbsSquare1_rotateZ16.o" "Laila_Rig_004RN.phl[684]";
-connectAttr "rightnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[685]";
-connectAttr "rightnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[686]";
-connectAttr "rightnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[687]";
-connectAttr "rightnurbsSquare1_rotateX16.o" "Laila_Rig_004RN.phl[688]";
-connectAttr "rightnurbsSquare1_rotateY16.o" "Laila_Rig_004RN.phl[689]";
-connectAttr "rightnurbsSquare1_rotateZ16.o" "Laila_Rig_004RN.phl[690]";
+connectAttr "topnurbsSquare1_rotateX19.o" "Laila_Rig_004RN.phl[673]";
+connectAttr "topnurbsSquare1_rotateY19.o" "Laila_Rig_004RN.phl[674]";
+connectAttr "topnurbsSquare1_rotateZ19.o" "Laila_Rig_004RN.phl[675]";
+connectAttr "topnurbsSquare1_translateX15.o" "Laila_Rig_004RN.phl[676]";
+connectAttr "topnurbsSquare1_translateY15.o" "Laila_Rig_004RN.phl[677]";
+connectAttr "topnurbsSquare1_translateZ15.o" "Laila_Rig_004RN.phl[678]";
+connectAttr "bottomnurbsSquare1_rotateX16.o" "Laila_Rig_004RN.phl[679]";
+connectAttr "bottomnurbsSquare1_rotateY16.o" "Laila_Rig_004RN.phl[680]";
+connectAttr "bottomnurbsSquare1_rotateZ16.o" "Laila_Rig_004RN.phl[681]";
+connectAttr "bottomnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[682]";
+connectAttr "bottomnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[683]";
+connectAttr "bottomnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[684]";
+connectAttr "rightnurbsSquare1_rotateX16.o" "Laila_Rig_004RN.phl[685]";
+connectAttr "rightnurbsSquare1_rotateY16.o" "Laila_Rig_004RN.phl[686]";
+connectAttr "rightnurbsSquare1_rotateZ16.o" "Laila_Rig_004RN.phl[687]";
+connectAttr "rightnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[688]";
+connectAttr "rightnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[689]";
+connectAttr "rightnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[690]";
 connectAttr "R_BS_PuffyCheeks_Ctrl_translateY.o" "Laila_Rig_004RN.phl[691]";
 connectAttr "R_BS_PuffyCheeks_Ctrl_translateX.o" "Laila_Rig_004RN.phl[692]";
 connectAttr "R_BS_PuffyCheeks_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[693]";
@@ -30687,24 +30345,24 @@ connectAttr "typeMesh35_translateZ.o" "Laila_Rig_004RN.phl[777]";
 connectAttr "typeMesh35_rotateX.o" "Laila_Rig_004RN.phl[778]";
 connectAttr "typeMesh35_rotateY.o" "Laila_Rig_004RN.phl[779]";
 connectAttr "typeMesh35_rotateZ.o" "Laila_Rig_004RN.phl[780]";
-connectAttr "topnurbsSquare1_translateX19.o" "Laila_Rig_004RN.phl[781]";
-connectAttr "topnurbsSquare1_translateY19.o" "Laila_Rig_004RN.phl[782]";
-connectAttr "topnurbsSquare1_translateZ19.o" "Laila_Rig_004RN.phl[783]";
-connectAttr "topnurbsSquare1_rotateX23.o" "Laila_Rig_004RN.phl[784]";
-connectAttr "topnurbsSquare1_rotateY23.o" "Laila_Rig_004RN.phl[785]";
-connectAttr "topnurbsSquare1_rotateZ23.o" "Laila_Rig_004RN.phl[786]";
-connectAttr "bottomnurbsSquare1_translateX20.o" "Laila_Rig_004RN.phl[787]";
-connectAttr "bottomnurbsSquare1_translateY20.o" "Laila_Rig_004RN.phl[788]";
-connectAttr "bottomnurbsSquare1_translateZ20.o" "Laila_Rig_004RN.phl[789]";
-connectAttr "bottomnurbsSquare1_rotateX22.o" "Laila_Rig_004RN.phl[790]";
-connectAttr "bottomnurbsSquare1_rotateY22.o" "Laila_Rig_004RN.phl[791]";
-connectAttr "bottomnurbsSquare1_rotateZ22.o" "Laila_Rig_004RN.phl[792]";
-connectAttr "rightnurbsSquare1_translateX20.o" "Laila_Rig_004RN.phl[793]";
-connectAttr "rightnurbsSquare1_translateY20.o" "Laila_Rig_004RN.phl[794]";
-connectAttr "rightnurbsSquare1_translateZ20.o" "Laila_Rig_004RN.phl[795]";
-connectAttr "rightnurbsSquare1_rotateX22.o" "Laila_Rig_004RN.phl[796]";
-connectAttr "rightnurbsSquare1_rotateY22.o" "Laila_Rig_004RN.phl[797]";
-connectAttr "rightnurbsSquare1_rotateZ22.o" "Laila_Rig_004RN.phl[798]";
+connectAttr "topnurbsSquare1_rotateX23.o" "Laila_Rig_004RN.phl[781]";
+connectAttr "topnurbsSquare1_rotateY23.o" "Laila_Rig_004RN.phl[782]";
+connectAttr "topnurbsSquare1_rotateZ23.o" "Laila_Rig_004RN.phl[783]";
+connectAttr "topnurbsSquare1_translateX19.o" "Laila_Rig_004RN.phl[784]";
+connectAttr "topnurbsSquare1_translateY19.o" "Laila_Rig_004RN.phl[785]";
+connectAttr "topnurbsSquare1_translateZ19.o" "Laila_Rig_004RN.phl[786]";
+connectAttr "bottomnurbsSquare1_rotateX22.o" "Laila_Rig_004RN.phl[787]";
+connectAttr "bottomnurbsSquare1_rotateY22.o" "Laila_Rig_004RN.phl[788]";
+connectAttr "bottomnurbsSquare1_rotateZ22.o" "Laila_Rig_004RN.phl[789]";
+connectAttr "bottomnurbsSquare1_translateX20.o" "Laila_Rig_004RN.phl[790]";
+connectAttr "bottomnurbsSquare1_translateY20.o" "Laila_Rig_004RN.phl[791]";
+connectAttr "bottomnurbsSquare1_translateZ20.o" "Laila_Rig_004RN.phl[792]";
+connectAttr "rightnurbsSquare1_rotateX22.o" "Laila_Rig_004RN.phl[793]";
+connectAttr "rightnurbsSquare1_rotateY22.o" "Laila_Rig_004RN.phl[794]";
+connectAttr "rightnurbsSquare1_rotateZ22.o" "Laila_Rig_004RN.phl[795]";
+connectAttr "rightnurbsSquare1_translateX20.o" "Laila_Rig_004RN.phl[796]";
+connectAttr "rightnurbsSquare1_translateY20.o" "Laila_Rig_004RN.phl[797]";
+connectAttr "rightnurbsSquare1_translateZ20.o" "Laila_Rig_004RN.phl[798]";
 connectAttr "R_BS_LowerLipDown_Ctrl_translateY.o" "Laila_Rig_004RN.phl[799]";
 connectAttr "R_BS_LowerLipDown_Ctrl_translateX.o" "Laila_Rig_004RN.phl[800]";
 connectAttr "R_BS_LowerLipDown_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[801]";
@@ -30723,24 +30381,24 @@ connectAttr "typeMesh36_translateZ.o" "Laila_Rig_004RN.phl[813]";
 connectAttr "typeMesh36_rotateX.o" "Laila_Rig_004RN.phl[814]";
 connectAttr "typeMesh36_rotateY.o" "Laila_Rig_004RN.phl[815]";
 connectAttr "typeMesh36_rotateZ.o" "Laila_Rig_004RN.phl[816]";
-connectAttr "topnurbsSquare1_translateX8.o" "Laila_Rig_004RN.phl[817]";
-connectAttr "topnurbsSquare1_translateY8.o" "Laila_Rig_004RN.phl[818]";
-connectAttr "topnurbsSquare1_translateZ8.o" "Laila_Rig_004RN.phl[819]";
-connectAttr "topnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[820]";
-connectAttr "topnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[821]";
-connectAttr "topnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[822]";
-connectAttr "bottomnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[823]";
-connectAttr "bottomnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[824]";
-connectAttr "bottomnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[825]";
-connectAttr "bottomnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[826]";
-connectAttr "bottomnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[827]";
-connectAttr "bottomnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[828]";
-connectAttr "rightnurbsSquare1_translateX8.o" "Laila_Rig_004RN.phl[829]";
-connectAttr "rightnurbsSquare1_translateY8.o" "Laila_Rig_004RN.phl[830]";
-connectAttr "rightnurbsSquare1_translateZ8.o" "Laila_Rig_004RN.phl[831]";
-connectAttr "rightnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[832]";
-connectAttr "rightnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[833]";
-connectAttr "rightnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[834]";
+connectAttr "topnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[817]";
+connectAttr "topnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[818]";
+connectAttr "topnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[819]";
+connectAttr "topnurbsSquare1_translateX8.o" "Laila_Rig_004RN.phl[820]";
+connectAttr "topnurbsSquare1_translateY8.o" "Laila_Rig_004RN.phl[821]";
+connectAttr "topnurbsSquare1_translateZ8.o" "Laila_Rig_004RN.phl[822]";
+connectAttr "bottomnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[823]";
+connectAttr "bottomnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[824]";
+connectAttr "bottomnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[825]";
+connectAttr "bottomnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[826]";
+connectAttr "bottomnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[827]";
+connectAttr "bottomnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[828]";
+connectAttr "rightnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[829]";
+connectAttr "rightnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[830]";
+connectAttr "rightnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[831]";
+connectAttr "rightnurbsSquare1_translateX8.o" "Laila_Rig_004RN.phl[832]";
+connectAttr "rightnurbsSquare1_translateY8.o" "Laila_Rig_004RN.phl[833]";
+connectAttr "rightnurbsSquare1_translateZ8.o" "Laila_Rig_004RN.phl[834]";
 connectAttr "R_BS_UpperLipUp_Ctrl_translateY.o" "Laila_Rig_004RN.phl[835]";
 connectAttr "R_BS_UpperLipUp_Ctrl_translateX.o" "Laila_Rig_004RN.phl[836]";
 connectAttr "R_BS_UpperLipUp_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[837]";
@@ -30795,24 +30453,24 @@ connectAttr "SquintType1_translateZ.o" "Laila_Rig_004RN.phl[885]";
 connectAttr "SquintType1_rotateX.o" "Laila_Rig_004RN.phl[886]";
 connectAttr "SquintType1_rotateY.o" "Laila_Rig_004RN.phl[887]";
 connectAttr "SquintType1_rotateZ.o" "Laila_Rig_004RN.phl[888]";
-connectAttr "topnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[889]";
-connectAttr "topnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[890]";
-connectAttr "topnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[891]";
-connectAttr "topnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[892]";
-connectAttr "topnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[893]";
-connectAttr "topnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[894]";
-connectAttr "bottomnurbsSquare1_translateX7.o" "Laila_Rig_004RN.phl[895]";
-connectAttr "bottomnurbsSquare1_translateY7.o" "Laila_Rig_004RN.phl[896]";
-connectAttr "bottomnurbsSquare1_translateZ7.o" "Laila_Rig_004RN.phl[897]";
-connectAttr "bottomnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[898]";
-connectAttr "bottomnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[899]";
-connectAttr "bottomnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[900]";
-connectAttr "rightnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[901]";
-connectAttr "rightnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[902]";
-connectAttr "rightnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[903]";
-connectAttr "rightnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[904]";
-connectAttr "rightnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[905]";
-connectAttr "rightnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[906]";
+connectAttr "topnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[889]";
+connectAttr "topnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[890]";
+connectAttr "topnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[891]";
+connectAttr "topnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[892]";
+connectAttr "topnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[893]";
+connectAttr "topnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[894]";
+connectAttr "bottomnurbsSquare1_rotateX8.o" "Laila_Rig_004RN.phl[895]";
+connectAttr "bottomnurbsSquare1_rotateY8.o" "Laila_Rig_004RN.phl[896]";
+connectAttr "bottomnurbsSquare1_rotateZ8.o" "Laila_Rig_004RN.phl[897]";
+connectAttr "bottomnurbsSquare1_translateX7.o" "Laila_Rig_004RN.phl[898]";
+connectAttr "bottomnurbsSquare1_translateY7.o" "Laila_Rig_004RN.phl[899]";
+connectAttr "bottomnurbsSquare1_translateZ7.o" "Laila_Rig_004RN.phl[900]";
+connectAttr "rightnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[901]";
+connectAttr "rightnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[902]";
+connectAttr "rightnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[903]";
+connectAttr "rightnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[904]";
+connectAttr "rightnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[905]";
+connectAttr "rightnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[906]";
 connectAttr "R_BS_BrowsFullUp_Ctrl_translateY.o" "Laila_Rig_004RN.phl[907]";
 connectAttr "R_BS_BrowsFullUp_Ctrl_translateX.o" "Laila_Rig_004RN.phl[908]";
 connectAttr "R_BS_BrowsFullUp_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[909]";
@@ -30903,24 +30561,24 @@ connectAttr "typeMesh23_translateZ.o" "Laila_Rig_004RN.phl[993]";
 connectAttr "typeMesh23_rotateX.o" "Laila_Rig_004RN.phl[994]";
 connectAttr "typeMesh23_rotateY.o" "Laila_Rig_004RN.phl[995]";
 connectAttr "typeMesh23_rotateZ.o" "Laila_Rig_004RN.phl[996]";
-connectAttr "topnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[997]";
-connectAttr "topnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[998]";
-connectAttr "topnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[999]";
-connectAttr "topnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[1000]";
-connectAttr "topnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[1001]";
-connectAttr "topnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[1002]";
-connectAttr "bottomnurbsSquare1_translateX18.o" "Laila_Rig_004RN.phl[1003]";
-connectAttr "bottomnurbsSquare1_translateY18.o" "Laila_Rig_004RN.phl[1004]";
-connectAttr "bottomnurbsSquare1_translateZ18.o" "Laila_Rig_004RN.phl[1005]";
-connectAttr "bottomnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[1006]";
-connectAttr "bottomnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[1007]";
-connectAttr "bottomnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[1008]";
-connectAttr "rightnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[1009]";
-connectAttr "rightnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[1010]";
-connectAttr "rightnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[1011]";
-connectAttr "rightnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[1012]";
-connectAttr "rightnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[1013]";
-connectAttr "rightnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[1014]";
+connectAttr "topnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[997]";
+connectAttr "topnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[998]";
+connectAttr "topnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[999]";
+connectAttr "topnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[1000]";
+connectAttr "topnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[1001]";
+connectAttr "topnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[1002]";
+connectAttr "bottomnurbsSquare1_rotateX20.o" "Laila_Rig_004RN.phl[1003]";
+connectAttr "bottomnurbsSquare1_rotateY20.o" "Laila_Rig_004RN.phl[1004]";
+connectAttr "bottomnurbsSquare1_rotateZ20.o" "Laila_Rig_004RN.phl[1005]";
+connectAttr "bottomnurbsSquare1_translateX18.o" "Laila_Rig_004RN.phl[1006]";
+connectAttr "bottomnurbsSquare1_translateY18.o" "Laila_Rig_004RN.phl[1007]";
+connectAttr "bottomnurbsSquare1_translateZ18.o" "Laila_Rig_004RN.phl[1008]";
+connectAttr "rightnurbsSquare1_rotateX4.o" "Laila_Rig_004RN.phl[1009]";
+connectAttr "rightnurbsSquare1_rotateY4.o" "Laila_Rig_004RN.phl[1010]";
+connectAttr "rightnurbsSquare1_rotateZ4.o" "Laila_Rig_004RN.phl[1011]";
+connectAttr "rightnurbsSquare1_translateX4.o" "Laila_Rig_004RN.phl[1012]";
+connectAttr "rightnurbsSquare1_translateY4.o" "Laila_Rig_004RN.phl[1013]";
+connectAttr "rightnurbsSquare1_translateZ4.o" "Laila_Rig_004RN.phl[1014]";
 connectAttr "R_BS_BrowMidDown_Ctrl_translateY.o" "Laila_Rig_004RN.phl[1015]";
 connectAttr "R_BS_BrowMidDown_Ctrl_translateX.o" "Laila_Rig_004RN.phl[1016]";
 connectAttr "R_BS_BrowMidDown_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1017]";
@@ -30939,24 +30597,24 @@ connectAttr "typeMesh24_translateZ.o" "Laila_Rig_004RN.phl[1029]";
 connectAttr "typeMesh24_rotateX.o" "Laila_Rig_004RN.phl[1030]";
 connectAttr "typeMesh24_rotateY.o" "Laila_Rig_004RN.phl[1031]";
 connectAttr "typeMesh24_rotateZ.o" "Laila_Rig_004RN.phl[1032]";
-connectAttr "topnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1033]";
-connectAttr "topnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1034]";
-connectAttr "topnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1035]";
-connectAttr "topnurbsSquare1_rotateX5.o" "Laila_Rig_004RN.phl[1036]";
-connectAttr "topnurbsSquare1_rotateY5.o" "Laila_Rig_004RN.phl[1037]";
-connectAttr "topnurbsSquare1_rotateZ5.o" "Laila_Rig_004RN.phl[1038]";
-connectAttr "bottomnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[1039]";
-connectAttr "bottomnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[1040]";
-connectAttr "bottomnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[1041]";
-connectAttr "bottomnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[1042]";
-connectAttr "bottomnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[1043]";
-connectAttr "bottomnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[1044]";
-connectAttr "rightnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1045]";
-connectAttr "rightnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1046]";
-connectAttr "rightnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1047]";
-connectAttr "rightnurbsSquare1_rotateX5.o" "Laila_Rig_004RN.phl[1048]";
-connectAttr "rightnurbsSquare1_rotateY5.o" "Laila_Rig_004RN.phl[1049]";
-connectAttr "rightnurbsSquare1_rotateZ5.o" "Laila_Rig_004RN.phl[1050]";
+connectAttr "topnurbsSquare1_rotateX5.o" "Laila_Rig_004RN.phl[1033]";
+connectAttr "topnurbsSquare1_rotateY5.o" "Laila_Rig_004RN.phl[1034]";
+connectAttr "topnurbsSquare1_rotateZ5.o" "Laila_Rig_004RN.phl[1035]";
+connectAttr "topnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1036]";
+connectAttr "topnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1037]";
+connectAttr "topnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1038]";
+connectAttr "bottomnurbsSquare1_rotateX1.o" "Laila_Rig_004RN.phl[1039]";
+connectAttr "bottomnurbsSquare1_rotateY1.o" "Laila_Rig_004RN.phl[1040]";
+connectAttr "bottomnurbsSquare1_rotateZ1.o" "Laila_Rig_004RN.phl[1041]";
+connectAttr "bottomnurbsSquare1_translateX1.o" "Laila_Rig_004RN.phl[1042]";
+connectAttr "bottomnurbsSquare1_translateY1.o" "Laila_Rig_004RN.phl[1043]";
+connectAttr "bottomnurbsSquare1_translateZ1.o" "Laila_Rig_004RN.phl[1044]";
+connectAttr "rightnurbsSquare1_rotateX5.o" "Laila_Rig_004RN.phl[1045]";
+connectAttr "rightnurbsSquare1_rotateY5.o" "Laila_Rig_004RN.phl[1046]";
+connectAttr "rightnurbsSquare1_rotateZ5.o" "Laila_Rig_004RN.phl[1047]";
+connectAttr "rightnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1048]";
+connectAttr "rightnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1049]";
+connectAttr "rightnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1050]";
 connectAttr "R_BS_BrowsFlat_Ctrl_translateY.o" "Laila_Rig_004RN.phl[1051]";
 connectAttr "R_BS_BrowsFlat_Ctrl_translateX.o" "Laila_Rig_004RN.phl[1052]";
 connectAttr "R_BS_BrowsFlat_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1053]";
@@ -30975,24 +30633,24 @@ connectAttr "typeMesh25_translateZ.o" "Laila_Rig_004RN.phl[1065]";
 connectAttr "typeMesh25_rotateX.o" "Laila_Rig_004RN.phl[1066]";
 connectAttr "typeMesh25_rotateY.o" "Laila_Rig_004RN.phl[1067]";
 connectAttr "typeMesh25_rotateZ.o" "Laila_Rig_004RN.phl[1068]";
-connectAttr "topnurbsSquare1_translateX3.o" "Laila_Rig_004RN.phl[1069]";
-connectAttr "topnurbsSquare1_translateY3.o" "Laila_Rig_004RN.phl[1070]";
-connectAttr "topnurbsSquare1_translateZ3.o" "Laila_Rig_004RN.phl[1071]";
-connectAttr "topnurbsSquare1_rotateX3.o" "Laila_Rig_004RN.phl[1072]";
-connectAttr "topnurbsSquare1_rotateY3.o" "Laila_Rig_004RN.phl[1073]";
-connectAttr "topnurbsSquare1_rotateZ3.o" "Laila_Rig_004RN.phl[1074]";
-connectAttr "bottomnurbsSquare1_translateX.o" "Laila_Rig_004RN.phl[1075]";
-connectAttr "bottomnurbsSquare1_translateY.o" "Laila_Rig_004RN.phl[1076]";
-connectAttr "bottomnurbsSquare1_translateZ.o" "Laila_Rig_004RN.phl[1077]";
-connectAttr "bottomnurbsSquare1_rotateX.o" "Laila_Rig_004RN.phl[1078]";
-connectAttr "bottomnurbsSquare1_rotateY.o" "Laila_Rig_004RN.phl[1079]";
-connectAttr "bottomnurbsSquare1_rotateZ.o" "Laila_Rig_004RN.phl[1080]";
-connectAttr "rightnurbsSquare1_translateX3.o" "Laila_Rig_004RN.phl[1081]";
-connectAttr "rightnurbsSquare1_translateY3.o" "Laila_Rig_004RN.phl[1082]";
-connectAttr "rightnurbsSquare1_translateZ3.o" "Laila_Rig_004RN.phl[1083]";
-connectAttr "rightnurbsSquare1_rotateX3.o" "Laila_Rig_004RN.phl[1084]";
-connectAttr "rightnurbsSquare1_rotateY3.o" "Laila_Rig_004RN.phl[1085]";
-connectAttr "rightnurbsSquare1_rotateZ3.o" "Laila_Rig_004RN.phl[1086]";
+connectAttr "topnurbsSquare1_rotateX3.o" "Laila_Rig_004RN.phl[1069]";
+connectAttr "topnurbsSquare1_rotateY3.o" "Laila_Rig_004RN.phl[1070]";
+connectAttr "topnurbsSquare1_rotateZ3.o" "Laila_Rig_004RN.phl[1071]";
+connectAttr "topnurbsSquare1_translateX3.o" "Laila_Rig_004RN.phl[1072]";
+connectAttr "topnurbsSquare1_translateY3.o" "Laila_Rig_004RN.phl[1073]";
+connectAttr "topnurbsSquare1_translateZ3.o" "Laila_Rig_004RN.phl[1074]";
+connectAttr "bottomnurbsSquare1_rotateX.o" "Laila_Rig_004RN.phl[1075]";
+connectAttr "bottomnurbsSquare1_rotateY.o" "Laila_Rig_004RN.phl[1076]";
+connectAttr "bottomnurbsSquare1_rotateZ.o" "Laila_Rig_004RN.phl[1077]";
+connectAttr "bottomnurbsSquare1_translateX.o" "Laila_Rig_004RN.phl[1078]";
+connectAttr "bottomnurbsSquare1_translateY.o" "Laila_Rig_004RN.phl[1079]";
+connectAttr "bottomnurbsSquare1_translateZ.o" "Laila_Rig_004RN.phl[1080]";
+connectAttr "rightnurbsSquare1_rotateX3.o" "Laila_Rig_004RN.phl[1081]";
+connectAttr "rightnurbsSquare1_rotateY3.o" "Laila_Rig_004RN.phl[1082]";
+connectAttr "rightnurbsSquare1_rotateZ3.o" "Laila_Rig_004RN.phl[1083]";
+connectAttr "rightnurbsSquare1_translateX3.o" "Laila_Rig_004RN.phl[1084]";
+connectAttr "rightnurbsSquare1_translateY3.o" "Laila_Rig_004RN.phl[1085]";
+connectAttr "rightnurbsSquare1_translateZ3.o" "Laila_Rig_004RN.phl[1086]";
 connectAttr "R_BS_BrowMidUp_Ctrl_translateY.o" "Laila_Rig_004RN.phl[1087]";
 connectAttr "R_BS_BrowMidUp_Ctrl_translateX.o" "Laila_Rig_004RN.phl[1088]";
 connectAttr "R_BS_BrowMidUp_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1089]";
@@ -31011,30 +30669,30 @@ connectAttr "typeMesh26_translateZ.o" "Laila_Rig_004RN.phl[1101]";
 connectAttr "typeMesh26_rotateX.o" "Laila_Rig_004RN.phl[1102]";
 connectAttr "typeMesh26_rotateY.o" "Laila_Rig_004RN.phl[1103]";
 connectAttr "typeMesh26_rotateZ.o" "Laila_Rig_004RN.phl[1104]";
-connectAttr "topnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[1105]";
-connectAttr "topnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[1106]";
-connectAttr "topnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[1107]";
-connectAttr "topnurbsSquare1_rotateX18.o" "Laila_Rig_004RN.phl[1108]";
-connectAttr "topnurbsSquare1_rotateY18.o" "Laila_Rig_004RN.phl[1109]";
-connectAttr "topnurbsSquare1_rotateZ18.o" "Laila_Rig_004RN.phl[1110]";
-connectAttr "leftnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[1111]";
-connectAttr "leftnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[1112]";
-connectAttr "leftnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[1113]";
-connectAttr "leftnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[1114]";
-connectAttr "leftnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[1115]";
-connectAttr "leftnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[1116]";
-connectAttr "bottomnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[1117]";
-connectAttr "bottomnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[1118]";
-connectAttr "bottomnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[1119]";
-connectAttr "bottomnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[1120]";
-connectAttr "bottomnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[1121]";
-connectAttr "bottomnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[1122]";
-connectAttr "rightnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[1123]";
-connectAttr "rightnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[1124]";
-connectAttr "rightnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[1125]";
-connectAttr "rightnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[1126]";
-connectAttr "rightnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[1127]";
-connectAttr "rightnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[1128]";
+connectAttr "topnurbsSquare1_rotateX18.o" "Laila_Rig_004RN.phl[1105]";
+connectAttr "topnurbsSquare1_rotateY18.o" "Laila_Rig_004RN.phl[1106]";
+connectAttr "topnurbsSquare1_rotateZ18.o" "Laila_Rig_004RN.phl[1107]";
+connectAttr "topnurbsSquare1_translateX14.o" "Laila_Rig_004RN.phl[1108]";
+connectAttr "topnurbsSquare1_translateY14.o" "Laila_Rig_004RN.phl[1109]";
+connectAttr "topnurbsSquare1_translateZ14.o" "Laila_Rig_004RN.phl[1110]";
+connectAttr "leftnurbsSquare1_rotateX2.o" "Laila_Rig_004RN.phl[1111]";
+connectAttr "leftnurbsSquare1_rotateY2.o" "Laila_Rig_004RN.phl[1112]";
+connectAttr "leftnurbsSquare1_rotateZ2.o" "Laila_Rig_004RN.phl[1113]";
+connectAttr "leftnurbsSquare1_translateX2.o" "Laila_Rig_004RN.phl[1114]";
+connectAttr "leftnurbsSquare1_translateY2.o" "Laila_Rig_004RN.phl[1115]";
+connectAttr "leftnurbsSquare1_translateZ2.o" "Laila_Rig_004RN.phl[1116]";
+connectAttr "bottomnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[1117]";
+connectAttr "bottomnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[1118]";
+connectAttr "bottomnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[1119]";
+connectAttr "bottomnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[1120]";
+connectAttr "bottomnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[1121]";
+connectAttr "bottomnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[1122]";
+connectAttr "rightnurbsSquare1_rotateX15.o" "Laila_Rig_004RN.phl[1123]";
+connectAttr "rightnurbsSquare1_rotateY15.o" "Laila_Rig_004RN.phl[1124]";
+connectAttr "rightnurbsSquare1_rotateZ15.o" "Laila_Rig_004RN.phl[1125]";
+connectAttr "rightnurbsSquare1_translateX13.o" "Laila_Rig_004RN.phl[1126]";
+connectAttr "rightnurbsSquare1_translateY13.o" "Laila_Rig_004RN.phl[1127]";
+connectAttr "rightnurbsSquare1_translateZ13.o" "Laila_Rig_004RN.phl[1128]";
 connectAttr "R_BS_MouthCorner_Ctrl_translateX.o" "Laila_Rig_004RN.phl[1129]";
 connectAttr "R_BS_MouthCorner_Ctrl_translateY.o" "Laila_Rig_004RN.phl[1130]";
 connectAttr "R_BS_MouthCorner_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1131]";
@@ -31239,18 +30897,18 @@ connectAttr "topnurbsSquare1_translateZ9.o" "Laila_Rig_004RN.phl[1299]";
 connectAttr "topnurbsSquare1_rotateX10.o" "Laila_Rig_004RN.phl[1300]";
 connectAttr "topnurbsSquare1_rotateY10.o" "Laila_Rig_004RN.phl[1301]";
 connectAttr "topnurbsSquare1_rotateZ10.o" "Laila_Rig_004RN.phl[1302]";
-connectAttr "bottomnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1303]";
-connectAttr "bottomnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1304]";
-connectAttr "bottomnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1305]";
-connectAttr "bottomnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[1306]";
-connectAttr "bottomnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[1307]";
-connectAttr "bottomnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[1308]";
-connectAttr "rightnurbsSquare1_translateX7.o" "Laila_Rig_004RN.phl[1309]";
-connectAttr "rightnurbsSquare1_translateY7.o" "Laila_Rig_004RN.phl[1310]";
-connectAttr "rightnurbsSquare1_translateZ7.o" "Laila_Rig_004RN.phl[1311]";
-connectAttr "rightnurbsSquare1_rotateX7.o" "Laila_Rig_004RN.phl[1312]";
-connectAttr "rightnurbsSquare1_rotateY7.o" "Laila_Rig_004RN.phl[1313]";
-connectAttr "rightnurbsSquare1_rotateZ7.o" "Laila_Rig_004RN.phl[1314]";
+connectAttr "bottomnurbsSquare1_rotateX6.o" "Laila_Rig_004RN.phl[1303]";
+connectAttr "bottomnurbsSquare1_rotateY6.o" "Laila_Rig_004RN.phl[1304]";
+connectAttr "bottomnurbsSquare1_rotateZ6.o" "Laila_Rig_004RN.phl[1305]";
+connectAttr "bottomnurbsSquare1_translateX5.o" "Laila_Rig_004RN.phl[1306]";
+connectAttr "bottomnurbsSquare1_translateY5.o" "Laila_Rig_004RN.phl[1307]";
+connectAttr "bottomnurbsSquare1_translateZ5.o" "Laila_Rig_004RN.phl[1308]";
+connectAttr "rightnurbsSquare1_rotateX7.o" "Laila_Rig_004RN.phl[1309]";
+connectAttr "rightnurbsSquare1_rotateY7.o" "Laila_Rig_004RN.phl[1310]";
+connectAttr "rightnurbsSquare1_rotateZ7.o" "Laila_Rig_004RN.phl[1311]";
+connectAttr "rightnurbsSquare1_translateX7.o" "Laila_Rig_004RN.phl[1312]";
+connectAttr "rightnurbsSquare1_translateY7.o" "Laila_Rig_004RN.phl[1313]";
+connectAttr "rightnurbsSquare1_translateZ7.o" "Laila_Rig_004RN.phl[1314]";
 connectAttr "R_BS_WideEye_Ctrl_translateY.o" "Laila_Rig_004RN.phl[1315]";
 connectAttr "R_BS_WideEye_Ctrl_translateX.o" "Laila_Rig_004RN.phl[1316]";
 connectAttr "R_BS_WideEye_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1317]";
@@ -31347,6 +31005,8 @@ connectAttr "L_Ear_Jnt_001_Ctrl_translateZ.o" "Laila_Rig_004RN.phl[1389]";
 connectAttr "L_Ear_Jnt_001_Ctrl_rotateX.o" "Laila_Rig_004RN.phl[1390]";
 connectAttr "L_Ear_Jnt_001_Ctrl_rotateY.o" "Laila_Rig_004RN.phl[1391]";
 connectAttr "L_Ear_Jnt_001_Ctrl_rotateZ.o" "Laila_Rig_004RN.phl[1392]";
+connectAttr "file1.oc" "CityPostPropsRN.phl[1]";
+connectAttr "file1.msg" "CityPostPropsRN.phl[2]";
 connectAttr "camera1_translateX.o" "camera1.tx";
 connectAttr "camera1_translateY.o" "camera1.ty";
 connectAttr "camera1_translateZ.o" "camera1.tz";
@@ -31365,6 +31025,7 @@ connectAttr "AnimLayer1.play" "BaseAnimation.cdly[0]";
 connectAttr "BaseAnimation.csol" "AnimLayer1.sslo";
 connectAttr "BaseAnimation.fgwt" "AnimLayer1.pwth";
 connectAttr "BaseAnimation.omte" "AnimLayer1.pmte";
+connectAttr "sharedReferenceNode.sr" "Laila_Rig_004RN.sr";
 connectAttr "sharedReferenceNode.sr" "business_woman_walkRN.sr";
 connectAttr "sharedReferenceNode.sr" "business_woman_fast_walkRN.sr";
 connectAttr "sharedReferenceNode.sr" "business_woman_slow_walkRN.sr";
@@ -31373,5 +31034,29 @@ connectAttr "sharedReferenceNode.sr" "Business_Man_Slow_WalkRN.sr";
 connectAttr "sharedReferenceNode.sr" "Business_Man_WalkRN1.sr";
 connectAttr "sharedReferenceNode.sr" "Business_Man_Slow_WalkRN1.sr";
 connectAttr "layerManager.dli[2]" "layer2.id";
+connectAttr ":defaultColorMgtGlobals.cme" "file1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file1.ws";
+connectAttr "place2dTexture1.c" "file1.c";
+connectAttr "place2dTexture1.tf" "file1.tf";
+connectAttr "place2dTexture1.rf" "file1.rf";
+connectAttr "place2dTexture1.mu" "file1.mu";
+connectAttr "place2dTexture1.mv" "file1.mv";
+connectAttr "place2dTexture1.s" "file1.s";
+connectAttr "place2dTexture1.wu" "file1.wu";
+connectAttr "place2dTexture1.wv" "file1.wv";
+connectAttr "place2dTexture1.re" "file1.re";
+connectAttr "place2dTexture1.of" "file1.of";
+connectAttr "place2dTexture1.r" "file1.ro";
+connectAttr "place2dTexture1.n" "file1.n";
+connectAttr "place2dTexture1.vt1" "file1.vt1";
+connectAttr "place2dTexture1.vt2" "file1.vt2";
+connectAttr "place2dTexture1.vt3" "file1.vt3";
+connectAttr "place2dTexture1.vc1" "file1.vc1";
+connectAttr "place2dTexture1.o" "file1.uv";
+connectAttr "place2dTexture1.ofs" "file1.fs";
+connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
+connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 // End of Business Legs 01 Take Two.ma

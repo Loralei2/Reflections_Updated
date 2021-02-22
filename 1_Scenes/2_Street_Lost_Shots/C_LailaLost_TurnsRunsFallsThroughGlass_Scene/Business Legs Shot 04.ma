@@ -1,11 +1,11 @@
 //Maya ASCII 2020 scene
 //Name: Business Legs Shot 04.ma
-//Last modified: Tue, Feb 09, 2021 09:49:22 PM
+//Last modified: Mon, Feb 22, 2021 12:56:32 AM
 //Codeset: 1252
 file -rdi 1 -ns "City_for_Business_Legs" -rfn "City_for_Business_LegsRN" -op
 		 "v=0;" -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/Models/City for Business Legs.ma";
 file -rdi 1 -ns "Laila_Rig_004" -rfn "Laila_Rig_004RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Laila Rig 004.ma";
 file -rdi 1 -ns "Business_Man_Walk" -rfn "Business_Man_WalkRN" -op "v=0;" -typ
 		 "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/Business Man Walk.ma";
 file -rdi 2 -ns "Background_Male_Rig" -rfn "Business_Man_Walk:Background_Male_RigRN"
@@ -39,7 +39,7 @@ file -rdi 1 -ns "Business_Man_Slow_Walk1" -rfn "Business_Man_Slow_WalkRN1"
 file -rdi 2 -ns "Background_Male_Rig" -rfn "Business_Man_Slow_Walk1:Background_Male_RigRN"
 		 -op "v=0;p=17;f=0" -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/Rigs//BackgroundMale_Rigged.ma";
 file -rdi 1 -ns "CityPostProps" -rfn "CityPostPropsRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef/City/CityPostProps.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//City/CityPostProps.ma";
 file -rdi 2 -ns "Lampost" -rfn "CityPostProps:LampostRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/Git/Reflections_Updated/2_Assets//Buildings/Lampost.ma";
 file -rdi 2 -ns "Aparment" -rfn "CityPostProps:AparmentRN" -op "v=0;" -typ "mayaAscii"
@@ -81,7 +81,7 @@ file -rdi 2 -ns "Building56" -rfn "CityPostProps:Building55RN1" -op "v=0;"
 file -rdi 2 -ns "Alley" -rfn "CityPostProps:AlleyRN1" -op "v=0;" -typ "mayaAscii"
 		 "D:/Git/Reflections_Updated/2_Assets//Props/Alley.ma";
 file -rdi 2 -ns "Road" -rfn "CityPostProps:RoadRN" -op "v=0;" -typ "mayaAscii"
-		 "D:/Git/Reflections_Updated/2_Assets//Buildings/Road.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Buildings/Road.ma";
 file -rdi 2 -ns "fireEscapeNoLadder" -rfn "CityPostProps:fireEscapeNoLadderRN"
 		 -op "v=0;" -typ "mayaAscii" "D:/Git/Reflections_Updated/2_Assets//Props/fireEscapeNoLadder.ma";
 file -rdi 2 -ns "FireEscape2" -rfn "CityPostProps:FireEscapeRN" -op "v=0;" 
@@ -93,7 +93,7 @@ file -rdi 2 -ns "BikeRack1" -rfn "CityPostProps:BikeRackRN1" -op "v=0;" -typ
 file -r -ns "City_for_Business_Legs" -dr 1 -rfn "City_for_Business_LegsRN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/Models/City for Business Legs.ma";
 file -r -ns "Laila_Rig_004" -dr 1 -rfn "Laila_Rig_004RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Laila Rig 004.ma";
 file -r -ns "Business_Man_Walk" -dr 1 -rfn "Business_Man_WalkRN" -op "v=0;" -typ
 		 "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/Business Man Walk.ma";
 file -r -ns "Business_Man_Fast_Walk" -dr 1 -rfn "Business_Man_Fast_WalkRN" -op "v=0;"
@@ -111,12 +111,11 @@ file -r -ns "Business_Man_Walk1" -dr 1 -rfn "Business_Man_WalkRN1" -op "v=0;" -t
 file -r -ns "Business_Man_Slow_Walk1" -dr 1 -rfn "Business_Man_Slow_WalkRN1" -op
 		 "v=0;" -typ "mayaAscii" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/1_Scenes/2_Street_Lost_Shots/D_Walks for Laila Lost Scenes/Business Man Slow Walk.ma";
 file -r -ns "CityPostProps" -dr 1 -rfn "CityPostPropsRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef/City/CityPostProps.ma";
+		 "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//City/CityPostProps.ma";
 requires maya "2020";
 requires -nodeType "RedshiftOptions" "redshift4maya" "3.0.36";
 requires "stereoCamera" "10.0";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "4.0.0";
-requires "mtoa" "4.0.0";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -124,7 +123,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
-fileInfo "UUID" "D4C41100-4227-4BDF-377B-9C82175A0893";
+fileInfo "UUID" "3D2A4036-4E24-2820-D6BB-85A17B5635F5";
 createNode transform -s -n "persp";
 	rename -uid "17E7286E-4816-7952-9BAA-6FB4CC2F1897";
 	setAttr ".v" no;
@@ -196,8 +195,8 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "persp1";
 	rename -uid "FE4E9B59-45AD-73B3-0B7E-A5AD18BF161B";
-	setAttr ".t" -type "double3" 1301.9747538510749 190.87308431991187 513.33789847578464 ;
-	setAttr ".r" -type "double3" -1.3494727293494451 88.999999999839574 0 ;
+	setAttr ".t" -type "double3" 317.44341870133292 148.21702703802458 605.96852959152159 ;
+	setAttr ".r" -type "double3" -13.141575129347782 84.599999999836498 -8.4491862865577828e-15 ;
 createNode camera -n "perspShape1" -p "persp1";
 	rename -uid "54FCDD97-4321-5BDA-8994-1EBF76336A11";
 	setAttr -k off ".v";
@@ -206,11 +205,11 @@ createNode camera -n "perspShape1" -p "persp1";
 	setAttr ".fl" 34.999999999999993;
 	setAttr ".fs" 20;
 	setAttr ".sa" 143;
-	setAttr ".coi" 3303.100171389427;
+	setAttr ".coi" 290.88144808264548;
 	setAttr ".imn" -type "string" "persp1";
 	setAttr ".den" -type "string" "persp1_depth";
 	setAttr ".man" -type "string" "persp1_mask";
-	setAttr ".tp" -type "double3" -1543.1230527666453 101.47411213497661 490.47728500964064 ;
+	setAttr ".tp" -type "double3" 35.452246414201298 97.723683684617669 519.67694011323215 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -n "camera1";
@@ -222,12 +221,14 @@ createNode camera -n "cameraShape1" -p "camera1";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 4648.44587374598;
+	setAttr ".ovr" 1.3;
+	setAttr ".coi" 5576.0964481819829;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
 	setAttr ".man" -type "string" "camera1_mask";
 	setAttr ".tp" -type "double3" -1735.2203984210464 79.303264541860898 471.44804950174012 ;
+	setAttr ".dr" yes;
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -n "city";
 	rename -uid "16BAF897-4526-1B79-5ACE-17B8163149AD";
@@ -236,7 +237,7 @@ createNode transform -n "city";
 	setAttr ".sp" -type "double3" 165.64655296220869 0 56.394794754819308 ;
 	setAttr ".spt" -type "double3" 4803.750035904055 0 1635.4490478897605 ;
 createNode fosterParent -n "City_for_Business_LegsRNfosterParent1";
-	rename -uid "2003E535-40AB-7E2F-18E0-A28716DE8CC2";
+	rename -uid "1C686534-4D62-687E-CC90-66AA04A233E9";
 createNode transform -n "SideWalk71" -p "City_for_Business_LegsRNfosterParent1";
 	rename -uid "8854F56D-493C-0A7E-9A6F-E4BE3B7E480E";
 	setAttr ".t" -type "double3" 182.01064421671802 -0.16909521162699637 18.000648742577766 ;
@@ -529,28 +530,28 @@ createNode mesh -n "SideWalk71Shape" -p "SideWalk71";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "9BDA42D6-4B72-59E0-1659-81860D08512C";
-	setAttr -s 919 ".lnk";
-	setAttr -s 919 ".slnk";
+	rename -uid "8A9BE7AB-461C-1669-9DA4-6AB0DB93CB9A";
+	setAttr -s 680 ".lnk";
+	setAttr -s 680 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "47B90D05-4E5A-3271-E5ED-ABABEF182D68";
-	setAttr ".bsdt[0].bscd" -type "Int32Array" 7 0 3 4 1 2
-		 5 6 ;
+	rename -uid "A305ED00-477D-F2AF-3A83-BFA8E1B05260";
+	setAttr ".bsdt[0].bscd" -type "Int32Array" 7 3 4 1 2 5
+		 6 0 ;
 	setAttr -s 7 ".bspr";
 	setAttr -s 7 ".obsv";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "672EF187-44D0-B376-4E2E-2DB4A3AA9C04";
-	setAttr ".tpdt[0].tpcd" -type "Int32Array" 7 0 3 4 1 2
-		 5 6 ;
+	rename -uid "1CA90724-405C-457F-DA66-3C8026609825";
+	setAttr ".tpdt[0].tpcd" -type "Int32Array" 7 3 4 1 2 5
+		 6 0 ;
 	setAttr -s 7 ".tppr";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "578CCAAC-4690-20BA-E9BD-E2A0BECDA605";
+	rename -uid "FE576CAE-44EC-A787-10B5-758594A2E5C2";
 	setAttr -s 2 ".dli[1]"  1;
 	setAttr -s 2 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D6F06D5B-4D0D-36E9-785F-909F54001CC7";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "3B3D8B4F-4130-D0B6-58CF-67B42F947FE3";
+	rename -uid "781D5076-463B-ABAA-F0E3-EE8B228D2842";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B5FC3B82-48DB-DD4D-46D0-E49B0A5A469E";
 	setAttr ".g" yes;
@@ -580,6 +581,7 @@ createNode reference -n "City_for_Business_LegsRN";
 lockNode -l 1 ;
 createNode reference -n "Laila_Rig_004RN";
 	rename -uid "05F30B8B-4030-EB21-228F-4B97804C3FE5";
+	setAttr ".fn[0]" -type "string" "C:/Users/meagh/OneDrive/Documents/Reflections/Rigs/Laila Rig 004.ma";
 	setAttr -s 1406 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
@@ -1990,7 +1992,7 @@ createNode reference -n "Laila_Rig_004RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Laila_Rig_004RN"
 		"Laila_Rig_004RN" 0
-		"Laila_Rig_004RN" 1794
+		"Laila_Rig_004RN" 1799
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:All_Jnts_Grp|Laila_Rig_004:laila_Rig_001_COG_Jnt|Laila_Rig_004:laila_rig_upper_body_jnt|Laila_Rig_004:laila_Rig_001_Spine_Jnt_002|Laila_Rig_004:laila_Rig_001_Spine_Jnt_003|Laila_Rig_004:laila_Rig_001_Spine_Jnt_004|Laila_Rig_004:laila_Rig_001_L_Clavicle_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_001|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_002|Laila_Rig_004:laila_Rig_001_L_Arm_Jnt_003|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl_Grp|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_SetCtrl|Laila_Rig_004:mary_Rig_001_L_Thumb_Jnt_001_Ctrl" 
@@ -2373,6 +2375,8 @@ createNode reference -n "Laila_Rig_004RN";
 		"ghostColorPreA" " 0.5"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:upperJawShape" 
 		"ghostColorPostA" " 0.5"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:upperJawShape" 
+		"uvSet[0].uvSetName" " -type \"string\" \"BodyDiffuseUVLayer\""
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:missingTooth|Laila_Rig_004:missingToothShape" 
 		"ghosting" " 0"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Geo|Laila_Rig_004:Jaw|Laila_Rig_004:upperJaw|Laila_Rig_004:missingTooth|Laila_Rig_004:missingToothShape" 
@@ -2545,6 +2549,15 @@ createNode reference -n "Laila_Rig_004RN";
 		"rotateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_L_Arm_Switch_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_L_Arm_Switch_Ctrl" 
 		"Switch" " -k 1 0"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
+		"translate" " -type \"double3\" -1.08438800576410288 -22.2297737142920937 3.69101656250066146"
+		
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
+		"translateX" " -av"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
+		"translateY" " -av"
+		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_Eye_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Eye_Ctrl" 
+		"translateZ" " -av"
 		2 "|Laila_Rig_004:Laila_Rig|Laila_Rig_004:Controls|Laila_Rig_004:laila_Rig_001_Translation_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_Translation_Ctrl|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_Grp|Laila_Rig_004:laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl" 
 		"translate" " -type \"double3\" 31.06763641975438617 26.95081684355263718 -1.51715311427609012"
 		
@@ -6452,9 +6465,17 @@ createNode animCurveTL -n "laila_Rig_001_Eye_Ctrl_translateX";
 	rename -uid "F6CADBB0-43A8-159C-731A-5F9F8DE9AA5E";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0
-		 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 -1.0843880057641029 4 0.48744040443122272
+		 7 -52.363334465759827 12 -82.358055222125856 16 -105.46204538464222 21 -99.370483879680151
+		 25 -63.272352846078654 31 0 33 0 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0
+		 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0
+		 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTL -n "laila_Rig_001_R_InnerRoll_Ctrl_translateX";
 	rename -uid "0557EFD0-4EE5-F14E-46FA-F29A4AC5A165";
 	setAttr ".tan" 9;
@@ -7882,10 +7903,17 @@ createNode animCurveTL -n "laila_Rig_001_Eye_Ctrl_translateY";
 	rename -uid "6FC4AA7A-41B2-8303-CEF4-4CA5EF9B7C21";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 -1.4210854715202004e-14 5 -1.4210854715202004e-14
-		 9 -1.4210854715202004e-14 15 0 25 0 31 0 33 0 36 0 41 0 49 0 53 0 57 0 59 0 62 0
-		 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0 104 0 111 0 114 0 117 0
-		 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 -22.229773714292094 4 -6.6831315404720746
+		 7 7.493686479879921 12 19.831772296966054 16 15.233553485117509 21 27.908970353693277
+		 25 26.451921834165873 31 0 33 0 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0
+		 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0
+		 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTL -n "laila_Rig_001_R_InnerRoll_Ctrl_translateY";
 	rename -uid "F06C2082-4B5A-0792-3414-09A6ADCCFA83";
 	setAttr ".tan" 9;
@@ -9325,10 +9353,17 @@ createNode animCurveTL -n "laila_Rig_001_Eye_Ctrl_translateZ";
 	rename -uid "56C33824-47C2-A221-D057-F798D7993DEF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 -7.1054273576010019e-15 5 -7.1054273576010019e-15
-		 9 -7.1054273576010019e-15 15 0 25 0 31 0 33 0 36 0 41 0 49 0 53 0 57 0 59 0 62 0
-		 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0 104 0 111 0 114 0 117 0
-		 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 3.6910165625006615 4 55.178205593610933
+		 7 89.477414407626213 12 38.966545818712241 16 45.857049998853419 21 16.197171729819864
+		 25 23.341460626722824 31 0 33 0 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0
+		 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0
+		 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTL -n "laila_Rig_001_R_InnerRoll_Ctrl_translateZ";
 	rename -uid "57EE7DF0-478E-96B1-7B33-55A346D8CDEF";
 	setAttr ".tan" 9;
@@ -10412,8 +10447,8 @@ createNode animCurveTA -n "mary_Rig_001_L_FingerFour_Jnt_001_Ctrl_rotateX";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 4.066258197963506e-16 87 0
-		 90 0 93 0 98 0 101 0 104 0 111 4.351804451653142 114 0 117 0 128 0 136 0 144 0;
+		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 4.0662581979635065e-16
+		 87 0 90 0 93 0 98 0 101 0 104 0 111 4.351804451653142 114 0 117 0 128 0 136 0 144 0;
 createNode animCurveTA -n "mary_Rig_001_L_FingerThree_Jnt_003_Ctrl_rotateX";
 	rename -uid "F3A22F14-4F1C-C1E6-0A49-D78778ACA536";
 	setAttr ".tan" 18;
@@ -10654,7 +10689,7 @@ createNode animCurveTA -n "laila_Rig_001_R_Clavicle_Jnt_001_Ctrl_rotateX";
 		 33 1.7367050788469702 36 4.9338212467243396 41 5.8991464181565618 49 6.5640590476566629
 		 53 7.0013810970349803 57 7.0013810970349803 59 7.0013810970349803 62 9.2219368222978275
 		 64 9.2219368222978275 67 9.2219368222978275 71 9.2219368222978275 75 9.2219368222978275
-		 78 9.2219368222978275 79 9.2219368222978275 83 6.4857703301767087 87 7.0182120463055684
+		 78 9.2219368222978275 79 9.2219368222978275 83 6.4857703301767087 87 7.0182120463055693
 		 93 9.3075495613454606 98 9.3726650705417427 104 9.3166690263640533 111 6.4523116564899947
 		 114 8.5056774912058355 117 8.0521385259402027 128 8.0521385259402027 136 0 144 0;
 createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_003_Ctrl_rotateX";
@@ -10816,9 +10851,15 @@ createNode animCurveTA -n "laila_Rig_001_Eye_Ctrl_rotateX";
 	rename -uid "83BE4A24-4442-77D6-0DE7-FE8BB3B527CA";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0
-		 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 0 4 0 7 0 12 0 16 0 21 0 25 0 31 0 33 0
+		 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0
+		 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTA -n "laila_Rig_001_R_InnerRoll_Ctrl_rotateX";
 	rename -uid "57C2666C-4801-6CC4-A08C-E4A01A531834";
 	setAttr ".tan" 9;
@@ -11852,7 +11893,7 @@ createNode animCurveTA -n "mary_Rig_001_L_Thumb_Jnt_001_Ctrl_rotateY";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 7.1378159004446067 78 0 79 0 83 -6.1871868619045278
+		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 7.1378159004446076 78 0 79 0 83 -6.1871868619045278
 		 87 0 90 0 93 0 98 0 101 0 104 0 111 -9.8508940098013102 114 0 117 0 128 0 136 0 144 0;
 	setAttr -s 33 ".kit[27:32]"  9 18 18 18 18 18;
 	setAttr -s 33 ".kot[27:32]"  9 18 18 18 18 18;
@@ -12093,7 +12134,7 @@ createNode animCurveTA -n "laila_Rig_001_Spine_Jnt_002_Ctrl_rotateY";
 		 33 29.426915567779776 36 6.6941504835268804 41 6.6941504835268804 49 6.6941504835268804
 		 53 6.6941504835268804 57 6.6941504835268804 59 6.6941504835268804 62 6.6941504835268804
 		 64 6.6941504835268804 67 6.6941504835268804 71 6.6941504835268804 75 3.8018342127172309
-		 78 6.2422260662128739 79 6.6941504835268804 83 6.6941504835268804 87 6.6941504835268795
+		 78 6.2422260662128739 79 6.6941504835268804 83 6.6941504835268804 87 6.6941504835268804
 		 90 6.667223875725024 93 6.6232835888420984 98 6.5693835035990453 101 6.5693835035990436
 		 104 6.5693835035990436 111 6.5693835035990436 114 7.3717556698533233 117 8.1741278361076048
 		 128 8.1741278361076066 132 8.1741278361075711 136 8.1741278361076048 144 8.1741278361076048;
@@ -12179,7 +12220,7 @@ createNode animCurveTA -n "laila_Rig_001_L_Arm_Jnt_003_Ctrl_rotateY";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
 	setAttr -s 35 ".ktv[0:34]"  1 3.8998013138244034 5 25.535707995655219
-		 9 17.784416992442495 15 -57.630180193894539 18 -41.367753998376593 25 -21.007010310942633
+		 9 17.784416992442495 15 -57.630180193894539 18 -41.3677539983766 25 -21.007010310942633
 		 31 -51.470331952403946 33 -27.99231431542502 36 -39.597946925954567 41 -29.279010170687847
 		 45 -15.145668507905574 49 -21.615598133681988 53 -22.882140104189986 57 -8.3280103034428876
 		 59 -8.3280103034428876 62 -12.549138409016145 64 -12.549138409016145 67 -26.239306937782693
@@ -12337,9 +12378,15 @@ createNode animCurveTA -n "laila_Rig_001_Eye_Ctrl_rotateY";
 	rename -uid "21FA6358-40FD-FD83-C12C-BFB50CA9E671";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0
-		 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 0 4 0 7 0 12 0 16 0 21 0 25 0 31 0 33 0
+		 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0
+		 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTA -n "laila_Rig_001_R_InnerRoll_Ctrl_rotateY";
 	rename -uid "2EA398CC-4F6B-2B1D-58BC-22B9BB9ED4C5";
 	setAttr ".tan" 9;
@@ -13452,7 +13499,7 @@ createNode animCurveTA -n "mary_Rig_001_L_FingerFour_Jnt_003_Ctrl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 6.7613808487250155 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 13.012710318493784
+		 49 0 53 0 57 6.7613808487250155 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 13.012710318493786
 		 87 0 90 0 93 0 98 0 101 0 104 0 111 22.311594378349152 114 0 117 0 128 0 136 0 144 0;
 	setAttr -s 33 ".kit[11:32]"  9 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18;
@@ -13510,7 +13557,7 @@ createNode animCurveTA -n "mary_Rig_001_R_FingerTwo_Jnt_002_Ctrl_rotateZ";
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
 		 49 0 53 11.219520087964412 57 7.3987917882674896 59 0 62 0 65 0 67 0 71 0 75 0 78 0
-		 79 0 83 -43.948186357420475 87 0 90 0 93 0 98 0 101 0 104 0 111 -37.283092597890246
+		 79 0 83 -43.948186357420482 87 0 90 0 93 0 98 0 101 0 104 0 111 -37.283092597890246
 		 114 0 117 0 128 0 136 0 144 0;
 	setAttr -s 33 ".kit[10:32]"  9 9 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18;
@@ -13594,8 +13641,8 @@ createNode animCurveTA -n "mary_Rig_001_R_FingerFour_Jnt_001_Ctrl_rotateZ";
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
 		 49 0 53 11.219520087964412 57 7.3987917882674896 59 0 62 0 65 0 67 0 71 0 75 0 78 0
-		 79 0 83 19.89620713619782 87 0 90 0 93 0 98 0 101 0 104 0 111 12.11952549080611 114 0
-		 117 0 128 0 136 0 144 0;
+		 79 0 83 19.89620713619782 87 0 90 0 93 0 98 0 101 0 104 0 111 12.119525490806112
+		 114 0 117 0 128 0 136 0 144 0;
 	setAttr -s 33 ".kit[10:32]"  9 9 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18;
 	setAttr -s 33 ".kot[10:32]"  9 9 18 18 18 18 18 18 
@@ -13641,7 +13688,7 @@ createNode animCurveTA -n "mary_Rig_001_R_FingerOne_Jnt_002_Ctrl_rotateZ";
 	setAttr ".wgt" no;
 	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
 		 49 0 53 11.219520087964412 57 7.3987917882674896 59 0 62 0 65 0 67 0 71 0 75 0 78 0
-		 79 0 83 -25.890116466649499 87 0 90 0 93 0 98 0 101 0 104 0 111 -22.474937048509556
+		 79 0 83 -25.890116466649502 87 0 90 0 93 0 98 0 101 0 104 0 111 -22.474937048509556
 		 114 0 117 0 128 0 136 0 144 0;
 	setAttr -s 33 ".kit[10:32]"  9 9 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18;
@@ -13673,7 +13720,7 @@ createNode animCurveTA -n "laila_Rig_001_COG_Jnt_Ctrl_rotateZ";
 		 78 181.32202320335841 79 181.32202320335841 83 181.32202320335841 87 181.32202320335841
 		 90 181.32202320335841 93 181.32202320335841 98 181.32202320335841 101 181.32202320335841
 		 104 181.32202320335841 111 181.32202320335841 114 181.32202320335841 117 181.32202320335841
-		 128 181.32202320335753 136 181.32202320335679 144 181.32202320335841;
+		 128 181.32202320335753 136 181.32202320335682 144 181.32202320335841;
 createNode animCurveTA -n "laila_Rig_001_Translation_Ctrl_rotateZ";
 	rename -uid "809F6261-4991-EF12-5E6E-F28BC3ACAA88";
 	setAttr ".tan" 9;
@@ -13823,7 +13870,7 @@ createNode animCurveTA -n "laila_Rig_001_L_Clavicle_Jnt_001_Ctrl_rotateZ";
 	setAttr -s 31 ".ktv[0:30]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 5.4981293808701297
 		 49 16.661227930719537 53 16.661227930719555 57 16.661227930719555 59 16.661227930719555
 		 62 11.19404656076853 64 11.19404656076853 67 11.19404656076853 71 11.19404656076853
-		 75 11.19404656076853 78 11.19404656076853 79 11.19404656076853 83 -3.5389174790149966
+		 75 11.19404656076853 78 11.19404656076853 79 11.19404656076853 83 -3.5389174790149971
 		 87 -0.32168818483607425 90 4.8133714561183671 93 7.5479465009684361 104 11.194046560768532
 		 111 -4.0133737817298103 114 12.100456598122157 117 13.006866635475781 128 13.006866635475781
 		 136 0 144 0;
@@ -13915,7 +13962,7 @@ createNode animCurveTA -n "laila_Rig_001_IK_L_Leg_Jnt_003_Ctrl_rotateZ";
 		 78 -132.02709589113036 79 -132.02709589113036 83 -132.02709589113036 87 -132.02709589113036
 		 90 -132.02709589113036 93 -132.02709589113036 98 -132.02709589113036 101 -132.02709589113036
 		 104 -132.02709589113036 111 -132.02709589113036 114 -132.02709589113036 117 -132.02709589113036
-		 128 -132.02709589113036 130 -112.71597109489642 132 -140.65970059192276 134 -176.57672288783658
+		 128 -132.02709589113036 130 -112.71597109489643 132 -140.65970059192276 134 -176.57672288783661
 		 136 -192.70322584835583 144 -234.56326032500448;
 	setAttr -s 36 ".kit[31:35]"  18 18 18 9 9;
 	setAttr -s 36 ".kot[31:35]"  18 18 18 9 9;
@@ -13937,9 +13984,15 @@ createNode animCurveTA -n "laila_Rig_001_Eye_Ctrl_rotateZ";
 	rename -uid "3A2E735A-4FD9-A6E7-36AB-B0B8AA3AB670";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 33 ".ktv[0:32]"  1 0 5 0 9 0 15 0 25 0 31 0 33 0 36 0 41 0
-		 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0 98 0 101 0
-		 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".ktv[0:34]"  1 0 4 0 7 0 12 0 16 0 21 0 25 0 31 0 33 0
+		 36 0 41 0 49 0 53 0 57 0 59 0 62 0 64 0 67 0 71 0 75 0 78 0 79 0 83 0 87 0 90 0 93 0
+		 98 0 101 0 104 0 111 0 114 0 117 0 128 0 136 0 144 0;
+	setAttr -s 35 ".kit[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
+	setAttr -s 35 ".kot[1:34]"  18 18 18 18 18 9 9 9 
+		9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+		9 9 9 9 9 9 9 9 9;
 createNode animCurveTA -n "laila_Rig_001_R_InnerRoll_Ctrl_rotateZ";
 	rename -uid "7FFA419C-4A86-2F12-68A8-7BBD00308411";
 	setAttr ".tan" 9;
@@ -14561,7 +14614,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
 		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
 		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 0\n            -ikHandles 0\n            -deformers 0\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n"
-		+ "            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 550\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1319\n            -height 636\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"pass\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n"
 		+ "            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n"
@@ -14588,8 +14641,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -bumpResolution 4 4 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n"
 		+ "                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n"
 		+ "                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 550\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 550\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 636\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1319\\n    -height 636\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -14638,10 +14691,12 @@ createNode reference -n "Business_Man_WalkRN";
 		"Business_Man_WalkRN"
 		"Business_Man_Walk:Background_Male_RigRN" 0
 		"Business_Man_WalkRN" 0
-		"Business_Man_Walk:Background_Male_RigRN" 4
+		"Business_Man_Walk:Background_Male_RigRN" 5
 		2 "|Business_Man_Walk:Background_Male_Rig:BackMale" "visibility" " 1"
 		2 "|Business_Man_Walk:Background_Male_Rig:BackMale|Business_Man_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk:Background_Male_Rig:Transform_CTRL" 
 		"translate" " -type \"double3\" -55.21679806373419552 0 864.04298716404809966"
+		2 "|Business_Man_Walk:Background_Male_Rig:BackMale|Business_Man_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk:Background_Male_Rig:Transform_CTRL" 
+		"translateZ" " -av"
 		2 "|Business_Man_Walk:Background_Male_Rig:BackMale|Business_Man_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk:Background_Male_Rig:Transform_CTRL" 
 		"rotate" " -type \"double3\" 0 163.06069714374308433 0"
 		5 4 "Business_Man_WalkRN" "|Business_Man_Walk:Background_Male_Rig:BackMale|Business_Man_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk:Background_Male_Rig:Transform_CTRL.translateZ" 
@@ -14656,11 +14711,13 @@ createNode reference -n "Business_Man_Fast_WalkRN";
 		"Business_Man_Fast_WalkRN"
 		"Business_Man_Fast_WalkRN" 0
 		"Business_Man_Fast_Walk:Background_Male_RigRN" 0
-		"Business_Man_Fast_Walk:Background_Male_RigRN" 4
+		"Business_Man_Fast_Walk:Background_Male_RigRN" 5
 		2 "|Business_Man_Fast_Walk:Background_Male_Rig:BackMale" "visibility" " 1"
 		
 		2 "|Business_Man_Fast_Walk:Background_Male_Rig:BackMale|Business_Man_Fast_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL" 
 		"translate" " -type \"double3\" -130.20913317769250739 0 648.86663600779240824"
+		2 "|Business_Man_Fast_Walk:Background_Male_Rig:BackMale|Business_Man_Fast_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL" 
+		"translateZ" " -av"
 		2 "|Business_Man_Fast_Walk:Background_Male_Rig:BackMale|Business_Man_Fast_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL" 
 		"rotate" " -type \"double3\" 0 156.0500947401860401 0"
 		5 4 "Business_Man_Fast_WalkRN" "|Business_Man_Fast_Walk:Background_Male_Rig:BackMale|Business_Man_Fast_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Fast_Walk:Background_Male_Rig:Transform_CTRL.translateZ" 
@@ -14673,9 +14730,9 @@ createNode reference -n "Business_Man_Slow_WalkRN";
 	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Business_Man_Slow_WalkRN"
-		"Business_Man_Slow_Walk:Background_Male_RigRN" 0
 		"Business_Man_Slow_WalkRN" 0
-		"Business_Man_Slow_Walk:Background_Male_RigRN" 5
+		"Business_Man_Slow_Walk:Background_Male_RigRN" 0
+		"Business_Man_Slow_Walk:Background_Male_RigRN" 6
 		2 "|Business_Man_Slow_Walk:Background_Male_Rig:BackMale" "visibility" " 1"
 		
 		2 "|Business_Man_Slow_Walk:Background_Male_Rig:BackMale|Business_Man_Slow_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL" 
@@ -14684,6 +14741,8 @@ createNode reference -n "Business_Man_Slow_WalkRN";
 		"translateX" " -av"
 		2 "|Business_Man_Slow_Walk:Background_Male_Rig:BackMale|Business_Man_Slow_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL" 
 		"translateY" " -av"
+		2 "|Business_Man_Slow_Walk:Background_Male_Rig:BackMale|Business_Man_Slow_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL" 
+		"translateZ" " -av"
 		5 4 "Business_Man_Slow_WalkRN" "|Business_Man_Slow_Walk:Background_Male_Rig:BackMale|Business_Man_Slow_Walk:Background_Male_Rig:BM_CTRLS|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Slow_Walk:Background_Male_Rig:Transform_CTRL.translateZ" 
 		"Business_Man_Slow_WalkRN.placeHolderList[1]" "";
 	setAttr ".ptag" -type "string" "";
@@ -14756,10 +14815,12 @@ createNode reference -n "Business_Man_WalkRN1";
 		"Business_Man_WalkRN1"
 		"Business_Man_Walk1:Background_Male_RigRN" 0
 		"Business_Man_WalkRN1" 0
-		"Business_Man_Walk1:Background_Male_RigRN" 4
+		"Business_Man_Walk1:Background_Male_RigRN" 5
 		2 "|Business_Man_Walk1:Background_Male_Rig:BackMale" "visibility" " 1"
 		2 "|Business_Man_Walk1:Background_Male_Rig:BackMale|Business_Man_Walk1:Background_Male_Rig:BM_CTRLS|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL" 
 		"translate" " -type \"double3\" -283.27173309618615349 0 506.36285185153423072"
+		2 "|Business_Man_Walk1:Background_Male_Rig:BackMale|Business_Man_Walk1:Background_Male_Rig:BM_CTRLS|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL" 
+		"translateZ" " -av"
 		2 "|Business_Man_Walk1:Background_Male_Rig:BackMale|Business_Man_Walk1:Background_Male_Rig:BM_CTRLS|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL" 
 		"rotate" " -type \"double3\" 0 -128.65703500865248543 0"
 		5 4 "Business_Man_WalkRN1" "|Business_Man_Walk1:Background_Male_Rig:BackMale|Business_Man_Walk1:Background_Male_Rig:BM_CTRLS|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL_Grp|Business_Man_Walk1:Background_Male_Rig:Transform_CTRL.translateZ" 
@@ -14855,6 +14916,9 @@ createNode reference -n "sharedReferenceNode";
 		"sharedReferenceNode";
 createNode reference -n "CityPostPropsRN";
 	rename -uid "E29D7BEB-45A9-30ED-C389-7BA548B298A5";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"CityPostPropsRN"
 		"CityPostProps:TownHomesRN" 0
@@ -14909,7 +14973,7 @@ createNode reference -n "CityPostPropsRN";
 		
 		"CityPostProps:RedBikeRackRN" 1
 		0 "|CityPostProps:RedBikeRack:RedBikeRack" "|city" "-s -r "
-		"CityPostPropsRN" 24
+		"CityPostPropsRN" 28
 		0 "|CityPostProps:apartment_geo" "|city" "-s -r "
 		0 "|CityPostProps:BikeRack_geo3" "|city" "-s -r "
 		0 "|CityPostProps:BikeRack_geo4" "|city" "-s -r "
@@ -14935,6 +14999,13 @@ createNode reference -n "CityPostPropsRN";
 		0 "|CityPostProps:apartment_geo1" "|city" "-s -r "
 		2 "|city|CityPostProps:group1" "translate" " -type \"double3\" 152.88064574385884953 0 -266.46343236037819224"
 		
+		2 "CityPostProps:file4" "fileTextureName" " -type \"string\" \"C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Textures/road/road_road_Mat_Metalness.png\""
+		
+		2 "CityPostProps:file4" "colorSpace" " -type \"string\" \"sRGB\""
+		5 4 "CityPostPropsRN" "CityPostProps:rsMaterial1.diffuse_color" "CityPostPropsRN.placeHolderList[1]" 
+		""
+		5 4 "CityPostPropsRN" "CityPostProps:materialInfo1.texture" "CityPostPropsRN.placeHolderList[2]" 
+		""
 		"CityPostProps:Endicott_BuildingRN" 1
 		0 "|CityPostProps:Endicott_Building:Endicott_Building" "|city" "-s -r "
 		"CityPostProps:WaterFountainRN" 1
@@ -15023,6 +15094,12 @@ createNode animCurveTA -n "city_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 2 ".ktv[0:1]"  1 0 21 0;
+createNode file -n "file1";
+	rename -uid "212CBD6F-4169-053C-C070-88B60071E7AF";
+	setAttr ".ftn" -type "string" "C:/Users/meagh/OneDrive/Documents/Reflections/ReflectionRepo/Reflections_Updated/2_Assets/CityRef//Textures/sideWalk/sideWalk_rsMaterial1_Color.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "place2dTexture1";
+	rename -uid "3572723A-4467-5C51-41A2-C59593AF6F0D";
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -15033,23 +15110,23 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 606 ".st";
+	setAttr -s 614 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 565 ".s";
+	setAttr -s 573 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 1149 ".u";
+	setAttr -s 1184 ".u";
 select -ne :defaultRenderingList1;
 	setAttr -s 45 ".r";
 select -ne :lightList1;
 select -ne :defaultTextureList1;
-	setAttr -s 394 ".tx";
+	setAttr -s 422 ".tx";
 select -ne :initialShadingGroup;
-	setAttr -s 15 ".dsm";
+	setAttr -s 13 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 24 ".gn";
+	setAttr -s 22 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
@@ -16884,6 +16961,8 @@ connectAttr "Transform_Ctrl_translateZ2.o" "business_woman_walkRN.phl[1]";
 connectAttr "Transform_Ctrl_translateZ1.o" "business_woman_slow_walkRN.phl[1]";
 connectAttr "Transform_Ctrl_translateZ.o" "business_woman_walkRN1.phl[1]";
 connectAttr "Transform_CTRL_translateZ3.o" "Business_Man_WalkRN1.phl[1]";
+connectAttr "file1.oc" "CityPostPropsRN.phl[1]";
+connectAttr "file1.msg" "CityPostPropsRN.phl[2]";
 connectAttr "camera1_translateX.o" "camera1.tx";
 connectAttr "camera1_translateY.o" "camera1.ty";
 connectAttr "camera1_translateZ.o" "camera1.tz";
@@ -16904,6 +16983,7 @@ connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "City_for_Business_LegsRNfosterParent1.msg" "City_for_Business_LegsRN.fp"
 		;
+connectAttr "sharedReferenceNode.sr" "Laila_Rig_004RN.sr";
 connectAttr "layerManager.dli[1]" "layer1.id";
 connectAttr "sharedReferenceNode.sr" "Business_Man_WalkRN.sr";
 connectAttr "sharedReferenceNode.sr" "Business_Man_Fast_WalkRN.sr";
@@ -16913,5 +16993,29 @@ connectAttr "sharedReferenceNode.sr" "business_woman_slow_walkRN.sr";
 connectAttr "sharedReferenceNode.sr" "business_woman_walkRN1.sr";
 connectAttr "sharedReferenceNode.sr" "Business_Man_WalkRN1.sr";
 connectAttr "sharedReferenceNode.sr" "Business_Man_Slow_WalkRN1.sr";
+connectAttr ":defaultColorMgtGlobals.cme" "file1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file1.ws";
+connectAttr "place2dTexture1.c" "file1.c";
+connectAttr "place2dTexture1.tf" "file1.tf";
+connectAttr "place2dTexture1.rf" "file1.rf";
+connectAttr "place2dTexture1.mu" "file1.mu";
+connectAttr "place2dTexture1.mv" "file1.mv";
+connectAttr "place2dTexture1.s" "file1.s";
+connectAttr "place2dTexture1.wu" "file1.wu";
+connectAttr "place2dTexture1.wv" "file1.wv";
+connectAttr "place2dTexture1.re" "file1.re";
+connectAttr "place2dTexture1.of" "file1.of";
+connectAttr "place2dTexture1.r" "file1.ro";
+connectAttr "place2dTexture1.n" "file1.n";
+connectAttr "place2dTexture1.vt1" "file1.vt1";
+connectAttr "place2dTexture1.vt2" "file1.vt2";
+connectAttr "place2dTexture1.vt3" "file1.vt3";
+connectAttr "place2dTexture1.vc1" "file1.vc1";
+connectAttr "place2dTexture1.o" "file1.uv";
+connectAttr "place2dTexture1.ofs" "file1.fs";
+connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
+connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 // End of Business Legs Shot 04.ma
